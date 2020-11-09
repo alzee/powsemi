@@ -2,13 +2,24 @@ global-css:
   version: VERSION
   css:
     theme:
-      css/bootstrap.min.css: {}
-      css/z.css: {}
+      css/base4.0.css: {}
+      css/style.css: {}
+      css/swiper.min.css: {}
+      css/iconfont.css: {}
+      css/aos.css: {}
+      css/flexslider.css: {}
+      css/animate.min.css: {}
+      #css/mapstyle.css: {}
+      #css/terrace.css: {}
 
 global-js:
   version: VERSION
   js:
-    js/z.js: {}
+    js/aos.js: {}
+    js/jquery-1.9.1.min.js: {}
+    js/swiper.min.js: {}
+    js/TweenMax.min.js: {}
+    js/jquery.SuperSlide.2.1.1.js: {}
 
 slick:
   version: VERSION
