@@ -1,0 +1,77 @@
+uuid: 1bcec3e7-0a49-4473-87a2-6dca09b91aba
+langcode: en
+status: true
+dependencies: {  }
+id: product_csv_import
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: default
+label: 'Import products'
+source:
+  plugin: csv
+  path: ../sql/lixin.csv
+  delimiter: ','
+  enclosure: '"'
+  header_offset: 0
+  ids:
+    - id
+  fields:
+    0:
+      name: id
+      label: id
+    1:
+      name: field_category
+      label: field_category
+    2:
+      name: field_type
+      label: field_type
+    3:
+      name: field_vrrm
+      label: field_vrrm
+    4:
+      name: field_ifav
+      label: field_ifav
+    5:
+      name: field_ifsm
+      label: field_ifsm
+    6:
+      name: field_vf
+      label: field_vf
+    7:
+      name: field_ir
+      label: field_ir
+    8:
+      name: field_trr
+      label: field_trr
+    9:
+      name: field_tj_max
+      label: field_tj_max
+    10:
+      name: field_package
+      label: field_package
+    11:
+      name: field_category_zh
+      label: field_category_zh
+process:
+  title: field_type
+  field_type: field_type
+  field_vrrm: field_vrrm
+  field_ifav: field_ifav
+  field_ifsm: field_ifsm
+  field_ir: field_ir
+  field_package: field_package
+  field_tj_max: field_tj_max
+  field_trr: field_trr
+  field_vf: field_vf
+  field_category: field_category
+  field_category_zh: field_category_zh
+
+  type:
+    plugin: default_value
+    default_value: product
+destination:
+  plugin: 'entity:node'
+migration_dependencies: null
+
