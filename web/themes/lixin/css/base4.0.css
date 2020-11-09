@@ -1,0 +1,83 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*全局样式
+---------------------------------------------*/
+section,article,aside,header,footer,nav,figure{ display:block; }
+body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,figure{ margin:0; padding:0; }
+body,button,input,select,textarea{ font:13px/1.5 微软雅黑; }
+body,button,fieldset,input,label,select,textarea{font:13px/1.5 "微软雅黑";color:#666}
+h1,h2,h3,h4,h5,h6,button,input,select,textarea{ font-size:100%; }
+h1,h2,h3,h4,h5,h6{font-weight:400}
+address,cite,dfn,em,var{ font-style:normal; }
+code,kbd,pre,samp{ font-family:courier new,courier,monospace; }
+p,ul,li,dl,dd,dt,form,h1,h2,h3,h4,h5,h6{list-style:none;}
+a{color:#666; text-decoration:none;}a:hover{color:#0070c0; text-decoration:none;}
+fieldset,img{ border:0; }
+table{ border-collapse:collapse; border-spacing:0; }
+input::-moz-focus-inner,button::-moz-focus-inner{ border:0;padding:0;outline:0; }
+*html{ zoom:expression(function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true)}
+(this))}
+.clear{clear:both;font-size:0px;height:0px;overflow:hidden; }
+.line5{clear:both;font-size:0px;height:5px;overflow:hidden;}
+.line10{clear:both;font-size:0px;height:10px;overflow:hidden;}
+.line15{clear:both;font-size:0px;height:15px;overflow:hidden;}
+.line20{clear:both;font-size:0px;height:20px;overflow:hidden;}
+.line25{clear:both;font-size:0px;height:25px;overflow:hidden;}
+.line30{clear:both;font-size:0px;height:30px;overflow:hidden;}
+.line35{clear:both;font-size:0px;height:35px;overflow:hidden;}
+/* Clear Fix */ 
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;} 
+.clearfix{display:inline-block;} 
+/* Hide from IE Mac */ 
+.clearfix {display:block;} 
+/* End hide from IE Mac */ 
+/* end of clearfix */ 
+.left{float:left;}
+.right{float:right;}
+.fl{float:left;}
+.fr{float:right}
+.red{color:#F00;} .red a{color:#F00;}.red a:hover{color:#F60;}
+.gray{color:#666;} .gray a{color:#666;}.gray a:hover{color:#F60;}
+.gray3{color:#333}.gray6{color:#666}.gray9{color:#999}
+.blue{color:#1E7BB3;}.blue a{color:#1E7BB3;}.blue a:hover{ text-decoration:underline;}
+.orange{color:#f60}
+.f18{font-size:18px;}
+.pd20{padding:20px;}
+.ml10{margin-left:10px;}
+.mt30 {margin-top:30px;} .mt40 {margin-top:40px;} 
+.pt40{padding-top:40px;}
+.dot{ height:100%;width:3px; margin-right:10px;display: block;float:left;background: url(../images/dot8.jpg) left center no-repeat;}
+.wrap{ margin:0 auto; clear:both; width:100%; text-align:left; }
+.wrap:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+.wrap-1{ margin:0 auto; clear:both; width:100%; background:#f8f8f8; text-align:left; }
+.wrap-1:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+
+.boxwrap {width: 1000px; margin: 0 auto 0;overflow: hidden;}
+.boxwrap:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+
+.w1000{ margin:0 auto;width: 1000px; /* height:auto; */  text-align:left; }
+.w1000:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+
+.w1200 {width: 1150px;margin: 0 auto 0;overflow: hidden;}
+.w1200:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+
+
+/*若无表单的可以不要这个*/
+/*文本框样式*/
+input.wide{ width:250px; }
+input.txt{ width:200px; }
+input.small{ width:50px; }
+.input{ display:inline; margin-right:5px; padding:7px; height:20px; line-height:20px; vertical-align:middle; background:#fff; color:#999px; border:1px solid #e8e8e8; border-radius:2px; }
+.select{ padding:7px; border:1px solid #e8e8e8; line-height:20px; }
+
+/*按钮样式*/
+.btn2{ display:inline-block; margin:0; padding:0 25px; color:#fff; font-size:12px; height:38px; line-height:38px; text-align:center; }
+.btn2{ background:#1e7bb3; border:1px solid #02598E; border-radius:2px; vertical-align:middle; }
+.btn2:hover{ color:#fff; opacity:0.9; }
+.btn-mini{ height:20px; line-height:20px; padding:1px 8px 0; }
+input.btn2, button.btn2{ height:40px; cursor:pointer; overflow:visible; }
+.btn-success{ background:#52A152; border:1px solid #417F41; text-shadow:0 -1px 0 #52A152; }
+.btn-error{ background:#CB423B; border:1px solid #AA352F; text-shadow:0 -1px 0 #CB423B; }
+.btn-gray{ background:#ddd; border:1px solid #A9A9A9; text-shadow:0 -1px 0 #EEEEEE;}
+.btn-gray,.btn-gray:hover{ color:#777; }
+
