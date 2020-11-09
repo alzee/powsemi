@@ -1,0 +1,46 @@
+name: lixin
+type: theme
+base theme: false
+core_version_requirement: ^8 | ^9
+core: 8.x
+version: VERSION
+libraries:
+  - lixin/global-css
+  - lixin/global-js
+libraries-override:
+  core/drupal: false
+  core/backbone: false
+  core/drupalSettings: false
+  core/drupal.active-link: false
+  core/drupal.ajax: false
+  core/drupal.announce: false
+  core/drupal.form: false
+  core/drupal.debounce: false
+  node/drupal.node.preview: false
+  core/underscore: false
+  core/domready: false
+  core/drupal.batch: false
+  core/jquery.once: false
+  core/jquery.joyride: false
+  core/jquery.cookie: false
+  toolbar/toolbar: false
+  toolbar/toolbar.escapeAdmin: false
+  tour/tour: false
+  history/mark-as-read: false
+regions:
+  header: '页眉'
+  breadcrumb: '导航路径'
+  banner: '条幅'
+  slider: '幻灯片'
+  content: '内容'
+  content1: '内容1'
+  content1r: '内容1右'
+  content2: '内容2'
+  content2r: '内容2右'
+  content3: '内容3'
+  content4: '内容4'
+  content4r: '内容4右'
+  content5: '内容5'
+  content6: '内容6'
+  links: '链接'
+  footer: '页脚'

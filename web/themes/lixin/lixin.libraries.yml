@@ -1,0 +1,42 @@
+global-css:
+  version: VERSION
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/z.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    js/z.js: {}
+
+slick:
+  version: VERSION
+  css:
+    component:
+      slick/slick.css: {}
+      slick/slick-theme.css: {}
+  js:
+    slick/slick.min.js: {}
+    js/initSlick.js: {}
+  dependencies:
+    - bs3/jquery1
+
+swiper:
+  version: VERSION
+  css:
+    component:
+      css/swiper.min.css: {}
+  js:
+    js/swiper.min.js: {}
+    js/initSwiper.js: {}
+
+home-titles-js:
+  version: VERSION
+  js:
+    js/homeTitles.js: {}
+
+jquery1:
+  version: VERSION
+  js:
+    js/jquery.min.js: {}
