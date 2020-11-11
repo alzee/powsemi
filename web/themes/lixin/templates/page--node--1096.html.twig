@@ -48,42 +48,82 @@
 
   {{ page.header }}
   {{ page.nav }}
+
 		<div class="child-banner" style="background-image: url(/img/img-d1.png);">
 			<div class="child-banner-1">
 				<div>
-					<h2>关于我们</h2>
-					<span>ABOUT</span>
+					<h2>厂房设备</h2>
+					<span>PLANT EQUIPMENT</span>
 				</div>
 			</div>
 		</div>
   {{ page.breadcrumb }}
 		<div class="new-dis">
 			<div class="new-w">
-				当前位置:<a href="/">首页</a>&nbsp;&gt;&nbsp;<a href="/#/">关于我们</a> </div>
+				当前位置:<a href="/">首页</a>&nbsp;&gt;&nbsp;<a href="/#/">产品中心</a> </div>
 		</div>
-		<div class="new-box">
+		<div class="child-content child-product-list">
+			<div class="child-product-list-a in-public">
+				<ul class="clearfix">
+					<li>
+						<a href="#">
+							<span class="button bz-buttonAnimat clockwise both"> 
+								<img src="/img/img-a16.png" alt="">
+									<i class="inner"></i> </span>
+							<h2>待检产品-新能源电池包</h2> </a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="button bz-buttonAnimat clockwise both"> 
+								<img src="/img/img-a10.png" alt="">
+									<i class="inner"></i> </span>
+							<h2>待检产品-新能源电池包</h2> </a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="button bz-buttonAnimat clockwise both"> 
+								<img src="/img/img-a10.png" alt="">
+									<i class="inner"></i> </span>
+							<h2>待检产品-新能源电池包</h2> </a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="button bz-buttonAnimat clockwise both"> 
+								<img src="/img/img-a10.png" alt="">
+									<i class="inner"></i> </span>
+							<h2>待检产品-新能源电池包</h2> </a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="button bz-buttonAnimat clockwise both"> 
+								<img src="/img/img-a10.png" alt="">
+									<i class="inner"></i> </span>
+							<h2>待检产品-新能源电池包</h2> </a>
+					</li>
 
-			<h1>关于我们</h1>
+				</ul>
+			</div>
+			<div class="clearfix fy in-public">
 
-			<div class="new-content">
-				<div style="text-align: center;">&nbsp;<img alt="" src="/img/img-a10.png"></div>
-
-				<br>　　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时。
-				<br> 　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时
-
-				<br>　　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时
-				<br>
-				<br>　　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时</div>
+			</div>
 		</div>
 
   {{ page.footer }}
   {{ page.float }}
 
+			<script type="text/javascript" src="/js/aos.js"></script>
+			<script type="text/javascript">
+				AOS.init({
+					easing: 'ease-out-back',
+					duration: 1000
+				});
+			</script>
+		</div>
+
 		<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="/js/swiper.min.js"></script>
 		<script type="text/javascript" src="/js/TweenMax.min.js"></script>
 		<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script>
-		<script type="text/javascript" src="/js/scrolla.jquery.min.js"></script>
 		<script>
 			var swiper = new Swiper('.swiper-container1', {
 				keyboard: true,
@@ -184,8 +224,4 @@
 				});
 			})
 			 jQuery(".slideTxtBox").slide();
-			$('.animate').scrolla({
-				mobile: false,
-				once: true,
-			});
 		</script>
