@@ -119,6 +119,7 @@
 .menu .menuR {
 	float: right;
 	margin-top: 6px;
+    display: flex;
 }
 .menuR ul.nav {
 	position: relative;
@@ -210,12 +211,14 @@
 .index-nav-3 {
 	position: relative;
 	width: 300px;
+    display: flex;
+    align-items: center;
 }
 .index-nav-3 a {
 	display: -webkit-flex;
 	display: flex;
 	position: absolute;
-	margin-top: -15px;
+	margin-top: 15px;
 	right: 0px;
 	padding-right: 0px !important;
 }
@@ -237,7 +240,6 @@
 .index-nav-3 div strong {
 	font-size: 18px;
 	line-height: 14px;
-	margin: 3px 0 6px;
 }
 .index-nav-3 div strong {
 	display: block;
