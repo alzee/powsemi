@@ -2107,3 +2107,14 @@ div.flickr a {
 .views-exposed-form {
     display: none;
 }
+.table-row > div {
+    display: inline-block;
+    width: 11%;
+    text-align: center;
+}
+thead tr td {
+    width: 11%;
+}
+.d-none {
+    display: none;
+}
