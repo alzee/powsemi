@@ -26,3 +26,7 @@ getKeys-js:
   js:
     js/getKeys.js: {}
 
+filter-js:
+  version: VERSION
+  js:
+    js/filter.js: {}
