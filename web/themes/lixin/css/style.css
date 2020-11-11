@@ -2087,10 +2087,17 @@ div.flickr a {
 	padding: 0 10px;
     display: block;
 }
+.BORDER.pager__item--ellipsis {
+    border: 0;
+    background: unset;
+}
 .BORDER.is-active {
     background: #0070c0;
     border: 1px solid #0070c0;
 }
 .BORDER.is-active a{
     color: #FFF;
+}
+.invisible {
+    display: none;
 }
