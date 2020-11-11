@@ -1,5 +1,4 @@
 pager
-breadcrumb
 
 twig debug
 aggregate css/js

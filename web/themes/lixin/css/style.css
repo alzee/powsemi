@@ -2073,3 +2073,13 @@ div.flickr a {
     border-bottom: #dedfde 1px solid;
     text-decoration: none;
 }
+
+.new-w li {
+    display: inline;
+}
+.new-w li:after {
+    content: " > ";
+}
+.new-w li:last-child:after {
+    content: unset;
+}
