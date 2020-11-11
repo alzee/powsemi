@@ -1,0 +1,191 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a single page.
+ *
+ * The doctype, html, head and body tags are not in this template. Instead they
+ * can be found in the html.html.twig template in this directory.
+ *
+ * Available variables:
+ *
+ * General utility variables:
+ * - base_path: The base URL path of the Drupal installation. Will usually be
+ *   "/" unless you have installed Drupal in a sub-directory.
+ * - is_front: A flag indicating if the current page is the front page.
+ * - logged_in: A flag indicating if the user is registered and signed in.
+ * - is_admin: A flag indicating if the user has permission to access
+ *   administration pages.
+ *
+ * Site identity:
+ * - front_page: The URL of the front page. Use this instead of base_path when
+ *   linking to the front page. This includes the language domain or prefix.
+ *
+ * Page content (in order of occurrence in the default page.html.twig):
+ * - messages: Status and error messages. Should be displayed prominently.
+ * - node: Fully loaded node, if there is an automatically-loaded node
+ *   associated with the page and the node ID is the second argument in the
+ *   page's path (e.g. node/12345 and node/12345/revisions, but not
+ *   comment/reply/12345).
+ *
+ * Regions:
+ * - page.header: Items for the header region.
+ * - page.primary_menu: Items for the primary menu region.
+ * - page.secondary_menu: Items for the secondary menu region.
+ * - page.highlighted: Items for the highlighted content region.
+ * - page.help: Dynamic help text, mostly for admin pages.
+ * - page.content: The main content of the current page.
+ * - page.sidebar_first: Items for the first sidebar.
+ * - page.sidebar_second: Items for the second sidebar.
+ * - page.footer: Items for the footer region.
+ * - page.breadcrumb: Items for the breadcrumb region.
+ *
+ * @see template_preprocess_page()
+ * @see html.html.twig
+ *
+ * @ingroup themeable
+ */
+#}
+
+  {{ page.header }}
+  {{ page.nav }}
+  {{ page.breadcrumb }}
+		<div class="child-banner" style="background-image: url(img/img-d1.png);">
+			<div class="child-banner-1">
+				<div>
+					<h2>关于我们</h2>
+					<span>ABOUT</span>
+				</div>
+			</div>
+		</div>
+		<div class="new-dis">
+			<div class="new-w">
+				当前位置:<a href="/">首页</a>&nbsp;&gt;&nbsp;<a href="/#/">关于我们</a> </div>
+		</div>
+		<div class="new-box">
+
+			<h1>关于我们</h1>
+
+			<div class="new-content">
+				<div style="text-align: center;">&nbsp;<img alt="" src="img/img-a10.png"></div>
+
+				<br>　　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时。
+				<br> 　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时
+
+				<br>　　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时
+				<br>
+				<br>　　在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时在对整流二极管进行电路设计时</div>
+		</div>
+
+  {{ page.footer }}
+  {{ page.float }}
+
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/swiper.min.js"></script>
+		<script type="text/javascript" src="js/TweenMax.min.js"></script>
+		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+		<script type="text/javascript" src="js/scrolla.jquery.min.js"></script>
+		<script>
+			var swiper = new Swiper('.swiper-container1', {
+				keyboard: true,
+				virtualTranslate: true,
+				on: {
+					setTranslate: function() {
+						this.$wrapperEl.transition('')
+						TweenMax.to(this.$wrapperEl, 1.5, {
+							x: this.translate,
+							ease: Power4.easeOut
+						})
+					}
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+			/*厂房设备*/
+			var swiper = new Swiper('.swiper-container2', {
+				slidesPerView: 1,
+				spaceBetween: 1,
+				// init: false,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+					bulletClass: 'swiper-dot',
+					bulletActiveClass: 'swiper-dot-active',
+				},
+				breakpoints: {
+					'@0.00': {
+						slidesPerView: 1,
+						spaceBetween: 10,
+					},
+					'@0.75': {
+						slidesPerView: 2,
+						spaceBetween: 20,
+					},
+					'@1.00': {
+						slidesPerView: 3,
+						spaceBetween: 20,
+					},
+					'@1.50': {
+						slidesPerView: 4,
+						spaceBetween: 20,
+					},
+				},
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+		</script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".side ul li").hover(function() {
+					$(this).find(".sidebox").stop().animate({
+						"width": "200px"
+					}, 200).css({})
+				}, function() {
+					$(this).find(".sidebox").stop().animate({
+						"width": "48px"
+					}, 200).css({})
+				});
+			});
+
+			function goTop() {
+				$('html,body').animate({
+					'scrollTop': 0
+				}, 600);
+			}
+			$(function() {
+				$(window).bind("scroll", function() {
+					var sTop = $(window).scrollTop();
+					var sTop = parseInt(sTop);
+					if (sTop >= 130) {
+						if (!$("#scrollSearchDiv").is(":visible")) {
+							try {
+								$("#scrollSearchDiv").slideDown();
+							} catch (e) {
+								$("#scrollSearchDiv").show();
+							}
+						}
+					} else {
+						if ($("#scrollSearchDiv").is(":visible")) {
+							try {
+								$("#scrollSearchDiv").slideUp();
+							} catch (e) {
+								$("#scrollSearchDiv").hide();
+							}
+						}
+					}
+				});
+			})
+			 jQuery(".slideTxtBox").slide();
+			$('.animate').scrolla({
+				mobile: false,
+				once: true,
+			});
+		</script>

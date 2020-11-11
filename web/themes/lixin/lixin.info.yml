@@ -45,3 +45,4 @@ regions:
   content6: '内容6'
   links: '链接'
   footer: '页脚'
+  float: '悬浮按钮'
