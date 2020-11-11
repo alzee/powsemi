@@ -35,7 +35,7 @@
 {{ fields.body.content }}
 {{ fields.created.content }}
 #}
-<a href="{{- fields.view_node.content|striptags -}}" class="clearfix animate fadeInUp animated" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.3s" style="animation-duration: 1s; animation-delay: 0.3s; visibility: visible;">
+<a href="{{- fields.view_node.content|striptags|t -}}" class="clearfix animate fadeInUp animated" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.3s" style="animation-duration: 1s; animation-delay: 0.3s; visibility: visible;">
 <span>
 {{ fields.field_image.content }}
 <span></span>

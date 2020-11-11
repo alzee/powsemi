@@ -1971,15 +1971,18 @@ buttonAnimat.horizontal.clockwise:before,
 }
 .sear-list .f-list {
     padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .sear-list .f-list li {
     display: block;
     padding: 12px 0;
     border-bottom: 1px solid #f0f0f0;
     overflow: hidden;
-    width: 16%;
     padding-left: 4%;
-    float: left;
+    flex: 0 0 20%;
+    max-width: 16%;
 }
 .sear-list .f-list li h2 {
     font-size: 16px;
@@ -2099,5 +2102,8 @@ div.flickr a {
     color: #FFF;
 }
 .invisible {
+    display: none;
+}
+.views-exposed-form {
     display: none;
 }

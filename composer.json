@@ -21,6 +21,7 @@
         "drupal/core-recommended": "^9",
         "drupal/easy_breadcrumb": "^1.13",
         "drupal/pathauto": "^1.8",
+        "drupal/search_api": "^1.18",
         "drush/drush": "^10.3"
     },
     "conflict": {
