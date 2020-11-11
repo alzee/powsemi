@@ -9,8 +9,8 @@ global-css:
       css/aos.css: {}
       css/flexslider.css: {}
       css/animate.min.css: {}
+      css/terrace.css: {}
       #css/mapstyle.css: {}
-      #css/terrace.css: {}
 
 global-js:
   version: VERSION

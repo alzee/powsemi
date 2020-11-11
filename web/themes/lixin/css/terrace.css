@@ -204,7 +204,6 @@ div.smdui_modal_cover{background-color:#000;cursor:default;filter:alpha(opacity=
 .smdui_dd_drag_column,.smdui_ss_header,.smdui_ss_header TD,.smdui_ss_vscroll_header{background:#fff;color:#2f2f2f}
 .smdui_ss_footer TD,.smdui_ss_vscroll_footer{background:#fafafa}
 .smdui_hcell{padding:0 20px;text-align:left}
-.smdui_ss_header td{border-right:1px solid transparent;border-bottom:1px solid transparent}
 .smdui_ss_footer td{border-right:1px solid transparent}
 .smdui_column.smdui_last>div,.smdui_hs_center td.smdui_last,.smdui_hs_right td.smdui_last{border-right-width:0}
 .smdui_hs_right td.smdui_first,.smdui_ss_right .smdui_column.smdui_first>div{border-left:1px solid #cecece}

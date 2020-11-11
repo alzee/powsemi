@@ -2118,3 +2118,8 @@ thead tr td {
 .d-none {
     display: none;
 }
+.table-row {
+    border-bottom: 1px solid #cecece;
+    height: 28px;
+    line-height: 28px;
+}
