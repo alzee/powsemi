@@ -20,3 +20,9 @@ global-js:
     js/swiper.min.js: {}
     js/TweenMax.min.js: {}
     js/jquery.SuperSlide.2.1.1.js: {}
+
+getKeys-js:
+  version: VERSION
+  js:
+    js/getKeys.js: {}
+
