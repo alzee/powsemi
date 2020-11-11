@@ -6,7 +6,7 @@ core: 8.x
 version: VERSION
 libraries:
   - lixin/global-css
-  - lixin/global-js
+#  - lixin/global-js
 libraries-override:
   core/drupal: false
   core/backbone: false
@@ -27,6 +27,7 @@ libraries-override:
   toolbar/toolbar.escapeAdmin: false
   tour/tour: false
   history/mark-as-read: false
+  big_pipe/big_pipe: false
 regions:
   header: '页眉'
   nav: '导航'

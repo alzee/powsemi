@@ -20,34 +20,3 @@ global-js:
     js/swiper.min.js: {}
     js/TweenMax.min.js: {}
     js/jquery.SuperSlide.2.1.1.js: {}
-
-slick:
-  version: VERSION
-  css:
-    component:
-      slick/slick.css: {}
-      slick/slick-theme.css: {}
-  js:
-    slick/slick.min.js: {}
-    js/initSlick.js: {}
-  dependencies:
-    - bs3/jquery1
-
-swiper:
-  version: VERSION
-  css:
-    component:
-      css/swiper.min.css: {}
-  js:
-    js/swiper.min.js: {}
-    js/initSwiper.js: {}
-
-home-titles-js:
-  version: VERSION
-  js:
-    js/homeTitles.js: {}
-
-jquery1:
-  version: VERSION
-  js:
-    js/jquery.min.js: {}
