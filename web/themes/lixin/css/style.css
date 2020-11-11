@@ -1557,7 +1557,6 @@ input,
 }
 .BORDER {
 	margin: 0 5px 0 0;
-	padding: 0 10px;
 	border: 1px solid #e8e8e8;
 	background: #f8f8f8;
 	color: #898989;
@@ -2082,4 +2081,16 @@ div.flickr a {
 }
 .new-w li:last-child:after {
     content: unset;
+}
+.BORDER a{
+	color: #898989;
+	padding: 0 10px;
+    display: block;
+}
+.BORDER.is-active {
+    background: #0070c0;
+    border: 1px solid #0070c0;
+}
+.BORDER.is-active a{
+    color: #FFF;
 }
