@@ -1,3 +1,8 @@
+{% if logged_in %}
+{% set login_link, login_text = '/admin/content', '后台管理' %}
+{% else %}
+{% set login_link, login_text = '/user/login', '登录' %}
+{% endif %}
 					<div class="link-box">
 						<div class="in-link in-public clearfix">
 							<span>友情链接：</span>
@@ -9,16 +14,13 @@
 						<div class="footer-1">
 							<div class="in-public clearfix">
 								<ul class="footer-1-left clearfix">
-									<li>
-										<h2> <a href="/about">关于力芯</a> </h2> <span> 
-      <a href="/news">新闻动态</a> 
- 
-									<li>
-										<h2> <a href="/products">产品中心</a> </h2> <span> 
-      <a href="contact">联系我们</a> 
-      </span> </li>
-									<li>
-										<h2> <a href="/equipments/">厂房设备</a> </h2> <span>  </span> </li>
+                <li> <h2> <a href="/about">关于力芯</a> </h2></li>
+                <li> <h2><a href="/news">新闻动态</a></h2> </li>
+                <li> <h2> <a href="/products">产品中心</a> </h2></li>
+                <li style="width: 100%"></li>
+                <li><h2> <a href="contact">联系我们</a></h2> </li>
+                <li> <h2> <a href="/equipments/">厂房设备</a> </h2></li>
+                <li> <h2> <a href="{{ login_link }}">{{ login_text }}</a> </h2> </li>
 
 								</ul>
 								<div class="footer-1-centent">

@@ -72,7 +72,7 @@
  * @ingroup themeable
  */
 #}
-<article{{ attributes }}>
+<article{{ attributes.addClass('new-box') }}>
 
   {{ title_prefix }}
   {% if label and not page %}
@@ -92,7 +92,7 @@
     </footer>
   {% endif %}
 
-  <div{{ content_attributes }}>
+  <div{{ content_attributes.addClass('new-content') }}>
     {{ content }}
   </div>
 
