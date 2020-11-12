@@ -2134,3 +2134,30 @@ thead tr td {
 article.new-box {
     margin-top: 0;
 }
+
+form#user-login-form {
+    text-align: center;
+    margin: 50px 0;
+}
+
+#user-login-form .description {
+    display: none;
+}
+#user-login-form > div {
+    margin: 20px 0;
+}
+#user-login-form > div > label {
+    width: 52px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: left;
+}
+#user-login-form > div > input {
+    height: 30px;
+}
+
+input#edit-submit {
+    width: 80px;
+    height: 50px;
+    font-size: 16px;
+}

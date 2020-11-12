@@ -1,0 +1,117 @@
+{{ page.header }}
+{{ page.nav }}
+{{ page.breadcrumb }}
+{{ page.content }}
+{{ page.footer }}
+{{ page.float }}
+
+			<script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
+			<script type="text/javascript" src="/js/swiper.min.js"></script>
+			<script type="text/javascript" src="/js/TweenMax.min.js"></script>
+			<script type="text/javascript" src="/js/jquery.SuperSlide.2.1.1.js"></script>
+			<script type="text/javascript" src="/js/scrolla.jquery.min.js"></script>
+			<script>
+				var swiper = new Swiper('.swiper-container1', {
+					keyboard: true,
+					virtualTranslate: true,
+					on: {
+						setTranslate: function() {
+							this.$wrapperEl.transition('')
+							TweenMax.to(this.$wrapperEl, 1.5, {
+								x: this.translate,
+								ease: Power4.easeOut
+							})
+						}
+					},
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+					},
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+				});
+				/*厂房设备*/
+				var swiper = new Swiper('.swiper-container2', {
+					slidesPerView: 1,
+					spaceBetween: 1,
+					// init: false,
+					pagination: {
+						el: '.swiper-pagination',
+						clickable: true,
+						bulletClass: 'swiper-dot',
+						bulletActiveClass: 'swiper-dot-active',
+					},
+					breakpoints: {
+						'@0.00': {
+							slidesPerView: 1,
+							spaceBetween: 10,
+						},
+						'@0.75': {
+							slidesPerView: 2,
+							spaceBetween: 20,
+						},
+						'@1.00': {
+							slidesPerView: 3,
+							spaceBetween: 20,
+						},
+						'@1.50': {
+							slidesPerView: 4,
+							spaceBetween: 20,
+						},
+					},
+					navigation: {
+						nextEl: '.swiper-button-next',
+						prevEl: '.swiper-button-prev',
+					},
+				});
+			</script>
+
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$(".side ul li").hover(function() {
+						$(this).find(".sidebox").stop().animate({
+							"width": "200px"
+						}, 200).css({})
+					}, function() {
+						$(this).find(".sidebox").stop().animate({
+							"width": "48px"
+						}, 200).css({})
+					});
+				});
+
+				function goTop() {
+					$('html,body').animate({
+						'scrollTop': 0
+					}, 600);
+				}
+				$(function() {
+					$(window).bind("scroll", function() {
+						var sTop = $(window).scrollTop();
+						var sTop = parseInt(sTop);
+						if (sTop >= 130) {
+							if (!$("#scrollSearchDiv").is(":visible")) {
+								try {
+									$("#scrollSearchDiv").slideDown();
+								} catch (e) {
+									$("#scrollSearchDiv").show();
+								}
+							}
+						} else {
+							if ($("#scrollSearchDiv").is(":visible")) {
+								try {
+									$("#scrollSearchDiv").slideUp();
+								} catch (e) {
+									$("#scrollSearchDiv").hide();
+								}
+							}
+						}
+					});
+				})
+				 jQuery(".slideTxtBox").slide();
+				$('.animate').scrolla({
+					mobile: false,
+					once: true,
+				});
+			</script>
