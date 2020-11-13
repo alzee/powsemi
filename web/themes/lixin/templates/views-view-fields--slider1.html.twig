@@ -30,7 +30,6 @@
  *
  * @ingroup themeable
  */
+<img src="{{ fields.field_image.content|striptags }}" />
 #}
-{% for field in fields -%}
-    {{ field.content }}
-{%- endfor %}
+    {{ fields.field_image.content }}

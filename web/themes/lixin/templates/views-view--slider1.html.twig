@@ -32,8 +32,19 @@
  * @ingroup themeable
  */
 #}
+		<div class="index-banner" aos="fade-down" aos-easing="ease" aos-delay="100">
+			<div class="swiper-container swiper-container1">
+				<div class="swiper-wrapper">
   {% if rows -%}
     {{ rows }}
   {% elseif empty -%}
     {{ empty }}
   {% endif %}
+  </div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"> <img src="img/next.png" /> </div>
+				<div class="swiper-button-prev"><img src="img/prev.png" /> </div>
+  </div>
+  </div>

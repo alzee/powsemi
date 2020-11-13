@@ -13,7 +13,13 @@
  *
  * @ingroup themeable
  */
+{% if content %}
+  <div{{ attributes }}>
+    {{ content }}
+  </div>
+{% endif %}
 #}
 
+{% if content %}
     {{ content }}
-
+{% endif %}

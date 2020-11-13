@@ -48,6 +48,9 @@
 
   {{ page.header }}
   {{ page.nav }}
+  {{ page.links }}
+  {{ page.slider1 }}
+  {#
 		<!-- Swiper -->
 		<div class="index-banner" aos="fade-down" aos-easing="ease" aos-delay="100">
 			<div class="swiper-container swiper-container1">
@@ -78,8 +81,9 @@
 				<div class="swiper-button-next"> <img src="img/next.png" /> </div>
 				<div class="swiper-button-prev"><img src="img/prev.png" /> </div>
 			</div>
-
 		</div>
+  #}
+
 		<div class="lx-content">
 			<div class="lx-header" aos="fade-down" aos-easing="ease" aos-delay="550">
 				<div class="lx-h-name">
@@ -423,6 +427,7 @@
 					<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 					<script>
 						var swiper = new Swiper('.swiper-container1', {
+              loop: true,
 							keyboard: true,
 							virtualTranslate: true,
 							on: {

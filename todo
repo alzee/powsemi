@@ -1,4 +1,3 @@
-swiper 1
 swiper 2
 产品中心 in Home page
 新闻动态 in Home page
@@ -10,5 +9,6 @@ search button
 
 search view field: category
 
+enable bigpipe
 twig debug
 aggregate css/js
