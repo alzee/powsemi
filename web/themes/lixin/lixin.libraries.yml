@@ -4,13 +4,10 @@ global-css:
     theme:
       css/base4.0.css: {}
       css/style.css: {}
-      css/swiper.min.css: {}
       css/iconfont.css: {}
-      css/aos.css: {}
       css/flexslider.css: {}
       css/animate.min.css: {}
       css/terrace.css: {}
-      #css/mapstyle.css: {}
 
 global-js:
   version: VERSION
@@ -30,19 +27,20 @@ filter-js:
   js:
     js/filter.js: {}
 
-jquery:
-  version: VERSION
-  js:
-    js/jquery-1.9.1.min.js: {}
-
 swiper:
   version: VERSION
+  css:
+    theme:
+      css/swiper.min.css: {}
   js:
     js/swiper.min.js: {}
     js/initSwiper.js: {}
 
 aos:
   version: VERSION
+  css:
+    theme:
+      css/aos.css: {}
   js:
     js/aos.js: {}
     js/initAos.js: {}
@@ -51,11 +49,6 @@ tweenmax:
   version: VERSION
   js:
     js/TweenMax.min.js: {}
-
-jquery.superslide:
-  version: VERSION
-  js:
-    js/jquery.SuperSlide.2.1.1.js: {}
 
 smdui:
   version: VERSION
@@ -73,3 +66,11 @@ homeProducts:
   version: VERSION
   js:
     js/homeProducts.js: {}
+
+map:
+  version: VERSION
+  css:
+    theme:
+      css/mapstyle.css: {}
+  js:
+    js/mapmain.js: {}
