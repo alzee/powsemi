@@ -15,11 +15,10 @@ global-css:
 global-js:
   version: VERSION
   js:
-    js/aos.js: {}
     js/jquery-1.9.1.min.js: {}
-    js/swiper.min.js: {}
     js/TweenMax.min.js: {}
     js/jquery.SuperSlide.2.1.1.js: {}
+    js/floatBtn.js: {}
 
 getKeys-js:
   version: VERSION
@@ -30,3 +29,47 @@ filter-js:
   version: VERSION
   js:
     js/filter.js: {}
+
+jquery:
+  version: VERSION
+  js:
+    js/jquery-1.9.1.min.js: {}
+
+swiper:
+  version: VERSION
+  js:
+    js/swiper.min.js: {}
+    js/initSwiper.js: {}
+
+aos:
+  version: VERSION
+  js:
+    js/aos.js: {}
+    js/initAos.js: {}
+
+tweenmax:
+  version: VERSION
+  js:
+    js/TweenMax.min.js: {}
+
+jquery.superslide:
+  version: VERSION
+  js:
+    js/jquery.SuperSlide.2.1.1.js: {}
+
+smdui:
+  version: VERSION
+  js:
+    js/smdui.js: {}
+    js/smdui_datatable.js: {}
+    js/smdFrameWorkV3.js: {}
+
+scrolla:
+  version: VERSION
+  js:
+    js/scrolla.jquery.min.js: {}
+
+homeProducts:
+  version: VERSION
+  js:
+    js/homeProducts.js: {}

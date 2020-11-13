@@ -6,7 +6,7 @@ core: 8.x
 version: VERSION
 libraries:
   - lixin/global-css
-#  - lixin/global-js
+  - lixin/global-js
 libraries-override:
   core/drupal: false
   core/backbone: false
@@ -20,6 +20,7 @@ libraries-override:
   core/underscore: false
   core/domready: false
   core/drupal.batch: false
+  core/jquery: lixin/jquery
   core/jquery.once: false
   core/jquery.joyride: false
   core/jquery.cookie: false
