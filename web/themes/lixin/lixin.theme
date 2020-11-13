@@ -1,13 +1,20 @@
 <?php
+
+// Rewrite viewport meta
 function lixin_page_attachments_alter(&$page) {
-  $viewport = array(
-    '#type' => 'html_tag',
-    '#tag' => 'meta',
-    '#attributes' => array(
-      'name' => 'viewport',
-      'content' => 'width=device-width, initial-scale=0, maximum-scale=0, user-scalable=no',
-    ),
-  );
-  $page['#attached']['html_head'][] = [$viewport, 'viewport'];
+    $viewport = array(
+        '#type' => 'html_tag',
+        '#tag' => 'meta',
+        '#attributes' => array(
+            'name' => 'viewport',
+            'content' => 'width=device-width, initial-scale=0, maximum-scale=0, user-scalable=no',
+        ),
+    );
+    $page['#attached']['html_head'][] = [$viewport, 'viewport'];
 }
 
+
+// Prepare vars for block templates
+function lixin_preprocess_block(&$vars) {
+    $vars['language'] = \Drupal::languageManager()->getCurrentLanguage()->getId();
+}

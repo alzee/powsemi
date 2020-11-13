@@ -2170,3 +2170,10 @@ input#edit-submit {
 .detail-info span {
     margin-right: 8px;
 }
+.menu-item--active-trail a {
+    color: #0070c0 !important;
+}
+.menu-item--active-trail a:after {
+    width: 100% !important;
+    left: 0 !important;
+}
