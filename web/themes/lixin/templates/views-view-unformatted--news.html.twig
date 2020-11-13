@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+{% for k,row in rows %}
+{% if k == 0 %}
+<div class="news-list new-left" aos="fade-right" aos-easing="ease" aos-delay="550">
+{% elseif k == 1 %}
+<div class="news-list new-right" aos="fade-left" aos-easing="ease" aos-delay="550">
+{% endif %}
+    {{- row.content -}}
+</div>
+{% endfor %}
+#}
+
+<div class="news-list new-left" aos="fade-right" aos-easing="ease" aos-delay="550">
+  {{- rows[0].content -}}
+</div>
+<div class="news-list new-right" aos="fade-left" aos-easing="ease" aos-delay="550">
+{% for row in rows|slice(1,4) %}
+  {{- row.content -}}
+{% endfor %}
+</div>

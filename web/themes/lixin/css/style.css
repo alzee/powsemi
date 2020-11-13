@@ -2164,3 +2164,6 @@ input#edit-submit {
     width: 1020px;
     display: flex;
 }
+.lx-content{
+  clear: both;
+}
