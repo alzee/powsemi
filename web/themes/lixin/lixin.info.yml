@@ -28,7 +28,7 @@ libraries-override:
   toolbar/toolbar.escapeAdmin: false
   tour/tour: false
   history/mark-as-read: false
-  #big_pipe/big_pipe: false
+  big_pipe/big_pipe: false
 regions:
   header: '页眉'
   nav: '导航'
