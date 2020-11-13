@@ -32,15 +32,27 @@
  * @ingroup themeable
  */
 #}
-		<div class="child-content child-product-list">
-			<div class="child-product-list-a in-public">
+					<div class="lx-content" style="    padding-bottom: 1px;">
+						<div class="lx-header" aos="fade-down" aos-easing="ease" aos-delay="550">
+							<div class="lx-h-name">
+								<strong>厂房设备</strong>
+								<span>PLANT EQUIPMENT</span>
+							</div>
+							<p class="lx-ms">半导体是专业从事 二极管、三极管、频率 等产业的制造商</p>
+						</div>
+
+						<div class="plant-box product-box">
+			<div class="swiper-container swiper-container2">
+				<div class="swiper-wrapper">
   {% if rows -%}
     {{ rows }}
   {% elseif empty -%}
     {{ empty }}
   {% endif %}
-</div>
-			<div class="clearfix fy in-public">
-
-			</div>
-</div>
+  </div>
+  </div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-next"> </div>
+							<div class="swiper-button-prev"> </div>
+  </div>
+  </div>

@@ -30,42 +30,27 @@
  *
  * @ingroup themeable
  */
-{% for field in fields -%}
-    {{ field.content }}
-{%- endfor %}
-{{ fields.title.content }}
-{{ fields.created_1.content }}
-{{ fields.created.content }}
-{{ fields.body.content }}
 {{ fields.field_image.content }}
-{{ fields.counter.content }}
+{{ fields.title.content }}
+{{ fields.body.content }}
+{{ fields.created.content }}
 #}
-
-{% set count = fields.counter.content|striptags %}
-{% if count == 0 %}
-  <div class="new-photo">
-    {{ fields.field_image.content }}
-  </div>
-  <div class="new-tit">
-    {{ fields.title.content }}
-    <label class="icon iconfont iconjiantou"> </label>
-  </div>
-
-  <div class="new-introduce">
-    <div class="intro-left">
-      <strong>{{ fields.created_1.content|striptags }}</strong>
-      <span>{{ fields.created.content|striptags }}</span>
-    </div>
-    <div class="intro-right">
-      {{ fields.body.content|striptags }}
-    </div>
-  </div>
-{% else %}
-  <div class="new-item">
-    <p class="p-time">{{ fields.created_1.content|striptags -}}-{{- fields.created.content|striptags }}</p>
-    {{ fields.title.content }}
-    <div class="new-jianjie">
-      {{ fields.body.content|striptags }}
-    </div>
-  </div>
-{% endif %}
+<a href="{{- fields.view_node.content|striptags|t -}}" class="clearfix animate fadeInUp animated" data-animate="fadeInUp" data-duration="1.0s" data-delay="0.3s" style="animation-duration: 1s; animation-delay: 0.3s; visibility: visible;">
+<span>
+{{ fields.field_image.content }}
+<span></span>
+</span>
+<div>
+<h2>
+{{ fields.title.content }}
+</h2>
+<p>
+{{ fields.body.content | striptags }}
+</p>
+<span>
+{{ fields.created.content }}
+</span>
+</div>
+<strong>
+</strong>
+</a>

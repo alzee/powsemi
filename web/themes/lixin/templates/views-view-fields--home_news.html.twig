@@ -30,10 +30,42 @@
  *
  * @ingroup themeable
  */
+{% for field in fields -%}
+    {{ field.content }}
+{%- endfor %}
+{{ fields.title.content }}
+{{ fields.created_1.content }}
+{{ fields.created.content }}
+{{ fields.body.content }}
+{{ fields.field_image.content }}
+{{ fields.counter.content }}
 #}
-<a href="{{- fields.view_node.content|striptags -}}">
-  <span class="button bz-buttonAnimat clockwise both">
-    <img src="{{- fields.field_image.content|striptags -}}" alt="">
-      <i class="inner"></i> </span>
-  <h2>{{- fields.title.content|striptags -}}</h2>
-  </a>
+
+{% set count = fields.counter.content|striptags %}
+{% if count == 0 %}
+  <div class="new-photo">
+    {{ fields.field_image.content }}
+  </div>
+  <div class="new-tit">
+    {{ fields.title.content }}
+    <label class="icon iconfont iconjiantou"> </label>
+  </div>
+
+  <div class="new-introduce">
+    <div class="intro-left">
+      <strong>{{ fields.created_1.content|striptags }}</strong>
+      <span>{{ fields.created.content|striptags }}</span>
+    </div>
+    <div class="intro-right">
+      {{ fields.body.content|striptags }}
+    </div>
+  </div>
+{% else %}
+  <div class="new-item">
+    <p class="p-time">{{ fields.created_1.content|striptags -}}-{{- fields.created.content|striptags }}</p>
+    {{ fields.title.content }}
+    <div class="new-jianjie">
+      {{ fields.body.content|striptags }}
+    </div>
+  </div>
+{% endif %}
