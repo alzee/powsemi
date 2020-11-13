@@ -2167,3 +2167,6 @@ input#edit-submit {
 .lx-content{
   clear: both;
 }
+.detail-info span {
+    margin-right: 8px;
+}

@@ -23,6 +23,7 @@
         "drupal/login_redirect_per_role": "^1.7",
         "drupal/metatag": "^1.14",
         "drupal/pathauto": "^1.8",
+        "drupal/taxonomy_machine_name": "^1.0@beta",
         "drush/drush": "^10.3"
     },
     "conflict": {

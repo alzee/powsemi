@@ -35,6 +35,7 @@ regions:
   banner: '条幅'
   slider1: '首页-轮播图1'
   about: '首页-关于力芯'
+  content: '主要内容'
   news: '首页-新闻动态'
   equip: '首页-厂房设备'
   links: '链接'
