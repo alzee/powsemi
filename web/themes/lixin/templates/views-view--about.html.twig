@@ -1,0 +1,71 @@
+{#
+/**
+ * @file
+ * Default theme implementation for main view template.
+ *
+ * Available variables:
+ * - attributes: Remaining HTML attributes for the element.
+ * - css_name: A CSS-safe version of the view name.
+ * - css_class: The user-specified classes names, if any.
+ * - header: The optional header.
+ * - footer: The optional footer.
+ * - rows: The results of the view query, if any.
+ * - empty: The content to display if there are no rows.
+ * - pager: The optional pager next/prev links to display.
+ * - exposed: Exposed widget form/info to display.
+ * - feed_icons: Optional feed icons to display.
+ * - more: An optional link to the next page of results.
+ * - title: Title of the view, only used when displaying in the admin preview.
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the view title.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the view title.
+ * - attachment_before: An optional attachment view to be displayed before the
+ *   view content.
+ * - attachment_after: An optional attachment view to be displayed after the
+ *   view content.
+ * - dom_id: Unique id for every view being printed to give unique class for
+ *   Javascript.
+ *
+ * @see template_preprocess_views_view()
+ *
+ * @ingroup themeable
+ */
+#}
+			<div class="lx-content" style="background: #fff;">
+				<div class="lx-header" aos="fade-down" aos-easing="ease" aos-delay="550">
+					<div class="lx-h-name">
+						<strong>关于力芯</strong>
+						<span>ABOUT LIXIN</span>
+					</div>
+					<p class="lx-ms">半导体是专业从事 二极管、三极管、频率 等产业的制造商</p>
+
+					<div class="about-box">
+
+						<div class="lx-jianjie" aos="fade-down" aos-easing="ease" aos-delay="600">
+							<div class=" lx-introduction">
+
+								<strong>公司简介</strong>
+								<p class="int-tent">湖北力芯半导体有限公司地处中国中部地区的湖北省十堰市境内，距离中国著名的道教圣地武当山仅一小时车程，交通非常便利，距离十堰机场和十堰高铁站均在一小时车程内。 公司是专业从事半导体分立器件研发、生产、销售和技术支持的新兴高科技企业。多年来一直致力于高品质二极管整流桥的制造,“PWS”为公司自主品牌，工厂占地面积2万平方米...
+								</p>
+
+								<a class="btn-more" href="#">查看更多</a>
+							</div>
+						</div>
+			<div class="swiper-container swiper-container1">
+				<div class="swiper-wrapper">
+  {% if rows -%}
+    {{ rows }}
+  {% elseif empty -%}
+    {{ empty }}
+  {% endif %}
+  </div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination"></div>
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"> <img src="img/next.png" /> </div>
+				<div class="swiper-button-prev"><img src="img/prev.png" /> </div>
+  </div>
+  </div>
+  </div>
+  </div>
