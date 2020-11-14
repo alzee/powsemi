@@ -2,7 +2,7 @@
 			<div class="w1200">
 				<div class="fl">{{'Welcome to PowSemi official website!'|t}}</div>
 				<div class="fr search">
-					<form name="searchFrm" data-drupal-selector="search-form" id="search-form" method="get" action="/search" accept-charset="UTF-8">
+					<form name="searchFrm" data-drupal-selector="search-form" id="search-form" method="get" action="{{ language == 'en' ? '/en/search' : '/search'}}" accept-charset="UTF-8">
 						<input data-drupal-selector="edit-keys" class="inputText" id="edit-keys" name="keys" type="search" placeholder="{{ 'Search Products'|t }}">
 						<label for="edit-submit" class="inputSubmit icon iconfont iconfangdajing"></label>
             <input class="invisible" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="搜索" class="button js-form-submit form-submit">

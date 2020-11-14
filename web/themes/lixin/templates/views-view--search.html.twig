@@ -39,9 +39,9 @@
 %}
 <div class="boxwrap search-page">
 <div class="hd">
-<h1>产品搜索</h1>
+<h1>{{ 'Search Products'|t }}</h1>
 <div class="links">
-搜索关健字： <b id="keys" class="blue"></b> ，共有 <b class="red">{{ view.total_rows }}</b> 条记录
+{{ 'Keywords:'|t }} <b id="keys" class="blue"></b> , {{ 'A total of'|t }} <b class="red">{{ view.total_rows }}</b> {{ 'records'|t }}
 </div>
 </div>
 <div class="sear-list">
