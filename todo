@@ -3,3 +3,18 @@
 enable bigpipe
 twig debug
 aggregate css/js
+
+admin style
+.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox {
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+div#edit-field-tags {
+    display: flex;
+}
+
+.js-form-item.form-item.js-form-type-checkbox.form-type-checkbox input {
+    margin-right: 3px;
+}
