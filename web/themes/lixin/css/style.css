@@ -2177,3 +2177,7 @@ input#edit-submit {
     width: 100% !important;
     left: 0 !important;
 }
+.lx-introduction .int-tent {
+	height: 147px;
+	overflow: hidden;
+}

@@ -1,0 +1,10 @@
+<div class="lx-jianjie" aos="fade-down" aos-easing="ease" aos-delay="600">
+  <div class=" lx-introduction">
+    <strong>{{ 'Introduction'|t }}</strong>
+    {% if rows -%}
+      {{ rows }}
+    {% elseif empty -%}
+      {{ empty }}
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,32 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ *
+ * @ingroup themeable
+ */
+#}
+
+<div class="lx-content" style="background: #fff;">
+  <div class="lx-header" aos="fade-down" aos-easing="ease" aos-delay="550">
+    <div class="lx-h-name">
+      <strong>{{ 'ABOUT LIXIN'|t }}</strong>
+      <span>ABOUT LIXIN</span>
+    </div>
+    <p class="lx-ms">{{ 'Specialized in semiconductor discrete device research and development.'|t }}</p>
+
+    <div class="about-box">
+    {% if content %}
+        {{ content }}
+    {% endif %}
+    </div>
+  </div>
+</div>

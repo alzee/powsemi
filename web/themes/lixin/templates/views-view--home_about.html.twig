@@ -32,40 +32,17 @@
  * @ingroup themeable
  */
 #}
-			<div class="lx-content" style="background: #fff;">
-				<div class="lx-header" aos="fade-down" aos-easing="ease" aos-delay="550">
-					<div class="lx-h-name">
-						<strong>关于力芯</strong>
-						<span>ABOUT LIXIN</span>
-					</div>
-					<p class="lx-ms">半导体是专业从事 二极管、三极管、频率 等产业的制造商</p>
-
-					<div class="about-box">
-
-						<div class="lx-jianjie" aos="fade-down" aos-easing="ease" aos-delay="600">
-							<div class=" lx-introduction">
-
-								<strong>公司简介</strong>
-								<p class="int-tent">湖北力芯半导体有限公司地处中国中部地区的湖北省十堰市境内，距离中国著名的道教圣地武当山仅一小时车程，交通非常便利，距离十堰机场和十堰高铁站均在一小时车程内。 公司是专业从事半导体分立器件研发、生产、销售和技术支持的新兴高科技企业。多年来一直致力于高品质二极管整流桥的制造,“PWS”为公司自主品牌，工厂占地面积2万平方米...
-								</p>
-
-								<a class="btn-more" href="/about">查看更多</a>
-							</div>
-						</div>
-			<div class="swiper-container swiper-container1">
-				<div class="swiper-wrapper">
-  {% if rows -%}
-    {{ rows }}
-  {% elseif empty -%}
-    {{ empty }}
-  {% endif %}
+<div class="swiper-container swiper-container1">
+  <div class="swiper-wrapper">
+    {% if rows -%}
+      {{ rows }}
+    {% elseif empty -%}
+      {{ empty }}
+    {% endif %}
   </div>
-				<!-- Add Pagination -->
-				<div class="swiper-pagination"></div>
-				<!-- Add Arrows -->
-				<div class="swiper-button-next"> <img src="/{{ directory }}/img/next.png" /> </div>
-				<div class="swiper-button-prev"><img src="/{{ directory }}/img/prev.png" /> </div>
-  </div>
-  </div>
-  </div>
-  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Add Arrows -->
+  <div class="swiper-button-next"> <img src="/{{ directory }}/img/next.png" /> </div>
+  <div class="swiper-button-prev"><img src="/{{ directory }}/img/prev.png" /> </div>
+</div>
