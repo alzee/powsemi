@@ -8,6 +8,7 @@ global-css:
       css/flexslider.css: {}
       css/animate.min.css: {}
       css/terrace.css: {}
+      css/lixin.css: {}
 
 global-js:
   version: VERSION
