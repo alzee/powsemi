@@ -3,8 +3,13 @@
 		<div class="child-banner" style="background-image: url(/{{ directory }}/img/img-d1.png);">
 			<div class="child-banner-1">
 				<div>
+          {% if node.field_tags.0.target_id == 16 %}
 					<h2>新闻动态</h2>
 					<span>NEWS</span>
+          {% elseif node.field_tags.0.target_id == 19 %}
+					<h2>厂房设备</h2>
+					<span>EQUIPMENTS</span>
+          {% endif %}
 				</div>
 			</div>
 		</div>
