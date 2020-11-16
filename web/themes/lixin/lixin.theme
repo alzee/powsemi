@@ -1,4 +1,7 @@
 <?php
+/**
+ * vim:ft=php
+ */
 
 // Rewrite viewport meta
 function lixin_page_attachments_alter(&$page) {
