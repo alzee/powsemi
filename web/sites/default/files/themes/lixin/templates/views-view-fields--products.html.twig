@@ -30,25 +30,15 @@
  *
  * @ingroup themeable
  */
+{{dump(fields|keys)}}
 #}
-{% for field in fields -%}
-  {{ field.separator }}
-  {%- if field.wrapper_element -%}
-    <{{ field.wrapper_element }}{{ field.wrapper_attributes }}>
-  {%- endif %}
-  {%- if field.label -%}
-    {%- if field.label_element -%}
-      <{{ field.label_element }}{{ field.label_attributes }}>{{ field.label }}{{ field.label_suffix }}</{{ field.label_element }}>
-    {%- else -%}
-      {{ field.label }}{{ field.label_suffix }}
-    {%- endif %}
-  {%- endif %}
-  {%- if field.element_type -%}
-    <{{ field.element_type }}{{ field.element_attributes }}>{{ field.content }}</{{ field.element_type }}>
-  {%- else -%}
-    {{ field.content }}
-  {%- endif %}
-  {%- if field.wrapper_element -%}
-    </{{ field.wrapper_element }}>
-  {%- endif %}
-{%- endfor %}
+
+<div class="cell-type"><a href="{{- fields.field_manual.content|striptags -}}">{{- fields.field_type.content -}}</a></div>
+<div class="cell-vrrm">{{- fields.field_vrrm.content -}}</div>
+<div class="cell-ifav">{{- fields.field_ifav.content -}}</div>
+<div class="cell-ifsm">{{- fields.field_ifsm.content -}}</div>
+<div class="cell-vf">{{- fields.field_vf.content -}}</div>
+<div class="cell-ir">{{- fields.field_ir.content -}}</div>
+<div class="cell-trr">{{- fields.field_trr.content -}}</div>
+<div class="cell-tjmax">{{- fields.field_tj_max.content -}}</div>
+<div class="cell-package">{{- fields.field_package.content -}}</div>

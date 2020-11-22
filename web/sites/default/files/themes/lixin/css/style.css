@@ -2108,8 +2108,11 @@ div.flickr a {
 }
 .table-row > div {
     display: inline-block;
-    width: 11%;
+    width: 10.7%;
     text-align: center;
+}
+.cell-type a {
+    text-decoration: underline;
 }
 thead tr td {
     width: 11%;
