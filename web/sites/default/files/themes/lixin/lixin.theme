@@ -21,3 +21,8 @@ function lixin_page_attachments_alter(&$page) {
 function lixin_preprocess_block(&$vars) {
     $vars['language'] = \Drupal::languageManager()->getCurrentLanguage()->getId();
 }
+
+// Prepare vars for view fields templates
+function lixin_preprocess_views_view_fields(&$vars) {
+    $vars['language'] = \Drupal::languageManager()->getCurrentLanguage()->getId();
+}

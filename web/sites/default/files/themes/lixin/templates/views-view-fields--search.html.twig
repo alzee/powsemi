@@ -37,6 +37,6 @@
 #}
 
 <h2>
-<p><a href="/products?category={{- fields.field_category_1.content|striptags -}}">{{- fields.field_category.content -}}</a></p>
+<p><a href="{{ language == 'en' ? '/en' }}/products?category={{- fields.field_category_1.content|striptags -}}">{{- fields.field_category.content -}}</a></p>
 <p><a href="{{- fields.field_manual.content|striptags -}}">{{- fields.title.content -}}</a></p>
 </h2>
