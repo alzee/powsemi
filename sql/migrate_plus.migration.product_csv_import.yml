@@ -52,8 +52,8 @@ source:
       name: field_package
       label: field_package
     11:
-      name: field_category_zh
-      label: field_category_zh
+      name: field_manual
+      label: field_manual
 process:
   title: field_type
   field_type: field_type
@@ -66,7 +66,7 @@ process:
   field_trr: field_trr
   field_vf: field_vf
   field_category: field_category
-  field_category_zh: field_category_zh
+  field_manual: field_manual
 
   type:
     plugin: default_value
