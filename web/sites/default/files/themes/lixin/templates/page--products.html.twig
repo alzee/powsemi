@@ -70,34 +70,7 @@
 						<div class="bd-item">
 							<div class="inner-data">
 								<ul>
-
-									<li id="sid_160"><a title="二极管" href="javascript:;" class="one_class curr">二极管</a>
-										<dl class="list" style="">
-
-											<dd><a href="/products?cat=普通整流二极管">Ø普通整流管</a></dd>
-
-											<dd><a href="/products?cat=快恢复整流二极管">Ø快恢复整流管</a></dd>
-
-											<dd><a href="/products?cat=超快恢复二极管">Ø超快恢复二极管</a></dd>
-
-											<dd><a href="/products?cat=高效率二极管">Ø高效率整流管</a></dd>
-											<dd><a href="/products">Ø肖特基垒势整流管</a></dd>
-											<dd><a href="/products">ØTVS管</a></dd>
-										</dl>
-									</li>
-
-									<li id="sid_161"><a title="三极管" href="javascript:;" class="one_class">整流桥</a>
-										<dl class="list">
-
-											<dd><a href="/products?cat=普通整流桥堆">Ø普通整流桥</a></dd>
-
-											<dd><a href="#">Ø普通整流桥</a></dd>
-											<dd><a href="#">Ø超快恢复整流桥</a></dd>
-											<dd><a href="#">Ø高效率整流桥</a></dd>
-											<dd><a href="#">Ø肖特基整流桥</a></dd>
-										</dl>
-									</li>
-
+                {{ page.cate }}
 								</ul>
 							</div>
 							<div class="clear"></div>
@@ -107,16 +80,16 @@
 
 					<div class="left3_area left_pro lite-lxwm ">
 						<div class="hd lxwm">
-							联系我们
+            {{ 'Contact Us'|t }}
 						</div>
 						<div class="bd-item">
 							<div class="inner-data">
-								<p> 湖北力芯半导体有限公司</p>
-								<p> 地址：湖北省十堰市房县北城工业园一栋</p>
-								<p> 联系：张胜君</p>
-								<p> 电话：0719-3105699</p>
-								<p> 手机：177-1237-7568</p>
-								<p> 邮箱： George.Zhang@powsemi.com </p>
+								<p> {{ 'Hubei Power Semiconductor Co.,Ltd'|t }}</p>
+								<p>{{ 'Address: Building 1, Beicheng Industrial Park, FangXian, Shiyan City, Hubei Province'|t }}</p>
+								<p> {{ 'Contact: Mr.Zhang'|t }}</p>
+								<p> {{ 'Tel:'|t }} 0719-3105699</p>
+								<p> {{ 'Phone:'|t }} 177-1237-7568</p>
+								<p> {{ 'Email:'|t }} George.Zhang@powsemi.com </p>
 								<p> Sales@powsemi.com</p>
 							</div>
 							<div class="clear"></div>
@@ -129,7 +102,7 @@
 				<div class="right_area">
 					<div class="hd2">
 
-						<h1>产品中心</h1>
+						<h1>{{ 'Products'|t }}</h1>
 
 					</div>
 
