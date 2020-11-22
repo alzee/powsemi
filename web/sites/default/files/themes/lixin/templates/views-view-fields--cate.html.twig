@@ -39,9 +39,7 @@
 <li aos="fade-down" aos-easing="ease" aos-delay="500">
   <a href="{{- fields.tid.content|striptags -}}">
     <span class="pro-item-bg "></span>
-
-    <img class="img-show" src="/{{ directory }}/img/img-a1.png" />
-    <img class="img-hide" src="/{{ directory }}/img/img-a1-1.png" />
+    {{- fields.field_image.content -}}
     <strong>{{- fields.name.content -}}</strong>
     <p>{{- fields.description__value.content -}}</p>
   </a>
