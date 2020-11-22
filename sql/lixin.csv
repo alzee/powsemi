@@ -1,1094 +1,1523 @@
-,,TYPE,VRRM,IF(AV) ,IFSM,VF,IR ,Trr ,TJ Max.,Package,
-1,General Purpose Rectifier Bridge,MB05F,50,0.8,30,1,5,-,150,MBF,普通整流桥堆
-2,General Purpose Rectifier Bridge,MB1F,100,0.8,30,1,5,-,150,MBF,普通整流桥堆
-3,General Purpose Rectifier Bridge,MB2F,200,0.8,30,1,5,-,150,MBF,普通整流桥堆
-4,General Purpose Rectifier Bridge,MB4F,400,0.8,30,1,5,-,150,MBF,普通整流桥堆
-5,General Purpose Rectifier Bridge,MB6F,600,0.8,30,1,5,-,150,MBF,普通整流桥堆
-6,General Purpose Rectifier Bridge,MB8F,800,0.8,30,1,5,-,150,MBF,普通整流桥堆
-7,General Purpose Rectifier Bridge,MB10F,1000,0.8,30,1,5,-,150,MBF,普通整流桥堆
-8,General Purpose Rectifier Bridge,MB05S,50,0.8,30,1,5,-,150,MBS,普通整流桥堆
-9,General Purpose Rectifier Bridge,MB1S,100,0.8,30,1,5,-,150,MBS,普通整流桥堆
-10,General Purpose Rectifier Bridge,MB2S,200,0.8,30,1,5,-,150,MBS,普通整流桥堆
-11,General Purpose Rectifier Bridge,MB4S,400,0.8,30,1,5,-,150,MBS,普通整流桥堆
-12,General Purpose Rectifier Bridge,MB6S,600,0.8,30,1,5,-,150,MBS,普通整流桥堆
-13,General Purpose Rectifier Bridge,MB8S,800,0.8,30,1,5,-,150,MBS,普通整流桥堆
-14,General Purpose Rectifier Bridge,MB10S,1000,0.8,30,1,5,-,150,MBS,普通整流桥堆
-15,General Purpose Rectifier Bridge,MB05M,50,0.8,30,1,5,-,150,MBM,普通整流桥堆
-16,General Purpose Rectifier Bridge,MB1M,100,0.8,30,1,5,-,150,MBM,普通整流桥堆
-17,General Purpose Rectifier Bridge,MB2M,200,0.8,30,1,5,-,150,MBM,普通整流桥堆
-18,General Purpose Rectifier Bridge,MB4M,400,0.8,30,1,5,-,150,MBM,普通整流桥堆
-19,General Purpose Rectifier Bridge,MB6M,600,0.8,30,1,5,-,150,MBM,普通整流桥堆
-20,General Purpose Rectifier Bridge,MB8M,800,0.8,30,1,5,-,150,MBM,普通整流桥堆
-21,General Purpose Rectifier Bridge,MB10M,1000,0.8,30,1,5,-,150,MBM,普通整流桥堆
-22,General Purpose Rectifier Bridge,ABS2,200,1,35,1,5,-,150,ABS,普通整流桥堆
-23,General Purpose Rectifier Bridge,ABS4,400,1,35,1,5,-,150,ABS,普通整流桥堆
-24,General Purpose Rectifier Bridge,ABS6,600,1,35,1,5,-,150,ABS,普通整流桥堆
-25,General Purpose Rectifier Bridge,ABS8,800,1,35,1,5,-,150,ABS,普通整流桥堆
-26,General Purpose Rectifier Bridge,ABS10,1000,1,35,1,5,-,150,ABS,普通整流桥堆
-27,General Purpose Rectifier Bridge,ABS151,100,1.5,50,1,5,-,150,ABS,普通整流桥堆
-28,General Purpose Rectifier Bridge,ABS152,200,1.5,50,1,5,-,150,ABS,普通整流桥堆
-29,General Purpose Rectifier Bridge,ABS154,400,1.5,50,1,5,-,150,ABS,普通整流桥堆
-30,General Purpose Rectifier Bridge,ABS156,600,1.5,50,1,5,-,150,ABS,普通整流桥堆
-31,General Purpose Rectifier Bridge,ABS158,800,1.5,50,1,5,-,150,ABS,普通整流桥堆
-32,General Purpose Rectifier Bridge,ABS1510,1000,1.5,50,1,5,-,150,ABS,普通整流桥堆
-33,General Purpose Rectifier Bridge,ABS22,200,2,60,1,5,-,150,ABS,普通整流桥堆
-34,General Purpose Rectifier Bridge,ABS24,400,2,60,1,5,-,150,ABS,普通整流桥堆
-35,General Purpose Rectifier Bridge,ABS26,600,2,60,1,5,-,150,ABS,普通整流桥堆
-36,General Purpose Rectifier Bridge,ABS28,800,2,60,1,5,-,150,ABS,普通整流桥堆
-37,General Purpose Rectifier Bridge,ABS210,1000,2,60,1,5,-,150,ABS,普通整流桥堆
-38,General Purpose Rectifier Bridge,DB101S,50,1,45,1,5,-,150,DB-S,普通整流桥堆
-39,General Purpose Rectifier Bridge,DB102S,100,1,45,1,5,-,150,DB-S,普通整流桥堆
-40,General Purpose Rectifier Bridge,DB103S,200,1,45,1,5,-,150,DB-S,普通整流桥堆
-41,General Purpose Rectifier Bridge,DB104S,400,1,45,1,5,-,150,DB-S,普通整流桥堆
-42,General Purpose Rectifier Bridge,DB105S,600,1,45,1,5,-,150,DB-S,普通整流桥堆
-43,General Purpose Rectifier Bridge,DB106S,800,1,45,1,5,-,150,DB-S,普通整流桥堆
-44,General Purpose Rectifier Bridge,DB107S,1000,1,45,1,5,-,150,DB-S,普通整流桥堆
-45,General Purpose Rectifier Bridge,DB151S,50,1.5,55,1,5,-,150,DB-S,普通整流桥堆
-46,General Purpose Rectifier Bridge,DB152S,100,1.5,55,1,5,-,150,DB-S,普通整流桥堆
-47,General Purpose Rectifier Bridge,DB153S,200,1.5,55,1,5,-,150,DB-S,普通整流桥堆
-48,General Purpose Rectifier Bridge,DB154S,400,1.5,55,1,5,-,150,DB-S,普通整流桥堆
-49,General Purpose Rectifier Bridge,DB155S,600,1.5,55,1,5,-,150,DB-S,普通整流桥堆
-50,General Purpose Rectifier Bridge,DB156S,800,1.5,55,1,5,-,150,DB-S,普通整流桥堆
-51,General Purpose Rectifier Bridge,DB157S,1000,1.5,55,1,5,-,150,DB-S,普通整流桥堆
-52,General Purpose Rectifier Bridge,DB201S,50,2,60,1,5,-,150,DB-S,普通整流桥堆
-53,General Purpose Rectifier Bridge,DB202S,100,2,60,1,5,-,150,DB-S,普通整流桥堆
-54,General Purpose Rectifier Bridge,DB203S,200,2,60,1,5,-,150,DB-S,普通整流桥堆
-55,General Purpose Rectifier Bridge,DB204S,400,2,60,1,5,-,150,DB-S,普通整流桥堆
-56,General Purpose Rectifier Bridge,DB205S,600,2,60,1,5,-,150,DB-S,普通整流桥堆
-57,General Purpose Rectifier Bridge,DB206S,800,2,60,1,5,-,150,DB-S,普通整流桥堆
-58,General Purpose Rectifier Bridge,DB207S,1000,2,60,1,5,-,150,DB-S,普通整流桥堆
-59,General Purpose Rectifier Bridge,DB301S,50,3,80,1,5,-,150,DB-S,普通整流桥堆
-60,General Purpose Rectifier Bridge,DB302S,100,3,80,1,5,-,150,DB-S,普通整流桥堆
-61,General Purpose Rectifier Bridge,DB303S,200,3,80,1,5,-,150,DB-S,普通整流桥堆
-62,General Purpose Rectifier Bridge,DB304S,400,3,80,1,5,-,150,DB-S,普通整流桥堆
-63,General Purpose Rectifier Bridge,DB305S,600,3,80,1,5,-,150,DB-S,普通整流桥堆
-64,General Purpose Rectifier Bridge,DB306S,800,3,80,1,5,-,150,DB-S,普通整流桥堆
-65,General Purpose Rectifier Bridge,DB307S,1000,3,80,1,5,-,150,DB-S,普通整流桥堆
-66,General Purpose Rectifier Bridge,DB101,50,1,45,1,5,-,150,DB-M,普通整流桥堆
-67,General Purpose Rectifier Bridge,DB102,100,1,45,1,5,-,150,DB-M,普通整流桥堆
-68,General Purpose Rectifier Bridge,DB103,200,1,45,1,5,-,150,DB-M,普通整流桥堆
-69,General Purpose Rectifier Bridge,DB104,400,1,45,1,5,-,150,DB-M,普通整流桥堆
-70,General Purpose Rectifier Bridge,DB105,600,1,45,1,5,-,150,DB-M,普通整流桥堆
-71,General Purpose Rectifier Bridge,DB106,800,1,45,1,5,-,150,DB-M,普通整流桥堆
-72,General Purpose Rectifier Bridge,DB107,1000,1,45,1,5,-,150,DB-M,普通整流桥堆
-73,General Purpose Rectifier Bridge,DB151,50,1.5,55,1,5,-,150,DB-M,普通整流桥堆
-74,General Purpose Rectifier Bridge,DB152,100,1.5,55,1,5,-,150,DB-M,普通整流桥堆
-75,General Purpose Rectifier Bridge,DB153,200,1.5,55,1,5,-,150,DB-M,普通整流桥堆
-76,General Purpose Rectifier Bridge,DB154,400,1.5,55,1,5,-,150,DB-M,普通整流桥堆
-77,General Purpose Rectifier Bridge,DB155,600,1.5,55,1,5,-,150,DB-M,普通整流桥堆
-78,General Purpose Rectifier Bridge,DB156,800,1.5,55,1,5,-,150,DB-M,普通整流桥堆
-79,General Purpose Rectifier Bridge,DB157,1000,1.5,55,1,5,-,150,DB-M,普通整流桥堆
-80,General Purpose Rectifier Bridge,KBP2005,50,2,45,1.1,5,-,150,KBP,普通整流桥堆
-81,General Purpose Rectifier Bridge,KBP201,100,2,45,1.1,5,-,150,KBP,普通整流桥堆
-82,General Purpose Rectifier Bridge,KBP202,200,2,45,1.1,5,-,150,KBP,普通整流桥堆
-83,General Purpose Rectifier Bridge,KBP204,400,2,45,1.1,5,-,150,KBP,普通整流桥堆
-84,General Purpose Rectifier Bridge,KBP206,600,2,45,1.1,5,-,150,KBP,普通整流桥堆
-85,General Purpose Rectifier Bridge,KBP208,800,2,45,1.1,5,-,150,KBP,普通整流桥堆
-86,General Purpose Rectifier Bridge,KBP210,1000,2,45,1.1,5,-,150,KBP,普通整流桥堆
-87,General Purpose Rectifier Bridge,KBP2005G,50,2,60,1.1,5,-,150,KBP,普通整流桥堆
-88,General Purpose Rectifier Bridge,KBP201G,100,2,60,1.1,5,-,150,KBP,普通整流桥堆
-89,General Purpose Rectifier Bridge,KBP202G,200,2,60,1.1,5,-,150,KBP,普通整流桥堆
-90,General Purpose Rectifier Bridge,KBP204G,400,2,60,1.1,5,-,150,KBP,普通整流桥堆
-91,General Purpose Rectifier Bridge,KBP206G,600,2,60,1.1,5,-,150,KBP,普通整流桥堆
-92,General Purpose Rectifier Bridge,KBP208G,800,2,60,1.1,5,-,150,KBP,普通整流桥堆
-93,General Purpose Rectifier Bridge,KBP210G,1000,2,60,1.1,5,-,150,KBP,普通整流桥堆
-94,General Purpose Rectifier Bridge,KBP3005,50,2,60,1.1,5,-,150,KBP,普通整流桥堆
-95,General Purpose Rectifier Bridge,KBP301,100,3,60,1.1,5,-,150,KBP,普通整流桥堆
-96,General Purpose Rectifier Bridge,KBP302,200,3,60,1.1,5,-,150,KBP,普通整流桥堆
-97,General Purpose Rectifier Bridge,KBP304,400,3,60,1.1,5,-,150,KBP,普通整流桥堆
-98,General Purpose Rectifier Bridge,KBP306,600,3,60,1.1,5,-,150,KBP,普通整流桥堆
-99,General Purpose Rectifier Bridge,KBP308,800,3,60,1.1,5,-,150,KBP,普通整流桥堆
-100,General Purpose Rectifier Bridge,KBP310,1000,3,60,1.1,5,-,150,KBP,普通整流桥堆
-101,General Purpose Rectifier Bridge,KBP3005G,50,3,80,1.1,5,-,150,KBP,普通整流桥堆
-102,General Purpose Rectifier Bridge,KBP301G,100,3,80,1.1,5,-,150,KBP,普通整流桥堆
-103,General Purpose Rectifier Bridge,KBP302G,200,3,80,1.1,5,-,150,KBP,普通整流桥堆
-104,General Purpose Rectifier Bridge,KBP304G,400,3,80,1.1,5,-,150,KBP,普通整流桥堆
-105,General Purpose Rectifier Bridge,KBP306G,600,3,80,1.1,5,-,150,KBP,普通整流桥堆
-106,General Purpose Rectifier Bridge,KBP308G,800,3,80,1.1,5,-,150,KBP,普通整流桥堆
-107,General Purpose Rectifier Bridge,KBP310G,1000,3,80,1.1,5,-,150,KBP,普通整流桥堆
-108,General Purpose Rectifier Bridge,KBP4005,50,4,80,1.1,5,-,150,KBP,普通整流桥堆
-109,General Purpose Rectifier Bridge,KBP401,100,4,80,1.1,5,-,150,KBP,普通整流桥堆
-110,General Purpose Rectifier Bridge,KBP402,200,4,80,1.1,5,-,150,KBP,普通整流桥堆
-111,General Purpose Rectifier Bridge,KBP404,400,4,80,1.1,5,-,150,KBP,普通整流桥堆
-112,General Purpose Rectifier Bridge,KBP406,600,4,80,1.1,5,-,150,KBP,普通整流桥堆
-113,General Purpose Rectifier Bridge,KBP408,800,4,80,1.1,5,-,150,KBP,普通整流桥堆
-114,General Purpose Rectifier Bridge,KBP410,1000,4,80,1.1,5,-,150,KBP,普通整流桥堆
-115,General Purpose Rectifier Bridge,KBP4005G,50,4,120,1.1,5,-,150,KBP,普通整流桥堆
-116,General Purpose Rectifier Bridge,KBP401G,100,4,120,1.1,5,-,150,KBP,普通整流桥堆
-117,General Purpose Rectifier Bridge,KBP402G,200,4,120,1.1,5,-,150,KBP,普通整流桥堆
-118,General Purpose Rectifier Bridge,KBP404G,400,4,120,1.1,5,-,150,KBP,普通整流桥堆
-119,General Purpose Rectifier Bridge,KBP406G,600,4,120,1.1,5,-,150,KBP,普通整流桥堆
-120,General Purpose Rectifier Bridge,KBP408G,800,4,120,1.1,5,-,150,KBP,普通整流桥堆
-121,General Purpose Rectifier Bridge,KBP410G,1000,4,120,1.1,5,-,150,KBP,普通整流桥堆
-122,General Purpose Rectifier Bridge,KBP5005G,50,5,150,1.1,5,-,150,KBP,普通整流桥堆
-123,General Purpose Rectifier Bridge,KBP501G,100,5,150,1.1,5,-,150,KBP,普通整流桥堆
-124,General Purpose Rectifier Bridge,KBP502G,200,5,150,1.1,5,-,150,KBP,普通整流桥堆
-125,General Purpose Rectifier Bridge,KBP504G,400,5,150,1.1,5,-,150,KBP,普通整流桥堆
-126,General Purpose Rectifier Bridge,KBP506G,600,5,150,1.1,5,-,150,KBP,普通整流桥堆
-127,General Purpose Rectifier Bridge,KBP508G,800,5,150,1.1,5,-,150,KBP,普通整流桥堆
-128,General Purpose Rectifier Bridge,KBP510G,1000,5,150,1.1,5,-,150,KBP,普通整流桥堆
-129,General Purpose Rectifier Bridge,KBP6005,50,6,150,1.1,5,-,150,KBP,普通整流桥堆
-130,General Purpose Rectifier Bridge,KBP601,100,6,150,1.1,5,-,150,KBP,普通整流桥堆
-131,General Purpose Rectifier Bridge,KBP602,200,6,150,1.1,5,-,150,KBP,普通整流桥堆
-132,General Purpose Rectifier Bridge,KBP604,400,6,150,1.1,5,-,150,KBP,普通整流桥堆
-133,General Purpose Rectifier Bridge,KBP606,600,6,150,1.1,5,-,150,KBP,普通整流桥堆
-134,General Purpose Rectifier Bridge,KBP608,800,6,150,1.1,5,-,150,KBP,普通整流桥堆
-135,General Purpose Rectifier Bridge,KBP610,1000,6,150,1.1,5,-,150,KBP,普通整流桥堆
-136,General Purpose Rectifier Bridge,KBP6005G,50,6,170,1.1,5,-,150,KBP,普通整流桥堆
-137,General Purpose Rectifier Bridge,KBP601G,100,6,170,1.1,5,-,150,KBP,普通整流桥堆
-138,General Purpose Rectifier Bridge,KBP602G,200,6,170,1.1,5,-,150,KBP,普通整流桥堆
-139,General Purpose Rectifier Bridge,KBP604G,400,6,170,1.1,5,-,150,KBP,普通整流桥堆
-140,General Purpose Rectifier Bridge,KBP606G,600,6,170,1.1,5,-,150,KBP,普通整流桥堆
-141,General Purpose Rectifier Bridge,KBP608G,800,6,170,1.1,5,-,150,KBP,普通整流桥堆
-142,General Purpose Rectifier Bridge,KBP610G,1000,6,170,1.1,5,-,150,KBP,普通整流桥堆
-143,General Purpose Rectifier Bridge,KBP8005,50,8,170,1.1,5,-,150,KBP,普通整流桥堆
-144,General Purpose Rectifier Bridge,KBP801,100,8,170,1.1,5,-,150,KBP,普通整流桥堆
-145,General Purpose Rectifier Bridge,KBP802,200,8,170,1.1,5,-,150,KBP,普通整流桥堆
-146,General Purpose Rectifier Bridge,KBP804,400,8,170,1.1,5,-,150,KBP,普通整流桥堆
-147,General Purpose Rectifier Bridge,KBP806,600,8,170,1.1,5,-,150,KBP,普通整流桥堆
-148,General Purpose Rectifier Bridge,KBP808,800,8,170,1.1,5,-,150,KBP,普通整流桥堆
-149,General Purpose Rectifier Bridge,KBP810,1000,8,170,1.1,5,-,150,KBP,普通整流桥堆
-150,General Purpose Rectifier Bridge,D2KB05,50,2,45,1.1,5,-,150,D3K,普通整流桥堆
-151,General Purpose Rectifier Bridge,D2KB10,100,2,45,1.1,5,-,150,D3K,普通整流桥堆
-152,General Purpose Rectifier Bridge,D2KB20,200,2,45,1.1,5,-,150,D3K,普通整流桥堆
-153,General Purpose Rectifier Bridge,D2KB40,400,2,45,1.1,5,-,150,D3K,普通整流桥堆
-154,General Purpose Rectifier Bridge,D2KB60,600,2,45,1.1,5,-,150,D3K,普通整流桥堆
-155,General Purpose Rectifier Bridge,D2KB80,800,2,45,1.1,5,-,150,D3K,普通整流桥堆
-156,General Purpose Rectifier Bridge,D2KB100,1000,2,45,1.1,5,-,150,D3K,普通整流桥堆
-157,General Purpose Rectifier Bridge,D2KB05G,50,2,60,1.1,5,-,150,D3K,普通整流桥堆
-158,General Purpose Rectifier Bridge,D2KB10G,100,2,60,1.1,5,-,150,D3K,普通整流桥堆
-159,General Purpose Rectifier Bridge,D2KB20G,200,2,60,1.1,5,-,150,D3K,普通整流桥堆
-160,General Purpose Rectifier Bridge,D2KB40G,400,2,60,1.1,5,-,150,D3K,普通整流桥堆
-161,General Purpose Rectifier Bridge,D2KB60G,600,2,60,1.1,5,-,150,D3K,普通整流桥堆
-162,General Purpose Rectifier Bridge,D2KB80G,800,2,60,1.1,5,-,150,D3K,普通整流桥堆
-163,General Purpose Rectifier Bridge,D2KB100G,1000,2,60,1.1,5,-,150,D3K,普通整流桥堆
-164,General Purpose Rectifier Bridge,D3KB05,50,3,60,1.1,5,-,150,D3K,普通整流桥堆
-165,General Purpose Rectifier Bridge,D3KB10,100,3,60,1.1,5,-,150,D3K,普通整流桥堆
-166,General Purpose Rectifier Bridge,D3KB20,200,3,60,1.1,5,-,150,D3K,普通整流桥堆
-167,General Purpose Rectifier Bridge,D3KB40,400,3,60,1.1,5,-,150,D3K,普通整流桥堆
-168,General Purpose Rectifier Bridge,D3KB60,600,3,60,1.1,5,-,150,D3K,普通整流桥堆
-169,General Purpose Rectifier Bridge,D3KB80,800,3,60,1.1,5,-,150,D3K,普通整流桥堆
-170,General Purpose Rectifier Bridge,D3KB100,1000,3,60,1.1,5,-,150,D3K,普通整流桥堆
-171,General Purpose Rectifier Bridge,D3KB05G,50,3,80,1.1,5,-,150,D3K,普通整流桥堆
-172,General Purpose Rectifier Bridge,D3KB10G,100,3,80,1.1,5,-,150,D3K,普通整流桥堆
-173,General Purpose Rectifier Bridge,D3KB20G,200,3,80,1.1,5,-,150,D3K,普通整流桥堆
-174,General Purpose Rectifier Bridge,D3KB40G,400,3,80,1.1,5,-,150,D3K,普通整流桥堆
-175,General Purpose Rectifier Bridge,D3KB60G,600,3,80,1.1,5,-,150,D3K,普通整流桥堆
-176,General Purpose Rectifier Bridge,D3KB80G,800,3,80,1.1,5,-,150,D3K,普通整流桥堆
-177,General Purpose Rectifier Bridge,D3KB100G,1000,3,80,1.1,5,-,150,D3K,普通整流桥堆
-178,General Purpose Rectifier Bridge,D4KB05,50,4,80,1.1,5,-,150,D3K,普通整流桥堆
-179,General Purpose Rectifier Bridge,D4KB10,100,4,80,1.1,5,-,150,D3K,普通整流桥堆
-180,General Purpose Rectifier Bridge,D4KB20,200,4,80,1.1,5,-,150,D3K,普通整流桥堆
-181,General Purpose Rectifier Bridge,D4KB40,400,4,80,1.1,5,-,150,D3K,普通整流桥堆
-182,General Purpose Rectifier Bridge,D4KB60,600,4,80,1.1,5,-,150,D3K,普通整流桥堆
-183,General Purpose Rectifier Bridge,D4KB80,800,4,80,1.1,5,-,150,D3K,普通整流桥堆
-184,General Purpose Rectifier Bridge,D4KB100,1000,4,80,1.1,5,-,150,D3K,普通整流桥堆
-185,General Purpose Rectifier Bridge,D4KB05G,50,4,120,1.1,5,-,150,D3K,普通整流桥堆
-186,General Purpose Rectifier Bridge,D4KB10G,100,4,120,1.1,5,-,150,D3K,普通整流桥堆
-187,General Purpose Rectifier Bridge,D4KB20G,200,4,120,1.1,5,-,150,D3K,普通整流桥堆
-188,General Purpose Rectifier Bridge,D4KB40G,400,4,120,1.1,5,-,150,D3K,普通整流桥堆
-189,General Purpose Rectifier Bridge,D4KB60G,600,4,120,1.1,5,-,150,D3K,普通整流桥堆
-190,General Purpose Rectifier Bridge,D4KB80G,800,4,120,1.1,5,-,150,D3K,普通整流桥堆
-191,General Purpose Rectifier Bridge,D4KB100G,1000,4,120,1.1,5,-,150,D3K,普通整流桥堆
-192,General Purpose Rectifier Bridge,D5KB05G,50,5,150,1.1,5,-,150,D3K,普通整流桥堆
-193,General Purpose Rectifier Bridge,D5KB10G,100,5,150,1.1,5,-,150,D3K,普通整流桥堆
-194,General Purpose Rectifier Bridge,D5KB20G,200,5,150,1.1,5,-,150,D3K,普通整流桥堆
-195,General Purpose Rectifier Bridge,D5KB40G,400,5,150,1.1,5,-,150,D3K,普通整流桥堆
-196,General Purpose Rectifier Bridge,D5KB60G,600,5,150,1.1,5,-,150,D3K,普通整流桥堆
-197,General Purpose Rectifier Bridge,D5KB80G,800,5,150,1.1,5,-,150,D3K,普通整流桥堆
-198,General Purpose Rectifier Bridge,D5KB100G,1000,5,150,1.1,5,-,150,D3K,普通整流桥堆
-199,General Purpose Rectifier Bridge,D6KB05,50,6,150,1.1,5,-,150,D3K,普通整流桥堆
-200,General Purpose Rectifier Bridge,D6KB10,100,6,150,1.1,5,-,150,D3K,普通整流桥堆
-201,General Purpose Rectifier Bridge,D6KB20,200,6,150,1.1,5,-,150,D3K,普通整流桥堆
-202,General Purpose Rectifier Bridge,D6KB40,400,6,150,1.1,5,-,150,D3K,普通整流桥堆
-203,General Purpose Rectifier Bridge,D6KB60,600,6,150,1.1,5,-,150,D3K,普通整流桥堆
-204,General Purpose Rectifier Bridge,D6KB80,800,6,150,1.1,5,-,150,D3K,普通整流桥堆
-205,General Purpose Rectifier Bridge,D6KB100,1000,6,150,1.1,5,-,150,D3K,普通整流桥堆
-206,General Purpose Rectifier Bridge,D6KB05G,50,6,170,1.1,5,-,150,D3K,普通整流桥堆
-207,General Purpose Rectifier Bridge,D6KB10G,100,6,170,1.1,5,-,150,D3K,普通整流桥堆
-208,General Purpose Rectifier Bridge,D6KB20G,200,6,170,1.1,5,-,150,D3K,普通整流桥堆
-209,General Purpose Rectifier Bridge,D6KB40G,400,6,170,1.1,5,-,150,D3K,普通整流桥堆
-210,General Purpose Rectifier Bridge,D6KB60G,600,6,170,1.1,5,-,150,D3K,普通整流桥堆
-211,General Purpose Rectifier Bridge,D6KB80G,800,6,170,1.1,5,-,150,D3K,普通整流桥堆
-212,General Purpose Rectifier Bridge,D6KB100G,1000,6,170,1.1,5,-,150,D3K,普通整流桥堆
-213,General Purpose Rectifier Bridge,D8KB05,50,8,170,1.1,5,-,150,D3K,普通整流桥堆
-214,General Purpose Rectifier Bridge,D8KB10,100,8,170,1.1,5,-,150,D3K,普通整流桥堆
-215,General Purpose Rectifier Bridge,D8KB20,200,8,170,1.1,5,-,150,D3K,普通整流桥堆
-216,General Purpose Rectifier Bridge,D8KB40,400,8,170,1.1,5,-,150,D3K,普通整流桥堆
-217,General Purpose Rectifier Bridge,D8KB60,600,8,170,1.1,5,-,150,D3K,普通整流桥堆
-218,General Purpose Rectifier Bridge,D8KB80,800,8,170,1.1,5,-,150,D3K,普通整流桥堆
-219,General Purpose Rectifier Bridge,D8KB100,1000,8,170,1.1,5,-,150,D3K,普通整流桥堆
-220,General Purpose Rectifier Bridge,GBU4005,50,4,120,1.1,5,-,150,GBU,普通整流桥堆
-221,General Purpose Rectifier Bridge,GBU401,100,4,120,1.1,5,-,150,GBU,普通整流桥堆
-222,General Purpose Rectifier Bridge,GBU402,200,4,120,1.1,5,-,150,GBU,普通整流桥堆
-223,General Purpose Rectifier Bridge,GBU404,400,4,120,1.1,5,-,150,GBU,普通整流桥堆
-224,General Purpose Rectifier Bridge,GBU406,600,4,120,1.1,5,-,150,GBU,普通整流桥堆
-225,General Purpose Rectifier Bridge,GBU408,800,4,120,1.1,5,-,150,GBU,普通整流桥堆
-226,General Purpose Rectifier Bridge,GBU410,1000,4,120,1.1,5,-,150,GBU,普通整流桥堆
-227,General Purpose Rectifier Bridge,GBU6005,50,6,150,1.1,5,-,150,GBU,普通整流桥堆
-228,General Purpose Rectifier Bridge,GBU601,100,6,150,1.1,5,-,150,GBU,普通整流桥堆
-229,General Purpose Rectifier Bridge,GBU602,200,6,150,1.1,5,-,150,GBU,普通整流桥堆
-230,General Purpose Rectifier Bridge,GBU604,400,6,150,1.1,5,-,150,GBU,普通整流桥堆
-231,General Purpose Rectifier Bridge,GBU606,600,6,150,1.1,5,-,150,GBU,普通整流桥堆
-232,General Purpose Rectifier Bridge,GBU608,800,6,150,1.1,5,-,150,GBU,普通整流桥堆
-233,General Purpose Rectifier Bridge,GBU610,1000,6,150,1.1,5,-,150,GBU,普通整流桥堆
-234,General Purpose Rectifier Bridge,GBU8005,50,8,175,1.1,5,-,150,GBU,普通整流桥堆
-235,General Purpose Rectifier Bridge,GBU801,100,8,175,1.1,5,-,150,GBU,普通整流桥堆
-236,General Purpose Rectifier Bridge,GBU802,200,8,175,1.1,5,-,150,GBU,普通整流桥堆
-237,General Purpose Rectifier Bridge,GBU804,400,8,175,1.1,5,-,150,GBU,普通整流桥堆
-238,General Purpose Rectifier Bridge,GBU806,600,8,175,1.1,5,-,150,GBU,普通整流桥堆
-239,General Purpose Rectifier Bridge,GBU808,800,8,175,1.1,5,-,150,GBU,普通整流桥堆
-240,General Purpose Rectifier Bridge,GBU810,1000,8,175,1.1,5,-,150,GBU,普通整流桥堆
-241,General Purpose Rectifier Bridge,GBU10005,50,10,200,1.1,5,-,150,GBU,普通整流桥堆
-242,General Purpose Rectifier Bridge,GBU1001,100,10,200,1.1,5,-,150,GBU,普通整流桥堆
-243,General Purpose Rectifier Bridge,GBU1002,200,10,200,1.1,5,-,150,GBU,普通整流桥堆
-244,General Purpose Rectifier Bridge,GBU1004,400,10,200,1.1,5,-,150,GBU,普通整流桥堆
-245,General Purpose Rectifier Bridge,GBU1006,600,10,200,1.1,5,-,150,GBU,普通整流桥堆
-246,General Purpose Rectifier Bridge,GBU1008,800,10,200,1.1,5,-,150,GBU,普通整流桥堆
-247,General Purpose Rectifier Bridge,GBU1010,1000,10,200,1.1,5,-,150,GBU,普通整流桥堆
-248,General Purpose Rectifier Bridge,GBU15005,50,15,240,1.1,5,-,150,GBU,普通整流桥堆
-249,General Purpose Rectifier Bridge,GBU1501,100,15,240,1.1,5,-,150,GBU,普通整流桥堆
-250,General Purpose Rectifier Bridge,GBU1502,200,15,240,1.1,5,-,150,GBU,普通整流桥堆
-251,General Purpose Rectifier Bridge,GBU1504,400,15,240,1.1,5,-,150,GBU,普通整流桥堆
-252,General Purpose Rectifier Bridge,GBU1506,600,15,240,1.1,5,-,150,GBU,普通整流桥堆
-253,General Purpose Rectifier Bridge,GBU1508,800,15,240,1.1,5,-,150,GBU,普通整流桥堆
-254,General Purpose Rectifier Bridge,GBU1510,1000,15,240,1.1,5,-,150,GBU,普通整流桥堆
-255,General Purpose Rectifier Bridge,GBU20005,50,15,250,1.1,5,-,150,GBU,普通整流桥堆
-256,General Purpose Rectifier Bridge,GBU2001,100,15,250,1.1,5,-,150,GBU,普通整流桥堆
-257,General Purpose Rectifier Bridge,GBU2002,200,15,250,1.1,5,-,150,GBU,普通整流桥堆
-258,General Purpose Rectifier Bridge,GBU2004,400,15,250,1.1,5,-,150,GBU,普通整流桥堆
-259,General Purpose Rectifier Bridge,GBU2006,600,15,250,1.1,5,-,150,GBU,普通整流桥堆
-260,General Purpose Rectifier Bridge,GBU2008,800,15,250,1.1,5,-,150,GBU,普通整流桥堆
-261,General Purpose Rectifier Bridge,GBU2010,1000,15,250,1.1,5,-,150,GBU,普通整流桥堆
-262,General Purpose Rectifier Bridge,GBJ6005,50,6,150,1.1,5,-,150,GBJ,普通整流桥堆
-263,General Purpose Rectifier Bridge,GBJ601,100,6,150,1.1,5,-,150,GBJ,普通整流桥堆
-264,General Purpose Rectifier Bridge,GBJ602,200,6,150,1.1,5,-,150,GBJ,普通整流桥堆
-265,General Purpose Rectifier Bridge,GBJ604,400,6,150,1.1,5,-,150,GBJ,普通整流桥堆
-266,General Purpose Rectifier Bridge,GBJ606,600,6,150,1.1,5,-,150,GBJ,普通整流桥堆
-267,General Purpose Rectifier Bridge,GBJ608,800,6,150,1.1,5,-,150,GBJ,普通整流桥堆
-268,General Purpose Rectifier Bridge,GBJ610,1000,6,150,1.1,5,-,150,GBJ,普通整流桥堆
-269,General Purpose Rectifier Bridge,GBJ8005,50,8,175,1.1,5,-,150,GBJ,普通整流桥堆
-270,General Purpose Rectifier Bridge,GBJ801,100,8,175,1.1,5,-,150,GBJ,普通整流桥堆
-271,General Purpose Rectifier Bridge,GBJ802,200,8,175,1.1,5,-,150,GBJ,普通整流桥堆
-272,General Purpose Rectifier Bridge,GBJ804,400,8,175,1.1,5,-,150,GBJ,普通整流桥堆
-273,General Purpose Rectifier Bridge,GBJ806,600,8,175,1.1,5,-,150,GBJ,普通整流桥堆
-274,General Purpose Rectifier Bridge,GBJ808,800,8,175,1.1,5,-,150,GBJ,普通整流桥堆
-275,General Purpose Rectifier Bridge,GBJ810,1000,8,175,1.1,5,-,150,GBJ,普通整流桥堆
-276,General Purpose Rectifier Bridge,GBJ10005,50,10,200,1.1,5,-,150,GBJ,普通整流桥堆
-277,General Purpose Rectifier Bridge,GBJ1001,100,10,200,1.1,5,-,150,GBJ,普通整流桥堆
-278,General Purpose Rectifier Bridge,GBJ1002,200,10,200,1.1,5,-,150,GBJ,普通整流桥堆
-279,General Purpose Rectifier Bridge,GBJ1004,400,10,200,1.1,5,-,150,GBJ,普通整流桥堆
-280,General Purpose Rectifier Bridge,GBJ1006,600,10,200,1.1,5,-,150,GBJ,普通整流桥堆
-281,General Purpose Rectifier Bridge,GBJ1008,800,10,200,1.1,5,-,150,GBJ,普通整流桥堆
-282,General Purpose Rectifier Bridge,GBJ1010,1000,10,200,1.1,5,-,150,GBJ,普通整流桥堆
-283,General Purpose Rectifier Bridge,GBJ15005,50,15,220,1.1,5,-,150,GBJ,普通整流桥堆
-284,General Purpose Rectifier Bridge,GBJ1501,100,15,220,1.1,5,-,150,GBJ,普通整流桥堆
-285,General Purpose Rectifier Bridge,GBJ1502,200,15,220,1.1,5,-,150,GBJ,普通整流桥堆
-286,General Purpose Rectifier Bridge,GBJ1504,400,15,220,1.1,5,-,150,GBJ,普通整流桥堆
-287,General Purpose Rectifier Bridge,GBJ1506,600,15,220,1.1,5,-,150,GBJ,普通整流桥堆
-288,General Purpose Rectifier Bridge,GBJ1508,800,15,220,1.1,5,-,150,GBJ,普通整流桥堆
-289,General Purpose Rectifier Bridge,GBJ1510,1000,15,220,1.1,5,-,150,GBJ,普通整流桥堆
-290,General Purpose Rectifier Bridge,GBJ20005,50,20,240,1.1,5,-,150,GBJ,普通整流桥堆
-291,General Purpose Rectifier Bridge,GBJ2001,100,20,240,1.1,5,-,150,GBJ,普通整流桥堆
-292,General Purpose Rectifier Bridge,GBJ2002,200,20,240,1.1,5,-,150,GBJ,普通整流桥堆
-293,General Purpose Rectifier Bridge,GBJ2004,400,20,240,1.1,5,-,150,GBJ,普通整流桥堆
-294,General Purpose Rectifier Bridge,GBJ2006,600,20,240,1.1,5,-,150,GBJ,普通整流桥堆
-295,General Purpose Rectifier Bridge,GBJ2008,800,20,240,1.1,5,-,150,GBJ,普通整流桥堆
-296,General Purpose Rectifier Bridge,GBJ2010,1000,20,240,1.1,5,-,150,GBJ,普通整流桥堆
-297,General Purpose Rectifier Bridge,GBJ25005,50,25,350,1.1,5,-,150,GBJ,普通整流桥堆
-298,General Purpose Rectifier Bridge,GBJ2501,100,25,350,1.1,5,-,150,GBJ,普通整流桥堆
-299,General Purpose Rectifier Bridge,GBJ2502,200,25,350,1.1,5,-,150,GBJ,普通整流桥堆
-300,General Purpose Rectifier Bridge,GBJ2504,400,25,350,1.1,5,-,150,GBJ,普通整流桥堆
-301,General Purpose Rectifier Bridge,GBJ2506,600,25,350,1.1,5,-,150,GBJ,普通整流桥堆
-302,General Purpose Rectifier Bridge,GBJ2508,800,25,350,1.1,5,-,150,GBJ,普通整流桥堆
-303,General Purpose Rectifier Bridge,GBJ2510,1000,25,350,1.1,5,-,150,GBJ,普通整流桥堆
-304,General Purpose Rectifier Bridge,GBJ30005,50,30,350,1.1,5,-,150,GBJ,普通整流桥堆
-305,General Purpose Rectifier Bridge,GBJ3010,100,30,350,1.1,5,-,150,GBJ,普通整流桥堆
-306,General Purpose Rectifier Bridge,GBJ3020,200,30,350,1.1,5,-,150,GBJ,普通整流桥堆
-307,General Purpose Rectifier Bridge,GBJ3040,400,30,350,1.1,5,-,150,GBJ,普通整流桥堆
-308,General Purpose Rectifier Bridge,GBJ3060,600,30,350,1.1,5,-,150,GBJ,普通整流桥堆
-309,General Purpose Rectifier Bridge,GBJ3080,800,30,350,1.1,5,-,150,GBJ,普通整流桥堆
-310,General Purpose Rectifier Bridge,GBJ3010,1000,30,350,1.1,5,-,150,GBJ,普通整流桥堆
-311,General Purpose Rectifier Bridge,GBJ35005,50,35,350,1.1,5,-,150,GBJ,普通整流桥堆
-312,General Purpose Rectifier Bridge,GBJ3501,100,35,350,1.1,5,-,150,GBJ,普通整流桥堆
-313,General Purpose Rectifier Bridge,GBJ3502,200,35,350,1.1,5,-,150,GBJ,普通整流桥堆
-314,General Purpose Rectifier Bridge,GBJ3504,400,35,350,1.1,5,-,150,GBJ,普通整流桥堆
-315,General Purpose Rectifier Bridge,GBJ3506,600,35,350,1.1,5,-,150,GBJ,普通整流桥堆
-316,General Purpose Rectifier Bridge,GBJ3508,800,35,350,1.1,5,-,150,GBJ,普通整流桥堆
-317,General Purpose Rectifier Bridge,GBJ3510,1000,35,350,1.1,5,-,150,GBJ,普通整流桥堆
-318,General Purpose Rectifier Bridge,GBJ50005,50,50,400,1.1,5,-,150,GBJ,普通整流桥堆
-319,General Purpose Rectifier Bridge,GBJ5001,100,50,400,1.1,5,-,150,GBJ,普通整流桥堆
-320,General Purpose Rectifier Bridge,GBJ5002,200,50,400,1.1,5,-,150,GBJ,普通整流桥堆
-321,General Purpose Rectifier Bridge,GBJ5004,400,50,400,1.1,5,-,150,GBJ,普通整流桥堆
-322,General Purpose Rectifier Bridge,GBJ5006,600,50,400,1.1,5,-,150,GBJ,普通整流桥堆
-323,General Purpose Rectifier Bridge,GBJ5008,800,50,400,1.1,5,-,150,GBJ,普通整流桥堆
-324,General Purpose Rectifier Bridge,GBJ5010,1000,50,400,1.1,5,-,150,GBJ,普通整流桥堆
-325,General Purpose Rectifier Bridge,KBL401,100,4,80,1.1,5,-,150,KBL,普通整流桥堆
-326,General Purpose Rectifier Bridge,KBL402,200,4,80,1.1,5,-,150,KBL,普通整流桥堆
-327,General Purpose Rectifier Bridge,KBL404,400,4,80,1.1,5,-,150,KBL,普通整流桥堆
-328,General Purpose Rectifier Bridge,KBL406,600,4,80,1.1,5,-,150,KBL,普通整流桥堆
-329,General Purpose Rectifier Bridge,KBL408,800,4,80,1.1,5,-,150,KBL,普通整流桥堆
-330,General Purpose Rectifier Bridge,KBL410,1000,4,80,1.1,5,-,150,KBL,普通整流桥堆
-331,General Purpose Rectifier Bridge,KBL401G,100,4,120,1.1,5,-,150,KBL,普通整流桥堆
-332,General Purpose Rectifier Bridge,KBL402G,200,4,120,1.1,5,-,150,KBL,普通整流桥堆
-333,General Purpose Rectifier Bridge,KBL404G,400,4,120,1.1,5,-,150,KBL,普通整流桥堆
-334,General Purpose Rectifier Bridge,KBL406G,600,4,120,1.1,5,-,150,KBL,普通整流桥堆
-335,General Purpose Rectifier Bridge,KBL408G,800,4,120,1.1,5,-,150,KBL,普通整流桥堆
-336,General Purpose Rectifier Bridge,KBL410G,1000,4,120,1.1,5,-,150,KBL,普通整流桥堆
-337,General Purpose Retifier,1N4001,50,1,30,1,5,-,125,DO-41,普通整流二极管
-338,General Purpose Retifier,1N4002,100,1,30,1,5,-,125,DO-41,普通整流二极管
-339,General Purpose Retifier,1N4003,200,1,30,1,5,-,125,DO-41,普通整流二极管
-340,General Purpose Retifier,1N4004,400,1,30,1,5,-,125,DO-41,普通整流二极管
-341,General Purpose Retifier,1N4005,600,1,30,1,5,-,125,DO-41,普通整流二极管
-342,General Purpose Retifier,1N4006,800,1,30,1,5,-,125,DO-41,普通整流二极管
-343,General Purpose Retifier,1N4007,1000,1,30,1,5,-,125,DO-41,普通整流二极管
-344,General Purpose Retifier,1N4001G,50,1,30,1,5,-,150,DO-41,普通整流二极管
-345,General Purpose Retifier,1N4002G,100,1,30,1,5,-,150,DO-41,普通整流二极管
-346,General Purpose Retifier,1N4003G,200,1,30,1,5,-,150,DO-41,普通整流二极管
-347,General Purpose Retifier,1N4004G,400,1,30,1,5,-,150,DO-41,普通整流二极管
-348,General Purpose Retifier,1N4005G,600,1,30,1,5,-,150,DO-41,普通整流二极管
-349,General Purpose Retifier,1N4006G,800,1,30,1,5,-,150,DO-41,普通整流二极管
-350,General Purpose Retifier,1N4007G,1000,1,30,1,5,-,150,DO-41,普通整流二极管
-351,General Purpose Retifier,RL201,50,2,60,1,5,-,125,DO-15,普通整流二极管
-352,General Purpose Retifier,RL202,100,2,60,1,5,-,125,DO-15,普通整流二极管
-353,General Purpose Retifier,RL203,200,2,60,1,5,-,125,DO-15,普通整流二极管
-354,General Purpose Retifier,RL204,400,2,60,1,5,-,125,DO-15,普通整流二极管
-355,General Purpose Retifier,RL205,600,2,60,1,5,-,125,DO-15,普通整流二极管
-356,General Purpose Retifier,RL206,800,2,60,1,5,-,125,DO-15,普通整流二极管
-357,General Purpose Retifier,RL207,1000,2,60,1,5,-,125,DO-15,普通整流二极管
-358,General Purpose Retifier,RL201G,50,2,50,1,5,-,150,DO-15,普通整流二极管
-359,General Purpose Retifier,RL202G,100,2,50,1,5,-,150,DO-15,普通整流二极管
-360,General Purpose Retifier,RL203G,200,2,50,1,5,-,150,DO-15,普通整流二极管
-361,General Purpose Retifier,RL204G,400,2,50,1,5,-,150,DO-15,普通整流二极管
-362,General Purpose Retifier,RL205G,600,2,50,1,5,-,150,DO-15,普通整流二极管
-363,General Purpose Retifier,RL206G,800,2,50,1,5,-,150,DO-15,普通整流二极管
-364,General Purpose Retifier,RL207G,1000,2,50,1,5,-,150,DO-15,普通整流二极管
-365,General Purpose Retifier,1N5400,50,3,125,1,5,-,125,DO-201AD,普通整流二极管
-366,General Purpose Retifier,1N5401,100,3,125,1,5,-,125,DO-201AD,普通整流二极管
-367,General Purpose Retifier,1N5402,200,3,125,1,5,-,125,DO-201AD,普通整流二极管
-368,General Purpose Retifier,1N5404,400,3,125,1,5,-,125,DO-201AD,普通整流二极管
-369,General Purpose Retifier,1N5406,600,3,125,1,5,-,125,DO-201AD,普通整流二极管
-370,General Purpose Retifier,1N5407,800,3,125,1,5,-,125,DO-201AD,普通整流二极管
-371,General Purpose Retifier,1N5408,1000,3,125,1,5,-,125,DO-201AD,普通整流二极管
-372,General Purpose Retifier,1N5400G,50,3,125,1,5,-,150,DO-201AD,普通整流二极管
-373,General Purpose Retifier,1N5401G,100,3,125,1,5,-,150,DO-201AD,普通整流二极管
-374,General Purpose Retifier,1N5402G,200,3,125,1,5,-,150,DO-201AD,普通整流二极管
-375,General Purpose Retifier,1N5404G,400,3,125,1,5,-,150,DO-201AD,普通整流二极管
-376,General Purpose Retifier,1N5406G,600,3,125,1,5,-,150,DO-201AD,普通整流二极管
-377,General Purpose Retifier,1N5407G,800,3,125,1,5,-,150,DO-201AD,普通整流二极管
-378,General Purpose Retifier,1N5408G,1000,3,125,1,5,-,150,DO-201AD,普通整流二极管
-379,General Purpose Retifier,6A05,50,6,250,1,5,-,125,R-6,普通整流二极管
-380,General Purpose Retifier,6A1,100,6,250,1,5,-,125,R-6,普通整流二极管
-381,General Purpose Retifier,6A2,200,6,250,1,5,-,125,R-6,普通整流二极管
-382,General Purpose Retifier,6A4,400,6,250,1,5,-,125,R-6,普通整流二极管
-383,General Purpose Retifier,6A6,600,6,250,1,5,-,125,R-6,普通整流二极管
-384,General Purpose Retifier,6A8,800,6,250,1,5,-,125,R-6,普通整流二极管
-385,General Purpose Retifier,6A10,1000,6,250,1,5,-,125,R-6,普通整流二极管
-386,General Purpose Retifier,10A05,50,10,400,1,5,-,125,R-6,普通整流二极管
-387,General Purpose Retifier,10A1,100,10,400,1,5,-,125,R-6,普通整流二极管
-388,General Purpose Retifier,10A2,200,10,400,1,5,-,125,R-6,普通整流二极管
-389,General Purpose Retifier,10A4,400,10,400,1,5,-,125,R-6,普通整流二极管
-390,General Purpose Retifier,10A6,600,10,400,1,5,-,125,R-6,普通整流二极管
-391,General Purpose Retifier,10A8,800,10,400,1,5,-,125,R-6,普通整流二极管
-392,General Purpose Retifier,10A10,1000,10,400,1,5,-,125,R-6,普通整流二极管
-393,General Purpose Retifier,M1,50,1,30,1,5,-,150,SMA,普通整流二极管
-394,General Purpose Retifier,M2,100,1,30,1,5,-,150,SMA,普通整流二极管
-395,General Purpose Retifier,M3,200,1,30,1,5,-,150,SMA,普通整流二极管
-396,General Purpose Retifier,M4,400,1,30,1,5,-,150,SMA,普通整流二极管
-397,General Purpose Retifier,M5,600,1,30,1,5,-,150,SMA,普通整流二极管
-398,General Purpose Retifier,M6,800,1,30,1,5,-,150,SMA,普通整流二极管
-399,General Purpose Retifier,M7,1000,1,30,1,5,-,150,SMA,普通整流二极管
-400,General Purpose Retifier,GS1A,50,1,30,1,5,-,150,SMA,普通整流二极管
-401,General Purpose Retifier,GS1B,100,1,30,1,5,-,150,SMA,普通整流二极管
-402,General Purpose Retifier,GS1D,200,1,30,1,5,-,150,SMA,普通整流二极管
-403,General Purpose Retifier,GS1G,400,1,30,1,5,-,150,SMA,普通整流二极管
-404,General Purpose Retifier,GS1J,600,1,30,1,5,-,150,SMA,普通整流二极管
-405,General Purpose Retifier,GS1K,800,1,30,1,5,-,150,SMA,普通整流二极管
-406,General Purpose Retifier,GS1M,1000,1,30,1,5,-,150,SMA,普通整流二极管
-407,General Purpose Retifier,GS2A,50,2,50,1,5,-,150,SMA,普通整流二极管
-408,General Purpose Retifier,GS2B,100,2,50,1,5,-,150,SMA,普通整流二极管
-409,General Purpose Retifier,GS2D,200,2,50,1,5,-,150,SMA,普通整流二极管
-410,General Purpose Retifier,GS2G,400,2,50,1,5,-,150,SMA,普通整流二极管
-411,General Purpose Retifier,GS2J,600,2,50,1,5,-,150,SMA,普通整流二极管
-412,General Purpose Retifier,GS2K,800,2,50,1,5,-,150,SMA,普通整流二极管
-413,General Purpose Retifier,GS2M,1000,2,50,1,5,-,150,SMA,普通整流二极管
-414,General Purpose Retifier,S2A,50,2,50,1,5,-,150,SMB,普通整流二极管
-415,General Purpose Retifier,S2B,100,2,50,1,5,-,150,SMB,普通整流二极管
-416,General Purpose Retifier,S2D,200,2,50,1,5,-,150,SMB,普通整流二极管
-417,General Purpose Retifier,S2G,400,2,50,1,5,-,150,SMB,普通整流二极管
-418,General Purpose Retifier,S2J,600,2,50,1,5,-,150,SMB,普通整流二极管
-419,General Purpose Retifier,S2K,800,2,50,1,5,-,150,SMB,普通整流二极管
-420,General Purpose Retifier,S2M,1000,2,50,1,5,-,150,SMB,普通整流二极管
-421,General Purpose Retifier,S3A,50,3,100,1,5,-,150,SMB,普通整流二极管
-422,General Purpose Retifier,S3B,100,3,100,1,5,-,150,SMB,普通整流二极管
-423,General Purpose Retifier,S3D,200,3,100,1,5,-,150,SMB,普通整流二极管
-424,General Purpose Retifier,S3G,400,3,100,1,5,-,150,SMB,普通整流二极管
-425,General Purpose Retifier,S3J,600,3,100,1,5,-,150,SMB,普通整流二极管
-426,General Purpose Retifier,S3K,800,3,100,1,5,-,150,SMB,普通整流二极管
-427,General Purpose Retifier,S3M,1000,3,100,1,5,-,150,SMB,普通整流二极管
-428,General Purpose Retifier,A1,50,1,30,1,5,-,150,SOD-123FL,普通整流二极管
-429,General Purpose Retifier,A2,100,1,30,1,5,-,150,SOD-123FL,普通整流二极管
-430,General Purpose Retifier,A3,200,1,30,1,5,-,150,SOD-123FL,普通整流二极管
-431,General Purpose Retifier,A4,400,1,30,1,5,-,150,SOD-123FL,普通整流二极管
-432,General Purpose Retifier,A5,600,1,30,1,5,-,150,SOD-123FL,普通整流二极管
-433,General Purpose Retifier,A6,800,1,30,1,5,-,150,SOD-123FL,普通整流二极管
-434,General Purpose Retifier,A7,1000,1,30,1,5,-,150,SOD-123FL,普通整流二极管
-435,General Purpose Retifier,S1AF,50,1,30,1.1,5,-,150,SMAF,普通整流二极管
-436,General Purpose Retifier,S1BF,100,1,30,1.1,5,-,150,SMAF,普通整流二极管
-437,General Purpose Retifier,S1DF,200,1,30,1.1,5,-,150,SMAF,普通整流二极管
-438,General Purpose Retifier,S1GF,400,1,30,1.1,5,-,150,SMAF,普通整流二极管
-439,General Purpose Retifier,S1JF,600,1,30,1.1,5,-,150,SMAF,普通整流二极管
-440,General Purpose Retifier,S1KF,800,1,30,1.1,5,-,150,SMAF,普通整流二极管
-441,General Purpose Retifier,S1MF,1000,1,30,1.1,5,-,150,SMAF,普通整流二极管
-442,General Purpose Retifier,S2AF,50,2,60,1.1,5,-,150,SMAF,普通整流二极管
-443,General Purpose Retifier,S2BF,100,2,60,1.1,5,-,150,SMAF,普通整流二极管
-444,General Purpose Retifier,S2DF,200,2,60,1.1,5,-,150,SMAF,普通整流二极管
-445,General Purpose Retifier,S2GF,400,2,60,1.1,5,-,150,SMAF,普通整流二极管
-446,General Purpose Retifier,S2JF,600,2,60,1.1,5,-,150,SMAF,普通整流二极管
-447,General Purpose Retifier,S2KF,800,2,60,1.1,5,-,150,SMAF,普通整流二极管
-448,General Purpose Retifier,S2MF,1000,2,60,1.1,5,-,150,SMAF,普通整流二极管
-449,Fast Recovery Rectifier,FR101,50,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-450,Fast Recovery Rectifier,FR102,100,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-451,Fast Recovery Rectifier,FR103,200,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-452,Fast Recovery Rectifier,FR104,400,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-453,Fast Recovery Rectifier,FR105,600,1,30,1.3,5,250,150,DO-41,快恢复整流二极管
-454,Fast Recovery Rectifier,FR106,800,1,30,1.3,5,500,150,DO-41,快恢复整流二极管
-455,Fast Recovery Rectifier,FR107,1000,1,30,1.3,5,500,150,DO-41,快恢复整流二极管
-456,Fast Recovery Rectifier,FR101G,50,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-457,Fast Recovery Rectifier,FR102G,100,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-458,Fast Recovery Rectifier,FR103G,200,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-459,Fast Recovery Rectifier,FR104G,400,1,30,1.3,5,150,150,DO-41,快恢复整流二极管
-460,Fast Recovery Rectifier,FR105G,600,1,30,1.3,5,250,150,DO-41,快恢复整流二极管
-461,Fast Recovery Rectifier,FR106G,800,1,30,1.3,5,500,150,DO-41,快恢复整流二极管
-462,Fast Recovery Rectifier,FR107G,1000,1,30,1.3,5,500,150,DO-41,快恢复整流二极管
-463,Fast Recovery Rectifier,FR151,50,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-464,Fast Recovery Rectifier,FR152,100,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-465,Fast Recovery Rectifier,FR153,200,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-466,Fast Recovery Rectifier,FR154,400,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-467,Fast Recovery Rectifier,FR155,600,1.5,50,1.3,5,250,150,DO-15,快恢复整流二极管
-468,Fast Recovery Rectifier,FR156,800,1.5,50,1.3,5,500,150,DO-15,快恢复整流二极管
-469,Fast Recovery Rectifier,FR157,1000,1.5,50,1.3,5,500,150,DO-15,快恢复整流二极管
-470,Fast Recovery Rectifier,FR151G,50,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-471,Fast Recovery Rectifier,FR152G,100,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-472,Fast Recovery Rectifier,FR153G,200,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-473,Fast Recovery Rectifier,FR154G,400,1.5,50,1.3,5,150,150,DO-15,快恢复整流二极管
-474,Fast Recovery Rectifier,FR155G,600,1.5,50,1.3,5,250,150,DO-15,快恢复整流二极管
-475,Fast Recovery Rectifier,FR156G,800,1.5,50,1.3,5,500,150,DO-15,快恢复整流二极管
-476,Fast Recovery Rectifier,FR157G,1000,1.5,50,1.3,5,500,150,DO-15,快恢复整流二极管
-477,Fast Recovery Rectifier,FR201,50,2,60,1.3,5,150,150,DO-15,快恢复整流二极管
-478,Fast Recovery Rectifier,FR202,100,2,60,1.3,5,150,150,DO-15,快恢复整流二极管
-479,Fast Recovery Rectifier,FR203,200,2,60,1.3,5,150,150,DO-15,快恢复整流二极管
-480,Fast Recovery Rectifier,FR204,400,2,60,1.3,5,150,150,DO-15,快恢复整流二极管
-481,Fast Recovery Rectifier,FR205,600,2,60,1.3,5,250,150,DO-15,快恢复整流二极管
-482,Fast Recovery Rectifier,FR206,800,2,60,1.3,5,500,150,DO-15,快恢复整流二极管
-483,Fast Recovery Rectifier,FR207,1000,2,60,1.3,5,500,150,DO-15,快恢复整流二极管
-484,Fast Recovery Rectifier,FR201G,50,2,50,1.3,5,150,150,DO-15,快恢复整流二极管
-485,Fast Recovery Rectifier,FR202G,100,2,50,1.3,5,150,150,DO-15,快恢复整流二极管
-486,Fast Recovery Rectifier,FR203G,200,2,50,1.3,5,150,150,DO-15,快恢复整流二极管
-487,Fast Recovery Rectifier,FR204G,400,2,50,1.3,5,150,150,DO-15,快恢复整流二极管
-488,Fast Recovery Rectifier,FR205G,600,2,50,1.3,5,250,150,DO-15,快恢复整流二极管
-489,Fast Recovery Rectifier,FR206G,800,2,50,1.3,5,500,150,DO-15,快恢复整流二极管
-490,Fast Recovery Rectifier,FR207G,1000,2,50,1.3,5,500,150,DO-15,快恢复整流二极管
-491,Fast Recovery Rectifier,FR301,50,3,125,1.3,5,150,125,DO-201AD,快恢复整流二极管
-492,Fast Recovery Rectifier,FR302,100,3,125,1.3,5,150,125,DO-201AD,快恢复整流二极管
-493,Fast Recovery Rectifier,FR303,200,3,125,1.3,5,150,125,DO-201AD,快恢复整流二极管
-494,Fast Recovery Rectifier,FR304,400,3,125,1.3,5,150,125,DO-201AD,快恢复整流二极管
-495,Fast Recovery Rectifier,FR305,600,3,125,1.3,5,250,125,DO-201AD,快恢复整流二极管
-496,Fast Recovery Rectifier,FR306,800,3,125,1.3,5,500,125,DO-201AD,快恢复整流二极管
-497,Fast Recovery Rectifier,FR307,1000,3,125,1.3,5,500,125,DO-201AD,快恢复整流二极管
-498,Fast Recovery Rectifier,FR301G,50,3,125,1.3,5,150,150,DO-201AD,快恢复整流二极管
-499,Fast Recovery Rectifier,FR302G,100,3,125,1.3,5,150,150,DO-201AD,快恢复整流二极管
-500,Fast Recovery Rectifier,FR303G,200,3,125,1.3,5,150,150,DO-201AD,快恢复整流二极管
-501,Fast Recovery Rectifier,FR304G,400,3,125,1.3,5,150,150,DO-201AD,快恢复整流二极管
-502,Fast Recovery Rectifier,FR305G,600,3,125,1.3,5,250,150,DO-201AD,快恢复整流二极管
-503,Fast Recovery Rectifier,FR306G,800,3,125,1.3,5,500,150,DO-201AD,快恢复整流二极管
-504,Fast Recovery Rectifier,FR307G,1000,3,125,1.3,5,500,150,DO-201AD,快恢复整流二极管
-505,Fast Recovery Rectifier,RS1A,50,1,30,1.3,5,150,150,SMA,快恢复整流二极管
-506,Fast Recovery Rectifier,RS1B,100,1,30,1.3,5,150,150,SMA,快恢复整流二极管
-507,Fast Recovery Rectifier,RS1D,200,1,30,1.3,5,150,150,SMA,快恢复整流二极管
-508,Fast Recovery Rectifier,RS1G,400,1,30,1.3,5,150,150,SMA,快恢复整流二极管
-509,Fast Recovery Rectifier,RS1J,600,1,30,1.3,5,250,150,SMA,快恢复整流二极管
-510,Fast Recovery Rectifier,RS1K,800,1,30,1.3,5,500,150,SMA,快恢复整流二极管
-511,Fast Recovery Rectifier,RS1M,1000,1,30,1.3,5,500,150,SMA,快恢复整流二极管
-512,Fast Recovery Rectifier,RS2A,50,2,60,1.3,5,150,150,SMA,快恢复整流二极管
-513,Fast Recovery Rectifier,RS2B,100,2,60,1.3,5,150,150,SMA,快恢复整流二极管
-514,Fast Recovery Rectifier,RS2D,200,2,60,1.3,5,150,150,SMA,快恢复整流二极管
-515,Fast Recovery Rectifier,RS2G,400,2,60,1.3,5,150,150,SMA,快恢复整流二极管
-516,Fast Recovery Rectifier,RS2J,600,2,60,1.3,5,250,150,SMA,快恢复整流二极管
-517,Fast Recovery Rectifier,RS2K,800,2,60,1.3,5,500,150,SMA,快恢复整流二极管
-518,Fast Recovery Rectifier,RS2M,1000,2,60,1.3,5,500,150,SMA,快恢复整流二极管
-519,Fast Recovery Rectifier,RS1A,50,1,30,1.3,5,150,150,SMB,快恢复整流二极管
-520,Fast Recovery Rectifier,RS1B,100,1,30,1.3,5,150,150,SMB,快恢复整流二极管
-521,Fast Recovery Rectifier,RS1D,200,1,30,1.3,5,150,150,SMB,快恢复整流二极管
-522,Fast Recovery Rectifier,RS1G,400,1,30,1.3,5,150,150,SMB,快恢复整流二极管
-523,Fast Recovery Rectifier,RS1J,600,1,30,1.3,5,250,150,SMB,快恢复整流二极管
-524,Fast Recovery Rectifier,RS1K,800,1,30,1.3,5,500,150,SMB,快恢复整流二极管
-525,Fast Recovery Rectifier,RS1M,1000,1,30,1.3,5,500,150,SMB,快恢复整流二极管
-526,Fast Recovery Rectifier,RS2A,50,2,60,1.3,5,150,150,SMB,快恢复整流二极管
-527,Fast Recovery Rectifier,RS2B,100,2,60,1.3,5,150,150,SMB,快恢复整流二极管
-528,Fast Recovery Rectifier,RS2D,200,2,60,1.3,5,150,150,SMB,快恢复整流二极管
-529,Fast Recovery Rectifier,RS2G,400,2,60,1.3,5,150,150,SMB,快恢复整流二极管
-530,Fast Recovery Rectifier,RS2J,600,2,60,1.3,5,250,150,SMB,快恢复整流二极管
-531,Fast Recovery Rectifier,RS2K,800,2,60,1.3,5,500,150,SMB,快恢复整流二极管
-532,Fast Recovery Rectifier,RS2M,1000,2,60,1.3,5,500,150,SMB,快恢复整流二极管
-533,Fast Recovery Rectifier,RS3A,50,3,100,1.3,5,150,150,SMB,快恢复整流二极管
-534,Fast Recovery Rectifier,RS3B,100,3,100,1.3,5,150,150,SMB,快恢复整流二极管
-535,Fast Recovery Rectifier,RS3D,200,3,100,1.3,5,150,150,SMB,快恢复整流二极管
-536,Fast Recovery Rectifier,RS3G,400,3,100,1.3,5,150,150,SMB,快恢复整流二极管
-537,Fast Recovery Rectifier,RS3J,600,3,100,1.3,5,250,150,SMB,快恢复整流二极管
-538,Fast Recovery Rectifier,RS3K,800,3,100,1.3,5,500,150,SMB,快恢复整流二极管
-539,Fast Recovery Rectifier,RS3M,1000,3,100,1.3,5,500,150,SMB,快恢复整流二极管
-540,Fast Recovery Rectifier,F1A,50,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-541,Fast Recovery Rectifier,F1B,100,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-542,Fast Recovery Rectifier,F1D,200,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-543,Fast Recovery Rectifier,F1G,400,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-544,Fast Recovery Rectifier,F1J,600,1,30,1.3,5,250,150,SOD-123FL,快恢复整流二极管
-545,Fast Recovery Rectifier,F1K,800,1,30,1.3,5,500,150,SOD-123FL,快恢复整流二极管
-546,Fast Recovery Rectifier,F1M,1000,1,30,1.3,5,500,150,SOD-123FL,快恢复整流二极管
-547,Fast Recovery Rectifier,F1,50,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-548,Fast Recovery Rectifier,F2,100,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-549,Fast Recovery Rectifier,F3,200,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-550,Fast Recovery Rectifier,F4,400,1,30,1.3,5,150,150,SOD-123FL,快恢复整流二极管
-551,Fast Recovery Rectifier,F5,600,1,30,1.3,5,250,150,SOD-123FL,快恢复整流二极管
-552,Fast Recovery Rectifier,F6,800,1,30,1.3,5,50,150,SOD-123FL,快恢复整流二极管
-553,Fast Recovery Rectifier,F7,1000,1,30,1.3,5,50,150,SOD-123FL,快恢复整流二极管
-554,Fast Recovery Rectifier,RS1AF,50,1,30,1.3,5,150,150,SMAF,快恢复整流二极管
-555,Fast Recovery Rectifier,RS1BF,100,1,30,1.3,5,150,150,SMAF,快恢复整流二极管
-556,Fast Recovery Rectifier,RS1DF,200,1,30,1.3,5,150,150,SMAF,快恢复整流二极管
-557,Fast Recovery Rectifier,RS1GF,400,1,30,1.3,5,150,150,SMAF,快恢复整流二极管
-558,Fast Recovery Rectifier,RS1JF,600,1,30,1.3,5,250,150,SMAF,快恢复整流二极管
-559,Fast Recovery Rectifier,RS1KF,800,1,30,1.3,5,500,150,SMAF,快恢复整流二极管
-560,Fast Recovery Rectifier,RS1MF,1000,1,30,1.3,5,500,150,SMAF,快恢复整流二极管
-561,Fast Recovery Rectifier,RS2AF,50,2,60,1.3,5,150,150,SMAF,快恢复整流二极管
-562,Fast Recovery Rectifier,RS2BF,100,2,60,1.3,5,150,150,SMAF,快恢复整流二极管
-563,Fast Recovery Rectifier,RS2DF,200,2,60,1.3,5,150,150,SMAF,快恢复整流二极管
-564,Fast Recovery Rectifier,RS2GF,400,2,60,1.3,5,150,150,SMAF,快恢复整流二极管
-565,Fast Recovery Rectifier,RS2JF,600,2,60,1.3,5,250,150,SMAF,快恢复整流二极管
-566,Fast Recovery Rectifier,RS2KF,800,2,60,1.3,5,500,150,SMAF,快恢复整流二极管
-567,Fast Recovery Rectifier,RS2MF,1000,2,60,1.3,5,500,150,SMAF,快恢复整流二极管
-568,Super Fast Rectifier,SF11,50,1,30,0.95,5,35,125,DO-41,超快恢复二极管
-569,Super Fast Rectifier,SF12,100,1,30,0.95,5,35,125,DO-41,超快恢复二极管
-570,Super Fast Rectifier,SF13,150,1,30,0.95,5,35,125,DO-41,超快恢复二极管
-571,Super Fast Rectifier,SF14,200,1,30,0.95,5,35,125,DO-41,超快恢复二极管
-572,Super Fast Rectifier,SF15,300,1,30,1.25,5,35,125,DO-41,超快恢复二极管
-573,Super Fast Rectifier,SF16,400,1,30,1.25,5,35,125,DO-41,超快恢复二极管
-574,Super Fast Rectifier,SF18,600,1,30,1.7,5,35,125,DO-41,超快恢复二极管
-575,Super Fast Rectifier,SF11G,50,1,35,0.95,5,35,150,DO-41,超快恢复二极管
-576,Super Fast Rectifier,SF12G,100,1,35,0.95,5,35,150,DO-41,超快恢复二极管
-577,Super Fast Rectifier,SF13G,150,1,35,0.95,5,35,150,DO-41,超快恢复二极管
-578,Super Fast Rectifier,SF14G,200,1,35,0.95,5,35,150,DO-41,超快恢复二极管
-579,Super Fast Rectifier,SF15G,300,1,35,1.25,5,35,150,DO-41,超快恢复二极管
-580,Super Fast Rectifier,SF16G,400,1,35,1.25,5,35,150,DO-41,超快恢复二极管
-581,Super Fast Rectifier,SF18G,600,1,35,1.7,5,35,150,DO-41,超快恢复二极管
-582,Super Fast Rectifier,SF21,50,2,50,0.95,5,35,125,DO-15,超快恢复二极管
-583,Super Fast Rectifier,SF22,100,2,50,0.95,5,35,125,DO-15,超快恢复二极管
-584,Super Fast Rectifier,SF23,150,2,50,0.95,5,35,125,DO-15,超快恢复二极管
-585,Super Fast Rectifier,SF24,200,2,50,0.95,5,35,125,DO-15,超快恢复二极管
-586,Super Fast Rectifier,SF25,300,2,50,1.25,5,35,125,DO-15,超快恢复二极管
-587,Super Fast Rectifier,SF26,400,2,50,1.25,5,35,125,DO-15,超快恢复二极管
-588,Super Fast Rectifier,SF28,600,2,50,1.7,5,35,125,DO-15,超快恢复二极管
-589,Super Fast Rectifier,SF21G,50,2,50,0.95,5,35,150,DO-15,超快恢复二极管
-590,Super Fast Rectifier,SF22G,100,2,50,0.95,5,35,150,DO-15,超快恢复二极管
-591,Super Fast Rectifier,SF23G,150,2,50,0.95,5,35,150,DO-15,超快恢复二极管
-592,Super Fast Rectifier,SF24G,200,2,50,0.95,5,35,150,DO-15,超快恢复二极管
-593,Super Fast Rectifier,SF25G,300,2,50,1.25,5,35,150,DO-15,超快恢复二极管
-594,Super Fast Rectifier,SF26G,400,2,50,1.25,5,35,150,DO-15,超快恢复二极管
-595,Super Fast Rectifier,SF28G,600,2,50,1.7,5,35,150,DO-15,超快恢复二极管
-596,Super Fast Rectifier,SF31,50,3,125,0.95,5,35,125,DO-201AD,超快恢复二极管
-597,Super Fast Rectifier,SF32,100,3,125,0.95,5,35,125,DO-201AD,超快恢复二极管
-598,Super Fast Rectifier,SF33,150,3,125,0.95,5,35,125,DO-201AD,超快恢复二极管
-599,Super Fast Rectifier,SF34,200,3,125,0.95,5,35,125,DO-201AD,超快恢复二极管
-600,Super Fast Rectifier,SF35,300,3,125,1.25,5,35,125,DO-201AD,超快恢复二极管
-601,Super Fast Rectifier,SF36,400,3,125,1.25,5,35,125,DO-201AD,超快恢复二极管
-602,Super Fast Rectifier,SF38,600,3,125,1.7,5,35,125,DO-201AD,超快恢复二极管
-603,Super Fast Rectifier,SF31G,50,3,125,0.95,5,35,150,DO-201AD,超快恢复二极管
-604,Super Fast Rectifier,SF32G,100,3,125,0.95,5,35,150,DO-201AD,超快恢复二极管
-605,Super Fast Rectifier,SF33G,150,3,125,0.95,5,35,150,DO-201AD,超快恢复二极管
-606,Super Fast Rectifier,SF34G,200,3,125,0.95,5,35,150,DO-201AD,超快恢复二极管
-607,Super Fast Rectifier,SF35G,300,3,125,1.25,5,35,150,DO-201AD,超快恢复二极管
-608,Super Fast Rectifier,SF36G,400,3,125,1.25,5,35,150,DO-201AD,超快恢复二极管
-609,Super Fast Rectifier,SF38G,600,3,125,1.7,5,35,150,DO-201AD,超快恢复二极管
-610,Super Fast Rectifier,SF51,50,5,150,0.95,5,35,125,DO-201AD,超快恢复二极管
-611,Super Fast Rectifier,SF52,100,5,150,0.95,5,35,125,DO-201AD,超快恢复二极管
-612,Super Fast Rectifier,SF53,150,5,150,0.95,5,35,125,DO-201AD,超快恢复二极管
-613,Super Fast Rectifier,SF54,200,5,150,0.95,5,35,125,DO-201AD,超快恢复二极管
-614,Super Fast Rectifier,SF55,300,5,150,1.25,5,35,125,DO-201AD,超快恢复二极管
-615,Super Fast Rectifier,SF56,400,5,150,1.25,5,35,125,DO-201AD,超快恢复二极管
-616,Super Fast Rectifier,SF58,600,5,150,1.7,5,35,125,DO-201AD,超快恢复二极管
-617,Super Fast Rectifier,SF51G,50,5,150,0.95,5,35,150,DO-201AD,超快恢复二极管
-618,Super Fast Rectifier,SF52G,100,5,150,0.95,5,35,150,DO-201AD,超快恢复二极管
-619,Super Fast Rectifier,SF53G,150,5,150,0.95,5,35,150,DO-201AD,超快恢复二极管
-620,Super Fast Rectifier,SF54G,200,5,150,0.95,5,35,150,DO-201AD,超快恢复二极管
-621,Super Fast Rectifier,SF55G,300,5,150,1.25,5,35,150,DO-201AD,超快恢复二极管
-622,Super Fast Rectifier,SF56G,400,5,150,1.25,5,35,150,DO-201AD,超快恢复二极管
-623,Super Fast Rectifier,SF58G,600,5,150,1.7,5,35,150,DO-201AD,超快恢复二极管
-624,Super Fast Rectifier,ES1A,50,1,35,0.95,5,35,150,SMA,超快恢复二极管
-625,Super Fast Rectifier,ES1B,100,1,35,0.95,5,35,150,SMA,超快恢复二极管
-626,Super Fast Rectifier,ES1D,200,1,35,0.95,5,35,150,SMA,超快恢复二极管
-627,Super Fast Rectifier,ES1G,400,1,35,1.25,5,35,150,SMA,超快恢复二极管
-628,Super Fast Rectifier,ES1J,600,1,35,1.7,5,35,150,SMA,超快恢复二极管
-629,Super Fast Rectifier,ES2A,50,2,60,0.95,5,35,150,SMA,超快恢复二极管
-630,Super Fast Rectifier,ES2B,100,2,60,0.95,5,35,150,SMA,超快恢复二极管
-631,Super Fast Rectifier,ES2D,200,2,60,0.95,5,35,150,SMA,超快恢复二极管
-632,Super Fast Rectifier,ES2G,400,2,60,1.25,5,35,150,SMA,超快恢复二极管
-633,Super Fast Rectifier,ES2J,600,2,60,1.7,5,35,150,SMA,超快恢复二极管
-634,Super Fast Rectifier,ES1A,50,1,35,0.95,5,35,150,SMB,超快恢复二极管
-635,Super Fast Rectifier,ES1B,100,1,35,0.95,5,35,150,SMB,超快恢复二极管
-636,Super Fast Rectifier,ES1D,200,1,35,0.95,5,35,150,SMB,超快恢复二极管
-637,Super Fast Rectifier,ES1G,400,1,35,1.25,5,35,150,SMB,超快恢复二极管
-638,Super Fast Rectifier,ES1J,600,1,35,1.7,5,35,150,SMB,超快恢复二极管
-639,Super Fast Rectifier,ES2A,50,2,60,0.95,5,35,150,SMB,超快恢复二极管
-640,Super Fast Rectifier,ES2B,100,2,60,0.95,5,35,150,SMB,超快恢复二极管
-641,Super Fast Rectifier,ES2D,200,2,60,0.95,5,35,150,SMB,超快恢复二极管
-642,Super Fast Rectifier,ES2G,400,2,60,1.25,5,35,150,SMB,超快恢复二极管
-643,Super Fast Rectifier,ES2J,600,2,60,1.7,5,35,150,SMB,超快恢复二极管
-644,Super Fast Rectifier,ES3A,50,3,100,0.95,5,35,150,SMB,超快恢复二极管
-645,Super Fast Rectifier,ES3B,100,3,100,0.95,5,35,150,SMB,超快恢复二极管
-646,Super Fast Rectifier,ES3D,200,3,100,0.95,5,35,150,SMB,超快恢复二极管
-647,Super Fast Rectifier,ES3G,400,3,100,1.25,5,35,150,SMB,超快恢复二极管
-648,Super Fast Rectifier,ES3J,600,3,100,1.7,5,35,150,SMB,超快恢复二极管
-649,Super Fast Rectifier,E1,50,1,30,0.95,5,35,150,SOD-123FL,超快恢复二极管
-650,Super Fast Rectifier,E2,100,1,30,0.95,5,35,150,SOD-123FL,超快恢复二极管
-651,Super Fast Rectifier,E4,200,1,30,0.95,5,35,150,SOD-123FL,超快恢复二极管
-652,Super Fast Rectifier,E6,400,1,30,1.25,5,35,150,SOD-123FL,超快恢复二极管
-653,Super Fast Rectifier,E7,600,1,30,1.7,5,35,150,SOD-123FL,超快恢复二极管
-654,Super Fast Rectifier,ES1AF,50,1,35,0.95,5,35,150,SMAF,超快恢复二极管
-655,Super Fast Rectifier,ES1BF,100,1,35,0.95,5,35,150,SMAF,超快恢复二极管
-656,Super Fast Rectifier,ES1DF,200,1,35,0.95,5,35,150,SMAF,超快恢复二极管
-657,Super Fast Rectifier,ES1GF,400,1,35,1.25,5,35,150,SMAF,超快恢复二极管
-658,Super Fast Rectifier,ES1JF,600,1,35,1.7,5,35,150,SMAF,超快恢复二极管
-659,Super Fast Rectifier,ES2AF,50,2,60,0.95,5,35,150,SMAF,超快恢复二极管
-660,Super Fast Rectifier,ES2BF,100,2,60,0.95,5,35,150,SMAF,超快恢复二极管
-661,Super Fast Rectifier,ES2DF,200,2,60,0.95,5,35,150,SMAF,超快恢复二极管
-662,Super Fast Rectifier,ES2GF,400,2,60,1.25,5,35,150,SMAF,超快恢复二极管
-663,Super Fast Rectifier,ES2JF,600,2,60,1.7,5,35,150,SMAF,超快恢复二极管
-664,High Efficient Rectifier,HER101,50,1,30,1,5,50,125,DO-41,高效率二极管
-665,High Efficient Rectifier,HER102,100,1,30,1,5,50,125,DO-41,高效率二极管
-666,High Efficient Rectifier,HER103,200,1,30,1,5,50,125,DO-41,高效率二极管
-667,High Efficient Rectifier,HER104,300,1,30,1.3,5,50,125,DO-41,高效率二极管
-668,High Efficient Rectifier,HER105,400,1,30,1.3,5,50,125,DO-41,高效率二极管
-669,High Efficient Rectifier,HER106,600,1,30,1.7,5,75,125,DO-41,高效率二极管
-670,High Efficient Rectifier,HER107,800,1,30,1.7,5,75,125,DO-41,高效率二极管
-671,High Efficient Rectifier,HER108,1000,1,30,1.7,5,75,125,DO-41,高效率二极管
-672,High Efficient Rectifier,HER101G,50,1,35,1,5,50,150,DO-41,高效率二极管
-673,High Efficient Rectifier,HER102G,100,1,35,1,5,50,150,DO-41,高效率二极管
-674,High Efficient Rectifier,HER103G,200,1,35,1,5,50,150,DO-41,高效率二极管
-675,High Efficient Rectifier,HER104G,300,1,35,1.3,5,50,150,DO-41,高效率二极管
-676,High Efficient Rectifier,HER105G,400,1,35,1.3,5,50,150,DO-41,高效率二极管
-677,High Efficient Rectifier,HER106G,600,1,35,1.7,5,75,150,DO-41,高效率二极管
-678,High Efficient Rectifier,HER107G,800,1,35,1.7,5,75,150,DO-41,高效率二极管
-679,High Efficient Rectifier,HER108G,1000,1,35,1.7,5,75,150,DO-41,高效率二极管
-680,High Efficient Rectifier,MUR105,50,1,30,0.9,5,25,125,DO-41,高效率二极管
-681,High Efficient Rectifier,MUR110,100,1,30,0.9,5,25,125,DO-41,高效率二极管
-682,High Efficient Rectifier,MUR120,200,1,30,0.9,5,25,125,DO-41,高效率二极管
-683,High Efficient Rectifier,MUR140,400,1,30,1.25,5,50,125,DO-41,高效率二极管
-684,High Efficient Rectifier,MUR150,500,1,30,1.25,5,50,125,DO-41,高效率二极管
-685,High Efficient Rectifier,MUR160,600,1,30,1.25,5,50,125,DO-41,高效率二极管
-686,High Efficient Rectifier,MUR105G,50,1,30,0.9,5,25,125,DO-41,高效率二极管
-687,High Efficient Rectifier,MUR110G,100,1,30,0.9,5,25,125,DO-41,高效率二极管
-688,High Efficient Rectifier,MUR120G,200,1,30,0.9,5,25,150,DO-41,高效率二极管
-689,High Efficient Rectifier,MUR140G,400,1,30,1.25,5,50,150,DO-41,高效率二极管
-690,High Efficient Rectifier,MUR150G,500,1,30,1.25,5,50,150,DO-41,高效率二极管
-691,High Efficient Rectifier,MUR160G,600,1,30,1.25,5,50,150,DO-41,高效率二极管
-692,High Efficient Rectifier,UF4001,50,1,30,1,5,50,125,DO-41,高效率二极管
-693,High Efficient Rectifier,UF4002,100,1,30,1,5,50,125,DO-41,高效率二极管
-694,High Efficient Rectifier,UF4003,200,1,30,1,5,50,125,DO-41,高效率二极管
-695,High Efficient Rectifier,UF4004,400,1,30,1,5,50,125,DO-41,高效率二极管
-696,High Efficient Rectifier,UF4005,600,1,30,1.7,5,75,125,DO-41,高效率二极管
-697,High Efficient Rectifier,UF4006,800,1,30,1.7,5,75,125,DO-41,高效率二极管
-698,High Efficient Rectifier,UF4007,1000,1,30,1.7,5,75,125,DO-41,高效率二极管
-699,High Efficient Rectifier,UF4001G,50,1,30,1,5,50,150,DO-41,高效率二极管
-700,High Efficient Rectifier,UF4002G,100,1,30,1,5,50,150,DO-41,高效率二极管
-701,High Efficient Rectifier,UF4003G,200,1,30,1,5,50,150,DO-41,高效率二极管
-702,High Efficient Rectifier,UF4004G,400,1,30,1,5,50,150,DO-41,高效率二极管
-703,High Efficient Rectifier,UF4005G,600,1,30,1.7,5,75,150,DO-41,高效率二极管
-704,High Efficient Rectifier,UF4006G,800,1,30,1.7,5,75,150,DO-41,高效率二极管
-705,High Efficient Rectifier,UF4007G,1000,1,30,1.7,5,75,150,DO-41,高效率二极管
-706,High Efficient Rectifier,HER201,50,2,60,1,5,50,125,DO-15,高效率二极管
-707,High Efficient Rectifier,HER202,100,2,60,1,5,50,125,DO-15,高效率二极管
-708,High Efficient Rectifier,HER203,200,2,60,1,5,50,125,DO-15,高效率二极管
-709,High Efficient Rectifier,HER204,300,2,60,1.3,5,50,125,DO-15,高效率二极管
-710,High Efficient Rectifier,HER205,400,2,60,1.3,5,50,125,DO-15,高效率二极管
-711,High Efficient Rectifier,HER206,600,2,60,1.7,5,75,125,DO-15,高效率二极管
-712,High Efficient Rectifier,HER207,800,2,60,1.7,5,75,125,DO-15,高效率二极管
-713,High Efficient Rectifier,HER208,1000,2,60,1.7,5,75,125,DO-15,高效率二极管
-714,High Efficient Rectifier,HER201G,50,2,50,1,5,50,150,DO-15,高效率二极管
-715,High Efficient Rectifier,HER202G,100,2,50,1,5,50,150,DO-15,高效率二极管
-716,High Efficient Rectifier,HER203G,200,2,50,1,5,50,150,DO-15,高效率二极管
-717,High Efficient Rectifier,HER204G,300,2,50,1.3,5,50,150,DO-15,高效率二极管
-718,High Efficient Rectifier,HER205G,400,2,50,1.3,5,50,150,DO-15,高效率二极管
-719,High Efficient Rectifier,HER206G,600,2,50,1.7,5,75,150,DO-15,高效率二极管
-720,High Efficient Rectifier,HER207G,800,2,50,1.7,5,75,150,DO-15,高效率二极管
-721,High Efficient Rectifier,HER208G,1000,2,50,1.7,5,75,150,DO-15,高效率二极管
-722,High Efficient Rectifier,MUR205,50,2,50,0.9,5,25,125,DO-15,高效率二极管
-723,High Efficient Rectifier,MUR210,100,2,50,0.9,5,25,125,DO-15,高效率二极管
-724,High Efficient Rectifier,MUR220,200,2,50,0.9,5,25,125,DO-15,高效率二极管
-725,High Efficient Rectifier,MUR240,400,2,30,1.3,5,50,125,DO-15,高效率二极管
-726,High Efficient Rectifier,MUR250,400,2,30,1.3,5,50,150,DO-15,高效率二极管
-727,High Efficient Rectifier,MUR260,600,2,30,1.3,5,50,125,DO-15,高效率二极管
-728,High Efficient Rectifier,MUR205G,50,2,50,0.9,5,25,150,DO-15,高效率二极管
-729,High Efficient Rectifier,MUR210G,100,2,50,0.9,5,25,150,DO-15,高效率二极管
-730,High Efficient Rectifier,MUR220G,200,2,50,0.9,5,25,150,DO-15,高效率二极管
-731,High Efficient Rectifier,MUR240G,400,2,50,1.3,5,50,150,DO-15,高效率二极管
-732,High Efficient Rectifier,MUR250G,400,2,50,1.3,5,50,150,DO-15,高效率二极管
-733,High Efficient Rectifier,MUR260G,600,2,50,1.3,5,50,150,DO-15,高效率二极管
-734,High Efficient Rectifier,HER301,50,3,125,1,5,50,125,DO-201AD,高效率二极管
-735,High Efficient Rectifier,HER302,100,3,125,1,5,50,125,DO-201AD,高效率二极管
-736,High Efficient Rectifier,HER303,200,3,125,1,5,50,125,DO-201AD,高效率二极管
-737,High Efficient Rectifier,HER304,300,3,125,1.3,5,50,125,DO-201AD,高效率二极管
-738,High Efficient Rectifier,HER305,400,3,125,1.3,5,50,125,DO-201AD,高效率二极管
-739,High Efficient Rectifier,HER306,600,3,125,1.7,5,75,125,DO-201AD,高效率二极管
-740,High Efficient Rectifier,HER307,800,3,125,1.7,5,75,125,DO-201AD,高效率二极管
-741,High Efficient Rectifier,HER308,1000,3,125,1.7,5,75,125,DO-201AD,高效率二极管
-742,High Efficient Rectifier,HER301G,50,3,125,1,5,50,150,DO-201AD,高效率二极管
-743,High Efficient Rectifier,HER302G,100,3,125,1,5,50,150,DO-201AD,高效率二极管
-744,High Efficient Rectifier,HER303G,200,3,125,1,5,50,150,DO-201AD,高效率二极管
-745,High Efficient Rectifier,HER304G,300,3,125,1.3,5,50,150,DO-201AD,高效率二极管
-746,High Efficient Rectifier,HER305G,400,3,125,1.3,5,50,150,DO-201AD,高效率二极管
-747,High Efficient Rectifier,HER306G,600,3,125,1.7,5,75,150,DO-201AD,高效率二极管
-748,High Efficient Rectifier,HER307G,800,3,125,1.7,5,75,150,DO-201AD,高效率二极管
-749,High Efficient Rectifier,HER308G,1000,3,125,1.7,5,75,150,DO-201AD,高效率二极管
-750,High Efficient Rectifier,MUR410,100,4,125,1.35,5,50,125,DO-201AD,高效率二极管
-751,High Efficient Rectifier,MUR420,200,4,125,1.35,5,50,125,DO-201AD,高效率二极管
-752,High Efficient Rectifier,MUR430,300,4,125,1.35,5,50,125,DO-201AD,高效率二极管
-753,High Efficient Rectifier,MUR440,400,4,125,1.35,5,50,125,DO-201AD,高效率二极管
-754,High Efficient Rectifier,MUR460,600,4,125,1.35,5,50,125,DO-201AD,高效率二极管
-755,High Efficient Rectifier,MUR480,800,4,125,1.7,5,75,125,DO-201AD,高效率二极管
-756,High Efficient Rectifier,MUR4100,1000,4,125,1.7,5,75,125,DO-201AD,高效率二极管
-757,High Efficient Rectifier,MUR410G,100,4,125,1.35,5,50,150,DO-201AD,高效率二极管
-758,High Efficient Rectifier,MUR420G,200,4,125,1.35,5,50,150,DO-201AD,高效率二极管
-759,High Efficient Rectifier,MUR430G,300,4,125,1.35,5,50,150,DO-201AD,高效率二极管
-760,High Efficient Rectifier,MUR440G,400,4,125,1.35,5,50,150,DO-201AD,高效率二极管
-761,High Efficient Rectifier,MUR460G,600,4,125,1.35,5,50,150,DO-201AD,高效率二极管
-762,High Efficient Rectifier,MUR480G,800,4,125,1.7,5,75,150,DO-201AD,高效率二极管
-763,High Efficient Rectifier,MUR4100G,1000,4,125,1.7,5,75,150,DO-201AD,高效率二极管
-764,High Efficient Rectifier,UF5400,50,3,125,1,5,50,125,DO-201AD,高效率二极管
-765,High Efficient Rectifier,UF5401,100,3,125,1,5,50,125,DO-201AD,高效率二极管
-766,High Efficient Rectifier,UF5402,200,3,125,1,5,50,125,DO-201AD,高效率二极管
-767,High Efficient Rectifier,UF5404,400,3,125,1.3,5,50,125,DO-201AD,高效率二极管
-768,High Efficient Rectifier,UF5406,600,3,125,1.7,5,75,125,DO-201AD,高效率二极管
-769,High Efficient Rectifier,UF5407,800,3,125,1.7,5,75,125,DO-201AD,高效率二极管
-770,High Efficient Rectifier,UF5408,1000,3,125,1.7,5,75,125,DO-201AD,高效率二极管
-771,High Efficient Rectifier,UF5400G,50,3,125,1,5,50,150,DO-201AD,高效率二极管
-772,High Efficient Rectifier,UF5401G,100,3,125,1,5,50,150,DO-201AD,高效率二极管
-773,High Efficient Rectifier,UF5402G,200,3,125,1,5,50,150,DO-201AD,高效率二极管
-774,High Efficient Rectifier,UF5404G,400,3,125,1.3,5,50,150,DO-201AD,高效率二极管
-775,High Efficient Rectifier,UF5406G,600,3,125,1.7,5,75,150,DO-201AD,高效率二极管
-776,High Efficient Rectifier,UF5407G,800,3,125,1.7,5,75,150,DO-201AD,高效率二极管
-777,High Efficient Rectifier,UF5408G,1000,3,125,1.7,5,75,150,DO-201AD,高效率二极管
-778,High Efficient Rectifier,US1A,50,1,30,1,5,50,150,SMA,高效率二极管
-779,High Efficient Rectifier,US1B,100,1,30,1,5,50,150,SMA,高效率二极管
-780,High Efficient Rectifier,US1D,200,1,30,1,5,50,150,SMA,高效率二极管
-781,High Efficient Rectifier,US1G,400,1,30,1.3,5,50,150,SMA,高效率二极管
-782,High Efficient Rectifier,US1J,600,1,30,1.7,5,75,150,SMA,高效率二极管
-783,High Efficient Rectifier,US1K,800,1,30,1.7,5,75,150,SMA,高效率二极管
-784,High Efficient Rectifier,US1M,1000,1,30,1.7,5,75,150,SMA,高效率二极管
-785,High Efficient Rectifier,US2A,50,2,60,1,5,50,150,SMA,高效率二极管
-786,High Efficient Rectifier,US2B,100,2,60,1,5,50,150,SMA,高效率二极管
-787,High Efficient Rectifier,US2D,200,2,60,1,5,50,150,SMA,高效率二极管
-788,High Efficient Rectifier,US2G,400,2,60,1.3,5,50,150,SMA,高效率二极管
-789,High Efficient Rectifier,US2J,600,2,60,1.7,5,75,150,SMA,高效率二极管
-790,High Efficient Rectifier,US2K,800,2,60,1.7,5,75,150,SMA,高效率二极管
-791,High Efficient Rectifier,US2M,1000,2,60,1.7,5,75,150,SMA,高效率二极管
-792,High Efficient Rectifier,US1A,50,1,30,1,5,50,150,SMB,高效率二极管
-793,High Efficient Rectifier,US1B,100,1,30,1,5,50,150,SMB,高效率二极管
-794,High Efficient Rectifier,US1D,200,1,30,1,5,50,150,SMB,高效率二极管
-795,High Efficient Rectifier,US1G,400,1,30,1.3,5,50,150,SMB,高效率二极管
-796,High Efficient Rectifier,US1J,600,1,30,1.7,5,75,150,SMB,高效率二极管
-797,High Efficient Rectifier,US1K,800,1,30,1.7,5,75,150,SMB,高效率二极管
-798,High Efficient Rectifier,US1M,1000,1,30,1.7,5,75,150,SMB,高效率二极管
-799,High Efficient Rectifier,US2A,50,2,60,1,5,50,150,SMB,高效率二极管
-800,High Efficient Rectifier,US2B,100,2,60,1,5,50,150,SMB,高效率二极管
-801,High Efficient Rectifier,US2D,200,2,60,1,5,50,150,SMB,高效率二极管
-802,High Efficient Rectifier,US2G,400,2,60,1.3,5,50,150,SMB,高效率二极管
-803,High Efficient Rectifier,US2J,600,2,60,1.7,5,75,150,SMB,高效率二极管
-804,High Efficient Rectifier,US2K,800,2,60,1.7,5,75,150,SMB,高效率二极管
-805,High Efficient Rectifier,US2M,1000,2,60,1.7,5,75,150,SMB,高效率二极管
-806,High Efficient Rectifier,US3A,50,3,100,1,5,50,150,SMB,高效率二极管
-807,High Efficient Rectifier,US3B,100,3,100,1,5,50,150,SMB,高效率二极管
-808,High Efficient Rectifier,US3D,200,3,100,1,5,50,150,SMB,高效率二极管
-809,High Efficient Rectifier,US3G,400,3,100,1.3,5,50,150,SMB,高效率二极管
-810,High Efficient Rectifier,US3J,600,3,100,1.7,5,75,150,SMB,高效率二极管
-811,High Efficient Rectifier,US3K,800,3,100,1.7,5,75,150,SMB,高效率二极管
-812,High Efficient Rectifier,US3M,1000,3,100,1.7,5,75,150,SMB,高效率二极管
-813,High Efficient Rectifier,US1A,50,1,30,1,5,50,150,SOD-123FL,高效率二极管
-814,High Efficient Rectifier,US1B,100,1,30,1,5,50,150,SOD-123FL,高效率二极管
-815,High Efficient Rectifier,US1D,200,1,30,1,5,50,150,SOD-123FL,高效率二极管
-816,High Efficient Rectifier,US1G,400,1,30,1.3,5,50,150,SOD-123FL,高效率二极管
-817,High Efficient Rectifier,US1J,600,1,30,1.7,5,75,150,SOD-123FL,高效率二极管
-818,High Efficient Rectifier,US1K,800,1,30,1.7,5,75,150,SOD-123FL,高效率二极管
-819,High Efficient Rectifier,US1M,1000,1,30,1.7,5,75,150,SOD-123FL,高效率二极管
-820,High Efficient Rectifier,US1AF,50,1,30,1,5,50,150,SMAF,高效率二极管
-821,High Efficient Rectifier,US1BF,100,1,30,1,5,50,150,SMAF,高效率二极管
-822,High Efficient Rectifier,US1DF,200,1,30,1,5,50,150,SMAF,高效率二极管
-823,High Efficient Rectifier,US1GF,400,1,30,1.3,5,50,150,SMAF,高效率二极管
-824,High Efficient Rectifier,US1JF,600,1,30,1.7,5,75,150,SMAF,高效率二极管
-825,High Efficient Rectifier,US1KF,800,1,30,1.7,5,75,150,SMAF,高效率二极管
-826,High Efficient Rectifier,US1MF,1000,1,30,1.7,5,75,150,SMAF,高效率二极管
-827,High Efficient Rectifier,US2AF,50,2,60,1,5,50,150,SMAF,高效率二极管
-828,High Efficient Rectifier,US2BF,100,2,60,1,5,50,150,SMAF,高效率二极管
-829,High Efficient Rectifier,US2DF,200,2,60,1,5,50,150,SMAF,高效率二极管
-830,High Efficient Rectifier,US2GF,400,2,60,1.3,5,50,150,SMAF,高效率二极管
-831,High Efficient Rectifier,US2JF,600,2,60,1.7,5,75,150,SMAF,高效率二极管
-832,High Efficient Rectifier,US2KF,800,2,60,1.7,5,75,150,SMAF,高效率二极管
-833,High Efficient Rectifier,US2MF,1000,2,60,1.7,5,75,150,SMAF,高效率二极管
-834,Schottky,SR120,20,1,30,0.55,100,-,150,DO-41,肖特基
-835,Schottky,SR130,30,1,30,0.55,100,-,150,DO-41,肖特基
-836,Schottky,SR140,40,1,30,0.55,100,-,150,DO-41,肖特基
-837,Schottky,SR145,45,1,30,0.55,100,-,150,DO-41,肖特基
-838,Schottky,SR150,50,1,30,0.7,100,-,150,DO-41,肖特基
-839,Schottky,SR160,60,1,30,0.7,100,-,150,DO-41,肖特基
-840,Schottky,SR180,80,1,30,0.85,50,-,150,DO-41,肖特基
-841,Schottky,SR1100,100,1,30,0.85,50,-,150,DO-41,肖特基
-842,Schottky,SR1150,150,1,30,0.92,50,-,150,DO-41,肖特基
-843,Schottky,SR1200,200,1,30,0.92,50,-,150,DO-41,肖特基
-844,Schottky,SR1250,250,1,30,0.95,50,-,150,DO-41,肖特基
-845,Schottky,1N5817,20,1,25,0.45,100,-,150,DO-41,肖特基
-846,Schottky,1N5818,30,1,25,0.55,100,-,150,DO-41,肖特基
-847,Schottky,1N5819,40,1,25,0.6,100,-,150,DO-41,肖特基
-848,Schottky,SR220,20,2,60,0.55,100,-,150,DO-15,肖特基
-849,Schottky,SR230,30,2,60,0.55,100,-,150,DO-15,肖特基
-850,Schottky,SR240,40,2,60,0.55,100,-,150,DO-15,肖特基
-851,Schottky,SR245,45,2,60,0.55,100,-,150,DO-15,肖特基
-852,Schottky,SR250,50,2,60,0.7,100,-,150,DO-15,肖特基
-853,Schottky,SR260,60,2,60,0.7,100,-,150,DO-15,肖特基
-854,Schottky,SR280,80,2,60,0.85,50,-,150,DO-15,肖特基
-855,Schottky,SR2100,100,2,60,0.85,50,-,150,DO-15,肖特基
-856,Schottky,SR2150,150,2,60,0.92,50,-,150,DO-15,肖特基
-857,Schottky,SR2200,200,2,60,0.92,50,-,150,DO-15,肖特基
-858,Schottky,SR2250,250,2,60,0.95,50,-,150,DO-15,肖特基
-859,Schottky,1N5820,20,3,80,0.55,100,-,150,DO-201AD,肖特基
-860,Schottky,1N5821,30,3,80,0.55,100,-,150,DO-201AD,肖特基
-861,Schottky,1N5822,40,3,80,0.55,100,-,150,DO-201AD,肖特基
-862,Schottky,SR320,20,3,80,0.55,100,-,150,DO-201AD,肖特基
-863,Schottky,SR330,30,3,80,0.55,100,-,150,DO-201AD,肖特基
-864,Schottky,SR340,40,3,80,0.55,100,-,150,DO-201AD,肖特基
-865,Schottky,SR345,45,3,80,0.55,100,-,150,DO-201AD,肖特基
-866,Schottky,SR350,50,3,80,0.7,100,-,150,DO-201AD,肖特基
-867,Schottky,SR360,60,3,80,0.7,100,-,150,DO-201AD,肖特基
-868,Schottky,SR380,80,3,80,0.85,50,-,150,DO-201AD,肖特基
-869,Schottky,SR3100,100,3,80,0.85,50,-,150,DO-201AD,肖特基
-870,Schottky,SR3150,150,3,80,0.92,50,-,150,DO-201AD,肖特基
-871,Schottky,SR3200,200,3,80,0.92,50,-,150,DO-201AD,肖特基
-872,Schottky,SR3250,250,3,80,0.95,50,-,150,DO-201AD,肖特基
-873,Schottky,SR520,20,5,120,0.55,200,-,150,DO-201AD,肖特基
-874,Schottky,SR530,30,5,120,0.55,200,-,150,DO-201AD,肖特基
-875,Schottky,SR540,40,5,120,0.55,200,-,150,DO-201AD,肖特基
-876,Schottky,SR545,45,5,120,0.55,200,-,150,DO-201AD,肖特基
-877,Schottky,SR550,50,5,120,0.7,200,-,150,DO-201AD,肖特基
-878,Schottky,SR560,60,5,120,0.7,200,-,150,DO-201AD,肖特基
-879,Schottky,SR580,80,5,120,0.85,50,-,150,DO-201AD,肖特基
-880,Schottky,SR5100,100,5,120,0.85,50,-,150,DO-201AD,肖特基
-881,Schottky,SR5150,150,5,120,0.92,50,-,150,DO-201AD,肖特基
-882,Schottky,SR5200,200,5,120,0.92,50,-,150,DO-201AD,肖特基
-883,Schottky,SR820,20,8,150,0.55,300,-,150,DO-201AD,肖特基
-884,Schottky,SR830,30,8,150,0.55,300,-,150,DO-201AD,肖特基
-885,Schottky,SR840,40,8,150,0.55,300,-,150,DO-201AD,肖特基
-886,Schottky,SR845,45,8,150,0.55,300,-,150,DO-201AD,肖特基
-887,Schottky,SR850,50,8,150,0.7,300,-,150,DO-201AD,肖特基
-888,Schottky,SR860,60,8,150,0.7,300,-,150,DO-201AD,肖特基
-889,Schottky,SR880,80,8,150,0.85,50,-,150,DO-201AD,肖特基
-890,Schottky,SR8100,100,8,150,0.85,50,-,150,DO-201AD,肖特基
-891,Schottky,SR8150,150,8,150,0.92,50,-,150,DO-201AD,肖特基
-892,Schottky,SR8200,200,8,150,0.92,50,-,150,DO-201AD,肖特基
-893,Schottky,SR1020,20,10,150,0.55,300,-,150,DO-201AD,肖特基
-894,Schottky,SR1030,30,10,150,0.55,300,-,150,DO-201AD,肖特基
-895,Schottky,SR1040,40,10,150,0.55,300,-,150,DO-201AD,肖特基
-896,Schottky,SR1045,45,10,150,0.55,300,-,150,DO-201AD,肖特基
-897,Schottky,SR1050,50,10,150,0.7,300,-,150,DO-201AD,肖特基
-898,Schottky,SR1060,60,10,150,0.7,300,-,150,DO-201AD,肖特基
-899,Schottky,SR1080,80,10,150,0.85,50,-,150,DO-201AD,肖特基
-900,Schottky,SR10100,100,10,150,0.85,50,-,150,DO-201AD,肖特基
-901,Schottky,SR10150,150,10,150,0.92,50,-,150,DO-201AD,肖特基
-902,Schottky,SR10200,200,10,150,0.92,50,-,150,DO-201AD,肖特基
-903,Schottky,SS12,20,1,60,0.55,100,-,150,SMA,肖特基
-904,Schottky,SS13,30,1,60,0.55,100,-,150,SMA,肖特基
-905,Schottky,SS14,40,1,60,0.55,100,-,150,SMA,肖特基
-906,Schottky,SS145,45,1,60,0.55,100,-,150,SMA,肖特基
-907,Schottky,SS15,50,1,60,0.7,100,-,150,SMA,肖特基
-908,Schottky,SS16,60,1,60,0.7,100,-,150,SMA,肖特基
-909,Schottky,SS18,80,1,60,0.85,50,-,150,SMA,肖特基
-910,Schottky,SS110,100,1,60,0.85,50,-,150,SMA,肖特基
-911,Schottky,SS115,150,1,60,0.92,50,-,150,SMA,肖特基
-912,Schottky,SS120,200,1,60,0.92,50,-,150,SMA,肖特基
-913,Schottky,SS22,20,2,50,0.55,100,-,150,SMA,肖特基
-914,Schottky,SS23,30,2,50,0.55,100,-,150,SMA,肖特基
-915,Schottky,SS24,40,2,50,0.55,100,-,150,SMA,肖特基
-916,Schottky,SS245,45,2,50,0.55,100,-,150,SMA,肖特基
-917,Schottky,SS25,50,2,50,0.7,100,-,150,SMA,肖特基
-918,Schottky,SS26,60,2,50,0.7,100,-,150,SMA,肖特基
-919,Schottky,SS28,80,2,50,0.85,50,-,150,SMA,肖特基
-920,Schottky,SS210,100,2,50,0.85,50,-,150,SMA,肖特基
-921,Schottky,SS215,150,2,50,0.92,50,-,150,SMA,肖特基
-922,Schottky,SS220,200,2,50,0.92,50,-,150,SMA,肖特基
-923,Schottky,SS225,250,2,50,0.95,50,-,150,SMA,肖特基
-924,Schottky,SS32,20,3,80,0.55,100,-,150,SMA,肖特基
-925,Schottky,SS33,30,3,80,0.55,100,-,150,SMA,肖特基
-926,Schottky,SS34,40,3,80,0.55,100,-,150,SMA,肖特基
-927,Schottky,SS345,45,3,80,0.55,100,-,150,SMA,肖特基
-928,Schottky,SS35,50,3,80,0.7,100,-,150,SMA,肖特基
-929,Schottky,SS36,60,3,80,0.7,100,-,150,SMA,肖特基
-930,Schottky,SS38,80,3,80,0.85,50,-,150,SMA,肖特基
-931,Schottky,SS310,100,3,80,0.85,50,-,150,SMA,肖特基
-932,Schottky,SS315,150,3,80,0.92,50,-,150,SMA,肖特基
-933,Schottky,SS320,200,3,80,0.92,50,-,150,SMA,肖特基
-934,Schottky,SS325,250,3,80,0.95,50,-,150,SMA,肖特基
-935,Schottky,SS52,20,5,100,0.55,100,-,150,SMA,肖特基
-936,Schottky,SS53,30,5,100,0.55,100,-,150,SMA,肖特基
-937,Schottky,SS54,40,5,100,0.55,100,-,150,SMA,肖特基
-938,Schottky,SS545,45,5,100,0.55,100,-,150,SMA,肖特基
-939,Schottky,SS55,50,5,100,0.7,100,-,150,SMA,肖特基
-940,Schottky,SS56,60,5,100,0.7,100,-,150,SMA,肖特基
-941,Schottky,SS58,80,5,100,0.85,50,-,150,SMA,肖特基
-942,Schottky,SS510,100,5,100,0.85,50,-,150,SMA,肖特基
-943,Schottky,SS515,150,5,100,0.92,50,-,150,SMA,肖特基
-944,Schottky,SS520,200,5,100,0.92,50,-,150,SMA,肖特基
-945,Schottky,SS525,250,5,100,0.95,50,-,150,SMA,肖特基
-946,Schottky,SS12,20,1,30,0.55,100,-,150,SMB,肖特基
-947,Schottky,SS13,30,1,30,0.55,100,-,150,SMB,肖特基
-948,Schottky,SS14,40,1,30,0.55,100,-,150,SMB,肖特基
-949,Schottky,SS145,45,1,30,0.55,100,-,150,SMB,肖特基
-950,Schottky,SS15,50,1,30,0.7,100,-,150,SMB,肖特基
-951,Schottky,SS16,60,1,30,0.7,100,-,150,SMB,肖特基
-952,Schottky,SS18,80,1,30,0.85,50,-,150,SMB,肖特基
-953,Schottky,SS110,100,1,30,0.85,50,-,150,SMB,肖特基
-954,Schottky,SS115,150,1,30,0.92,50,-,150,SMB,肖特基
-955,Schottky,SS120,200,1,30,0.92,50,-,150,SMB,肖特基
-956,Schottky,SS125,250,1,30,0.95,50,-,150,SMB,肖特基
-957,Schottky,SS22,20,2,50,0.55,100,-,150,SMB,肖特基
-958,Schottky,SS23,30,2,50,0.55,100,-,150,SMB,肖特基
-959,Schottky,SS24,40,2,50,0.55,100,-,150,SMB,肖特基
-960,Schottky,SS245,45,2,50,0.55,100,-,150,SMB,肖特基
-961,Schottky,SS25,50,2,50,0.7,100,-,150,SMB,肖特基
-962,Schottky,SS26,60,2,50,0.7,100,-,150,SMB,肖特基
-963,Schottky,SS28,80,2,50,0.85,50,-,150,SMB,肖特基
-964,Schottky,SS210,100,2,50,0.85,50,-,150,SMB,肖特基
-965,Schottky,SS215,150,2,50,0.92,50,-,150,SMB,肖特基
-966,Schottky,SS220,200,2,50,0.92,50,-,150,SMB,肖特基
-967,Schottky,SS225,250,2,50,0.95,50,-,150,SMB,肖特基
-968,Schottky,SS32,20,3,80,0.55,100,-,150,SMB,肖特基
-969,Schottky,SS33,30,3,80,0.55,100,-,150,SMB,肖特基
-970,Schottky,SS34,40,3,80,0.55,100,-,150,SMB,肖特基
-971,Schottky,SS345,45,3,80,0.55,100,-,150,SMB,肖特基
-972,Schottky,SS35,50,3,80,0.7,100,-,150,SMB,肖特基
-973,Schottky,SS36,60,3,80,0.7,100,-,150,SMB,肖特基
-974,Schottky,SS38,80,3,80,0.85,50,-,150,SMB,肖特基
-975,Schottky,SS310,100,3,80,0.85,50,-,150,SMB,肖特基
-976,Schottky,SS315,150,3,80,0.92,50,-,150,SMB,肖特基
-977,Schottky,SS320,200,3,80,0.92,50,-,150,SMB,肖特基
-978,Schottky,SS325,250,3,80,0.95,50,-,150,SMB,肖特基
-979,Schottky,SS52,20,5,100,0.55,100,-,150,SMB,肖特基
-980,Schottky,SS53,30,5,100,0.55,100,-,150,SMB,肖特基
-981,Schottky,SS54,40,5,100,0.55,100,-,150,SMB,肖特基
-982,Schottky,SS545,45,5,100,0.55,100,-,150,SMB,肖特基
-983,Schottky,SS55,50,5,100,0.7,100,-,150,SMB,肖特基
-984,Schottky,SS56,60,5,100,0.7,100,-,150,SMB,肖特基
-985,Schottky,SS58,80,5,100,0.85,50,-,150,SMB,肖特基
-986,Schottky,SS510,100,5,100,0.85,50,-,150,SMB,肖特基
-987,Schottky,SS515,150,5,100,0.92,50,-,150,SMB,肖特基
-988,Schottky,SS520,200,5,100,0.92,50,-,150,SMB,肖特基
-989,Schottky,SS525,250,5,100,0.95,50,-,150,SMB,肖特基
-990,Schottky,K12,20,1,30,0.55,100,-,150,SOD-123FL,肖特基
-991,Schottky,K13,30,1,30,0.55,100,-,150,SOD-123FL,肖特基
-992,Schottky,K14,40,1,30,0.55,100,-,150,SOD-123FL,肖特基
-993,Schottky,K15,50,1,30,0.7,100,-,150,SOD-123FL,肖特基
-994,Schottky,K16,60,1,30,0.7,100,-,150,SOD-123FL,肖特基
-995,Schottky,K18,80,1,30,0.85,50,-,150,SOD-123FL,肖特基
-996,Schottky,K110,100,1,30,0.85,50,-,150,SOD-123FL,肖特基
-997,Schottky,K115,150,1,30,0.92,50,-,150,SOD-123FL,肖特基
-998,Schottky,K120,200,1,30,0.92,50,-,150,SOD-123FL,肖特基
-999,Schottky,K125,250,1,30,0.95,50,-,150,SOD-123FL,肖特基
-1000,Schottky,K22,20,2,50,0.55,100,-,150,SOD-123FL,肖特基
-1001,Schottky,K23,30,2,50,0.55,100,-,150,SOD-123FL,肖特基
-1002,Schottky,K24,40,2,50,0.55,100,-,150,SOD-123FL,肖特基
-1003,Schottky,K25,50,2,50,0.7,100,-,150,SOD-123FL,肖特基
-1004,Schottky,K26,60,2,50,0.7,100,-,150,SOD-123FL,肖特基
-1005,Schottky,K28,80,2,50,0.85,50,-,150,SOD-123FL,肖特基
-1006,Schottky,K210,100,2,50,0.85,50,-,150,SOD-123FL,肖特基
-1007,Schottky,K215,150,2,50,0.92,50,-,150,SOD-123FL,肖特基
-1008,Schottky,K220,200,2,50,0.92,50,-,150,SOD-123FL,肖特基
-1009,Schottky,K225,250,2,50,0.95,50,-,150,SOD-123FL,肖特基
-1010,Schottky,K32,20,3,80,0.55,100,-,150,SOD-123FL,肖特基
-1011,Schottky,K33,30,3,80,0.55,100,-,150,SOD-123FL,肖特基
-1012,Schottky,K34,40,3,80,0.55,100,-,150,SOD-123FL,肖特基
-1013,Schottky,K35,50,3,80,0.7,100,-,150,SOD-123FL,肖特基
-1014,Schottky,K36,60,3,80,0.7,100,-,150,SOD-123FL,肖特基
-1015,Schottky,K38,80,3,80,0.85,50,-,150,SOD-123FL,肖特基
-1016,Schottky,K310,100,3,80,0.85,50,-,150,SOD-123FL,肖特基
-1017,Schottky,K315,150,3,80,0.92,50,-,150,SOD-123FL,肖特基
-1018,Schottky,K320,200,3,80,0.92,50,-,150,SOD-123FL,肖特基
-1019,Schottky,K325,250,3,80,0.95,50,-,150,SOD-123FL,肖特基
-1020,Schottky,SS12F,20,1,30,0.55,100,-,150,SMAF,肖特基
-1021,Schottky,SS13F,30,1,30,0.55,100,-,150,SMAF,肖特基
-1022,Schottky,SS14F,40,1,30,0.55,100,-,150,SMAF,肖特基
-1023,Schottky,SS145F,45,1,30,0.55,100,-,150,SMAF,肖特基
-1024,Schottky,SS15F,50,1,30,0.7,100,-,150,SMAF,肖特基
-1025,Schottky,SS16F,60,1,30,0.7,100,-,150,SMAF,肖特基
-1026,Schottky,SS18F,80,1,30,0.85,100,-,150,SMAF,肖特基
-1027,Schottky,SS110F,100,1,30,0.85,50,-,150,SMAF,肖特基
-1028,Schottky,SS115F,150,1,30,0.92,50,-,150,SMAF,肖特基
-1029,Schottky,SS120F,200,1,30,0.92,50,-,150,SMAF,肖特基
-1030,Schottky,SS125F,250,1,30,0.95,50,-,150,SMAF,肖特基
-1031,Schottky,SS22F,20,2,50,0.55,100,-,150,SMAF,肖特基
-1032,Schottky,SS23F,30,2,50,0.55,100,-,150,SMAF,肖特基
-1033,Schottky,SS24F,40,2,50,0.55,100,-,150,SMAF,肖特基
-1034,Schottky,SS245F,45,2,50,0.55,100,-,150,SMAF,肖特基
-1035,Schottky,SS25F,50,2,50,0.7,100,-,150,SMAF,肖特基
-1036,Schottky,SS26F,60,2,50,0.7,100,-,150,SMAF,肖特基
-1037,Schottky,SS28F,80,2,50,0.85,50,-,150,SMAF,肖特基
-1038,Schottky,SS210F,100,2,50,0.85,50,-,150,SMAF,肖特基
-1039,Schottky,SS215F,150,2,50,0.92,50,-,150,SMAF,肖特基
-1040,Schottky,SS220F,200,2,50,0.92,50,-,150,SMAF,肖特基
-1041,Schottky,SS225F,250,2,50,0.95,50,-,150,SMAF,肖特基
-1042,Schottky,SS32F,20,3,80,0.55,100,-,150,SMAF,肖特基
-1043,Schottky,SS33F,30,3,80,0.55,100,-,150,SMAF,肖特基
-1044,Schottky,SS34F,40,3,80,0.55,100,-,150,SMAF,肖特基
-1045,Schottky,SS345F,45,3,80,0.55,100,-,150,SMAF,肖特基
-1046,Schottky,SS35F,50,3,80,0.7,100,-,150,SMAF,肖特基
-1047,Schottky,SS36F,60,3,80,0.7,100,-,150,SMAF,肖特基
-1048,Schottky,SS38F,80,3,80,0.85,50,-,150,SMAF,肖特基
-1049,Schottky,SS310F,100,3,80,0.85,50,-,150,SMAF,肖特基
-1050,Schottky,SS315F,150,3,80,0.92,50,-,150,SMAF,肖特基
-1051,Schottky,SS320F,200,3,80,0.92,50,-,150,SMAF,肖特基
-1052,Schottky,SS325F,250,3,80,0.95,50,-,150,SMAF,肖特基
-1053,Schottky,SS52F,20,5,100,0.55,100,-,150,SMAF,肖特基
-1054,Schottky,SS53F,30,5,100,0.55,100,-,150,SMAF,肖特基
-1055,Schottky,SS54F,40,5,100,0.55,100,-,150,SMAF,肖特基
-1056,Schottky,SS545F,45,5,100,0.55,100,-,150,SMAF,肖特基
-1057,Schottky,SS55F,50,5,100,0.7,100,-,150,SMAF,肖特基
-1058,Schottky,SS56F,60,5,100,0.7,100,-,150,SMAF,肖特基
-1059,Schottky,SS58F,80,5,100,0.85,50,-,150,SMAF,肖特基
-1060,Schottky,SS510F,100,5,100,0.85,50,-,150,SMAF,肖特基
-1061,Schottky,SS515F,150,5,100,0.92,50,-,150,SMAF,肖特基
-1062,Schottky,SS520F,200,5,100,0.92,50,-,150,SMAF,肖特基
-1063,Schottky,SS525F,250,5,100,0.95,50,-,150,SMAF,肖特基
-1064,Schottky,SL540,40,5,120,0.48,500,-,150,TO-277B,肖特基
-1065,Schottky,SL545,45,5,120,0.48,500,-,150,TO-277B,肖特基
-1066,Schottky,SL550,50,5,120,0.48,500,-,150,TO-277B,肖特基
-1067,Schottky,SL560,60,5,120,0.55,500,-,150,TO-277B,肖特基
-1068,Schottky,SL580,80,5,120,0.70 ,200,-,150,TO-277B,肖特基
-1069,Schottky,SL5100,100,5,120,0.70 ,200,-,150,TO-277B,肖特基
-1070,Schottky,SL840,40,8,150,0.48,500,-,150,TO-277B,肖特基
-1071,Schottky,SL845,45,8,150,0.48,500,-,150,TO-277B,肖特基
-1072,Schottky,SL850,50,8,150,0.48,500,-,150,TO-277B,肖特基
-1073,Schottky,SL860,60,8,150,0.55,500,-,150,TO-277B,肖特基
-1074,Schottky,SL880,80,8,150,0.70 ,200,-,150,TO-277B,肖特基
-1075,Schottky,SL8100,100,8,150,0.70 ,200,-,150,TO-277B,肖特基
-1076,Schottky,SL1040,40,10,175,0.48,500,-,150,TO-277B,肖特基
-1077,Schottky,SL1045,45,10,175,0.48,500,-,150,TO-277B,肖特基
-1078,Schottky,SL1050,50,10,175,0.48,500,-,150,TO-277B,肖特基
-1079,Schottky,SL1060,60,10,175,0.55,500,-,150,TO-277B,肖特基
-1080,Schottky,SL1080,80,10,175,0.70 ,200,-,150,TO-277B,肖特基
-1081,Schottky,SL10100,100,10,175,0.70 ,200,-,150,TO-277B,肖特基
-1082,Schottky,SL1240,40,12,200,0.48,500,-,150,TO-277B,肖特基
-1083,Schottky,SL1245,45,12,200,0.48,500,-,150,TO-277B,肖特基
-1084,Schottky,SL1250,50,12,200,0.48,500,-,150,TO-277B,肖特基
-1085,Schottky,SL1260,60,12,200,0.55,500,-,150,TO-277B,肖特基
-1086,Schottky,SL1280,80,12,200,0.70 ,200,-,150,TO-277B,肖特基
-1087,Schottky,SL12100,100,12,200,0.70 ,200,-,150,TO-277B,肖特基
-1088,Schottky,SL1540,40,15,250,0.48,500,-,150,TO-277B,肖特基
-1089,Schottky,SL1545,45,15,250,0.48,500,-,150,TO-277B,肖特基
-1090,Schottky,SL1550,50,15,250,0.48,500,-,150,TO-277B,肖特基
-1091,Schottky,SL1560,60,15,250,0.55,500,-,150,TO-277B,肖特基
-1092,Schottky,SL1580,80,15,250,0.70 ,200,-,150,TO-277B,肖特基
-1093,Schottky,SL15100,100,15,250,0.70 ,200,-,150,TO-277B,肖特基
+category,TYPE,VRRM,IF(AV) ,IFSM,VF,IR ,Trr ,TJ Max.,Package,file_id
+5,MB2F,200,0.8,30,1,5,-,150,MBF,481
+5,MB4F,400,0.8,30,1,5,-,150,MBF,481
+5,MB6F,600,0.8,30,1,5,-,150,MBF,481
+5,MB8F,800,0.8,30,1,5,-,150,MBF,481
+5,MB10F,1000,0.8,30,1,5,-,150,MBF,481
+5,MB2S,200,0.8,30,1,5,-,150,MBS,482
+5,MB4S,400,0.8,30,1,5,-,150,MBS,482
+5,MB6S,600,0.8,30,1,5,-,150,MBS,482
+5,MB8S,800,0.8,30,1,5,-,150,MBS,482
+5,MB10S,1000,0.8,30,1,5,-,150,MBS,482
+5,MB1M,100,0.8,30,1,5,-,150,MBM,480
+5,MB2M,200,0.8,30,1,5,-,150,MBM,480
+5,MB4M,400,0.8,30,1,5,-,150,MBM,480
+5,MB6M,600,0.8,30,1,5,-,150,MBM,480
+5,MB8M,800,0.8,30,1,5,-,150,MBM,480
+5,MB10M,1000,0.8,30,1,5,-,150,MBM,480
+5,ABS2,200,1,35,1,5,-,150,ABS,413
+5,ABS4,400,1,35,1,5,-,150,ABS,413
+5,ABS6,600,1,35,1,5,-,150,ABS,413
+5,ABS8,800,1,35,1,5,-,150,ABS,413
+5,ABS10,1000,1,35,1,5,-,150,ABS,413
+5,ABS152,200,1.5,50,1,5,-,150,ABS,415
+5,ABS154,400,1.5,50,1,5,-,150,ABS,415
+5,ABS156,600,1.5,50,1,5,-,150,ABS,415
+5,ABS158,800,1.5,50,1,5,-,150,ABS,415
+5,ABS1510,1000,1.5,50,1,5,-,150,ABS,415
+5,ABS22,200,2,60,1,5,-,150,ABS,414
+5,ABS24,400,2,60,1,5,-,150,ABS,414
+5,ABS26,600,2,60,1,5,-,150,ABS,414
+5,ABS28,800,2,60,1,5,-,150,ABS,414
+5,ABS210,1000,2,60,1,5,-,150,ABS,414
+5,DB101S,50,1,45,1,5,-,150,DBS,417
+5,DB102S,100,1,45,1,5,-,150,DBS,417
+5,DB103S,200,1,45,1,5,-,150,DBS,417
+5,DB104S,400,1,45,1,5,-,150,DBS,417
+5,DB105S,600,1,45,1,5,-,150,DBS,417
+5,DB106S,800,1,45,1,5,-,150,DBS,417
+5,DB107S,1000,1,45,1,5,-,150,DBS,417
+5,DB151S,50,1.5,55,1,5,-,150,DBS,419
+5,DB152S,100,1.5,55,1,5,-,150,DBS,419
+5,DB153S,200,1.5,55,1,5,-,150,DBS,419
+5,DB154S,400,1.5,55,1,5,-,150,DBS,419
+5,DB155S,600,1.5,55,1,5,-,150,DBS,419
+5,DB156S,800,1.5,55,1,5,-,150,DBS,419
+5,DB157S,1000,1.5,55,1,5,-,150,DBS,419
+5,DB201S,50,2,60,1,5,-,150,DBS,420
+5,DB202S,100,2,60,1,5,-,150,DBS,420
+5,DB203S,200,2,60,1,5,-,150,DBS,420
+5,DB204S,400,2,60,1,5,-,150,DBS,420
+5,DB205S,600,2,60,1,5,-,150,DBS,420
+5,DB206S,800,2,60,1,5,-,150,DBS,420
+5,DB207S,1000,2,60,1,5,-,150,DBS,420
+5,DB301S,50,3,80,1,5,-,150,DBS,421
+5,DB302S,100,3,80,1,5,-,150,DBS,421
+5,DB303S,200,3,80,1,5,-,150,DBS,421
+5,DB304S,400,3,80,1,5,-,150,DBS,421
+5,DB305S,600,3,80,1,5,-,150,DBS,421
+5,DB306S,800,3,80,1,5,-,150,DBS,421
+5,DB307S,1000,3,80,1,5,-,150,DBS,421
+5,DB101,50,1,45,1,5,-,150,DBM,416
+5,DB102,100,1,45,1,5,-,150,DBM,416
+5,DB103,200,1,45,1,5,-,150,DBM,416
+5,DB104,400,1,45,1,5,-,150,DBM,416
+5,DB105,600,1,45,1,5,-,150,DBM,416
+5,DB106,800,1,45,1,5,-,150,DBM,416
+5,DB107,1000,1,45,1,5,-,150,DBM,416
+5,DB151,50,1.5,55,1,5,-,150,DBM,418
+5,DB152,100,1.5,55,1,5,-,150,DBM,418
+5,DB153,200,1.5,55,1,5,-,150,DBM,418
+5,DB154,400,1.5,55,1,5,-,150,DBM,418
+5,DB155,600,1.5,55,1,5,-,150,DBM,418
+5,DB156,800,1.5,55,1,5,-,150,DBM,418
+5,DB157,1000,1.5,55,1,5,-,150,DBM,418
+5,KBP2005,50,2,45,1.1,5,-,150,KBP,471
+5,KBP201,100,2,45,1.1,5,-,150,KBP,471
+5,KBP202,200,2,45,1.1,5,-,150,KBP,471
+5,KBP204,400,2,45,1.1,5,-,150,KBP,471
+5,KBP206,600,2,45,1.1,5,-,150,KBP,471
+5,KBP208,800,2,45,1.1,5,-,150,KBP,471
+5,KBP210,1000,2,45,1.1,5,-,150,KBP,471
+5,KBP2005G,50,2,60,1.1,5,-,150,KBP,470
+5,KBP201G,100,2,60,1.1,5,-,150,KBP,470
+5,KBP202G,200,2,60,1.1,5,-,150,KBP,470
+5,KBP204G,400,2,60,1.1,5,-,150,KBP,470
+5,KBP206G,600,2,60,1.1,5,-,150,KBP,470
+5,KBP208G,800,2,60,1.1,5,-,150,KBP,470
+5,KBP210G,1000,2,60,1.1,5,-,150,KBP,470
+5,KBP3005,50,2,60,1.1,5,-,150,KBP,473
+5,KBP301,100,3,60,1.1,5,-,150,KBP,473
+5,KBP302,200,3,60,1.1,5,-,150,KBP,473
+5,KBP304,400,3,60,1.1,5,-,150,KBP,473
+5,KBP306,600,3,60,1.1,5,-,150,KBP,473
+5,KBP308,800,3,60,1.1,5,-,150,KBP,473
+5,KBP310,1000,3,60,1.1,5,-,150,KBP,473
+5,KBP3005G,50,3,80,1.1,5,-,150,KBP,472
+5,KBP301G,100,3,80,1.1,5,-,150,KBP,472
+5,KBP302G,200,3,80,1.1,5,-,150,KBP,472
+5,KBP304G,400,3,80,1.1,5,-,150,KBP,472
+5,KBP306G,600,3,80,1.1,5,-,150,KBP,472
+5,KBP308G,800,3,80,1.1,5,-,150,KBP,472
+5,KBP310G,1000,3,80,1.1,5,-,150,KBP,472
+5,KBP4005,50,4,80,1.1,5,-,150,KBP,475
+5,KBP401,100,4,80,1.1,5,-,150,KBP,475
+5,KBP402,200,4,80,1.1,5,-,150,KBP,475
+5,KBP404,400,4,80,1.1,5,-,150,KBP,475
+5,KBP406,600,4,80,1.1,5,-,150,KBP,475
+5,KBP408,800,4,80,1.1,5,-,150,KBP,475
+5,KBP410,1000,4,80,1.1,5,-,150,KBP,475
+5,KBP4005G,50,4,120,1.1,5,-,150,KBP,474
+5,KBP401G,100,4,120,1.1,5,-,150,KBP,474
+5,KBP402G,200,4,120,1.1,5,-,150,KBP,474
+5,KBP404G,400,4,120,1.1,5,-,150,KBP,474
+5,KBP406G,600,4,120,1.1,5,-,150,KBP,474
+5,KBP408G,800,4,120,1.1,5,-,150,KBP,474
+5,KBP410G,1000,4,120,1.1,5,-,150,KBP,474
+5,KBP5005G,50,5,150,1.1,5,-,150,KBP,476
+5,KBP501G,100,5,150,1.1,5,-,150,KBP,476
+5,KBP502G,200,5,150,1.1,5,-,150,KBP,476
+5,KBP504G,400,5,150,1.1,5,-,150,KBP,476
+5,KBP506G,600,5,150,1.1,5,-,150,KBP,476
+5,KBP508G,800,5,150,1.1,5,-,150,KBP,476
+5,KBP510G,1000,5,150,1.1,5,-,150,KBP,476
+5,KBP6005,50,6,150,1.1,5,-,150,KBP,477
+5,KBP601,100,6,150,1.1,5,-,150,KBP,477
+5,KBP602,200,6,150,1.1,5,-,150,KBP,477
+5,KBP604,400,6,150,1.1,5,-,150,KBP,477
+5,KBP606,600,6,150,1.1,5,-,150,KBP,477
+5,KBP608,800,6,150,1.1,5,-,150,KBP,477
+5,KBP610,1000,6,150,1.1,5,-,150,KBP,477
+5,KBP8005,50,8,170,1.1,5,-,150,KBP,478
+5,KBP801,100,8,170,1.1,5,-,150,KBP,478
+5,KBP802,200,8,170,1.1,5,-,150,KBP,478
+5,KBP804,400,8,170,1.1,5,-,150,KBP,478
+5,KBP806,600,8,170,1.1,5,-,150,KBP,478
+5,KBP808,800,8,170,1.1,5,-,150,KBP,478
+5,KBP810,1000,8,170,1.1,5,-,150,KBP,478
+5,UG2KB05,50,2,45,1.1,5,-,150,D3K,541
+5,UG2KB10,100,2,45,1.1,5,-,150,D3K,541
+5,UG2KB20,200,2,45,1.1,5,-,150,D3K,541
+5,UG2KB40,400,2,45,1.1,5,-,150,D3K,541
+5,UG2KB60,600,2,45,1.1,5,-,150,D3K,541
+5,UG2KB80,800,2,45,1.1,5,-,150,D3K,541
+5,UG2KB100,1000,2,45,1.1,5,-,150,D3K,541
+5,UG2KB05G,50,2,60,1.1,5,-,150,D3K,540
+5,UG2KB10G,100,2,60,1.1,5,-,150,D3K,540
+5,UG2KB20G,200,2,60,1.1,5,-,150,D3K,540
+5,UG2KB40G,400,2,60,1.1,5,-,150,D3K,540
+5,UG2KB60G,600,2,60,1.1,5,-,150,D3K,540
+5,UG2KB80G,800,2,60,1.1,5,-,150,D3K,540
+5,UG2KB100G,1000,2,60,1.1,5,-,150,D3K,540
+5,UG3KB05,50,3,60,1.1,5,-,150,D3K,543
+5,UG3KB10,100,3,60,1.1,5,-,150,D3K,543
+5,UG3KB20,200,3,60,1.1,5,-,150,D3K,543
+5,UG3KB40,400,3,60,1.1,5,-,150,D3K,543
+5,UG3KB60,600,3,60,1.1,5,-,150,D3K,543
+5,UG3KB80,800,3,60,1.1,5,-,150,D3K,543
+5,UG3KKB100,1000,3,60,1.1,5,-,150,D3K,543
+5,UG3KB05G,50,3,80,1.1,5,-,150,D3K,542
+5,UG3KB10G,100,3,80,1.1,5,-,150,D3K,542
+5,UG3KB20G,200,3,80,1.1,5,-,150,D3K,542
+5,UG3KB40G,400,3,80,1.1,5,-,150,D3K,542
+5,UG3KB60G,600,3,80,1.1,5,-,150,D3K,542
+5,UG3KB80G,800,3,80,1.1,5,-,150,D3K,542
+5,UG3KB100G,1000,3,80,1.1,5,-,150,D3K,542
+5,UG4KB05,50,4,80,1.1,5,-,150,D3K,545
+5,UG4KB10,100,4,80,1.1,5,-,150,D3K,545
+5,UG4KB20,200,4,80,1.1,5,-,150,D3K,545
+5,UG4KB40,400,4,80,1.1,5,-,150,D3K,545
+5,UG4KB60,600,4,80,1.1,5,-,150,D3K,545
+5,UG4KB80,800,4,80,1.1,5,-,150,D3K,545
+5,UG4KB100,1000,4,80,1.1,5,-,150,D3K,545
+5,UG4KB05G,50,4,120,1.1,5,-,150,D3K,544
+5,UG4KB10G,100,4,120,1.1,5,-,150,D3K,544
+5,UG4KB20G,200,4,120,1.1,5,-,150,D3K,544
+5,UG4KB40G,400,4,120,1.1,5,-,150,D3K,544
+5,UG4KB60G,600,4,120,1.1,5,-,150,D3K,544
+5,UG4KB80G,800,4,120,1.1,5,-,150,D3K,544
+5,UG4KB100G,1000,4,120,1.1,5,-,150,D3K,544
+5,UG5KB05G,50,5,150,1.1,5,-,150,D3K,546
+5,UG5KB10G,100,5,150,1.1,5,-,150,D3K,546
+5,UG5KB20G,200,5,150,1.1,5,-,150,D3K,546
+5,UG5KB40G,400,5,150,1.1,5,-,150,D3K,546
+5,UG5KB60G,600,5,150,1.1,5,-,150,D3K,546
+5,UG5KB80G,800,5,150,1.1,5,-,150,D3K,546
+5,UG5KB100G,1000,5,150,1.1,5,-,150,D3K,546
+5,UG6KB05,50,6,150,1.1,5,-,150,D3K,548
+5,UG6KB10,100,6,150,1.1,5,-,150,D3K,548
+5,UG6KB20,200,6,150,1.1,5,-,150,D3K,548
+5,UG6KB40,400,6,150,1.1,5,-,150,D3K,548
+5,UG6KB60,600,6,150,1.1,5,-,150,D3K,548
+5,UG6KB80,800,6,150,1.1,5,-,150,D3K,548
+5,UG6KB100,1000,6,150,1.1,5,-,150,D3K,548
+5,UG6KB05G,50,6,170,1.1,5,-,150,D3K,547
+5,UG6KB10G,100,6,170,1.1,5,-,150,D3K,547
+5,UG6KB20G,200,6,170,1.1,5,-,150,D3K,547
+5,UG6KB40G,400,6,170,1.1,5,-,150,D3K,547
+5,UG6KB60G,600,6,170,1.1,5,-,150,D3K,547
+5,UG6KB80G,800,6,170,1.1,5,-,150,D3K,547
+5,UG6KB100G,1000,6,170,1.1,5,-,150,D3K,547
+5,UG8KB05,50,8,170,1.1,5,-,150,D3K,549
+5,UG8KB10,100,8,170,1.1,5,-,150,D3K,549
+5,UG8KB20,200,8,170,1.1,5,-,150,D3K,549
+5,UG8KB40,400,8,170,1.1,5,-,150,D3K,549
+5,UG8KB60,600,8,170,1.1,5,-,150,D3K,549
+5,UG8KB80,800,8,170,1.1,5,-,150,D3K,549
+5,UG8KB100,1000,8,170,1.1,5,-,150,D3K,549
+5,GBU4005,50,4,120,1.1,5,-,150,GBU,449
+5,GBU401,100,4,120,1.1,5,-,150,GBU,449
+5,GBU402,200,4,120,1.1,5,-,150,GBU,449
+5,GBU404,400,4,120,1.1,5,-,150,GBU,449
+5,GBU406,600,4,120,1.1,5,-,150,GBU,449
+5,GBU408,800,4,120,1.1,5,-,150,GBU,449
+5,GBU410,1000,4,120,1.1,5,-,150,GBU,449
+5,GBU6005,50,6,150,1.1,5,-,150,GBU,449
+5,GBU601,100,6,150,1.1,5,-,150,GBU,450
+5,GBU602,200,6,150,1.1,5,-,150,GBU,450
+5,GBU604,400,6,150,1.1,5,-,150,GBU,450
+5,GBU606,600,6,150,1.1,5,-,150,GBU,450
+5,GBU608,800,6,150,1.1,5,-,150,GBU,450
+5,GBU610,1000,6,150,1.1,5,-,150,GBU,450
+5,GBU8005,50,8,175,1.1,5,-,150,GBU,451
+5,GBU801,100,8,175,1.1,5,-,150,GBU,451
+5,GBU802,200,8,175,1.1,5,-,150,GBU,451
+5,GBU804,400,8,175,1.1,5,-,150,GBU,451
+5,GBU806,600,8,175,1.1,5,-,150,GBU,451
+5,GBU808,800,8,175,1.1,5,-,150,GBU,451
+5,GBU810,1000,8,175,1.1,5,-,150,GBU,451
+5,GBU10005,50,10,200,1.1,5,-,150,GBU,452
+5,GBU1001,100,10,200,1.1,5,-,150,GBU,452
+5,GBU1002,200,10,200,1.1,5,-,150,GBU,452
+5,GBU1004,400,10,200,1.1,5,-,150,GBU,452
+5,GBU1006,600,10,200,1.1,5,-,150,GBU,452
+5,GBU1008,800,10,200,1.1,5,-,150,GBU,452
+5,GBU1010,1000,10,200,1.1,5,-,150,GBU,452
+5,GBU15005G,50,15,240,1.1,5,-,150,GBU,453
+5,GBU1501G,100,15,240,1.1,5,-,150,GBU,453
+5,GBU1502G,200,15,240,1.1,5,-,150,GBU,453
+5,GBU1504G,400,15,240,1.1,5,-,150,GBU,453
+5,GBU1506G,600,15,240,1.1,5,-,150,GBU,453
+5,GBU1508G,800,15,240,1.1,5,-,150,GBU,453
+5,GBU1510G,1000,15,240,1.1,5,-,150,GBU,453
+5,GBU20005,50,15,250,1.1,5,-,150,GBU,454
+5,GBU2001,100,15,250,1.1,5,-,150,GBU,454
+5,GBU2002,200,15,250,1.1,5,-,150,GBU,454
+5,GBU2004,400,15,250,1.1,5,-,150,GBU,454
+5,GBU2006,600,15,250,1.1,5,-,150,GBU,454
+5,GBU2008,800,15,250,1.1,5,-,150,GBU,454
+5,GBU2010,1000,15,250,1.1,5,-,150,GBU,454
+5,GBJ6005,50,6,150,1.1,5,-,150,GBJ,440
+5,GBJ601,100,6,150,1.1,5,-,150,GBJ,440
+5,GBJ602,200,6,150,1.1,5,-,150,GBJ,440
+5,GBJ604,400,6,150,1.1,5,-,150,GBJ,440
+5,GBJ606,600,6,150,1.1,5,-,150,GBJ,440
+5,GBJ608,800,6,150,1.1,5,-,150,GBJ,440
+5,GBJ610,1000,6,150,1.1,5,-,150,GBJ,440
+5,GBJ8005,50,8,175,1.1,5,-,150,GBJ,441
+5,GBJ801,100,8,175,1.1,5,-,150,GBJ,441
+5,GBJ802,200,8,175,1.1,5,-,150,GBJ,441
+5,GBJ804,400,8,175,1.1,5,-,150,GBJ,441
+5,GBJ806,600,8,175,1.1,5,-,150,GBJ,441
+5,GBJ808,800,8,175,1.1,5,-,150,GBJ,441
+5,GBJ810,1000,8,175,1.1,5,-,150,GBJ,441
+5,GBJ10005,50,10,200,1.1,5,-,150,GBJ,442
+5,GBJ1001,100,10,200,1.1,5,-,150,GBJ,442
+5,GBJ1002,200,10,200,1.1,5,-,150,GBJ,442
+5,GBJ1004,400,10,200,1.1,5,-,150,GBJ,442
+5,GBJ1006,600,10,200,1.1,5,-,150,GBJ,442
+5,GBJ1008,800,10,200,1.1,5,-,150,GBJ,442
+5,GBJ1010,1000,10,200,1.1,5,-,150,GBJ,442
+5,GBJ15005,50,15,220,1.1,5,-,150,GBJ,443
+5,GBJ1501,100,15,220,1.1,5,-,150,GBJ,443
+5,GBJ1502,200,15,220,1.1,5,-,150,GBJ,443
+5,GBJ1504,400,15,220,1.1,5,-,150,GBJ,443
+5,GBJ1506,600,15,220,1.1,5,-,150,GBJ,443
+5,GBJ1508,800,15,220,1.1,5,-,150,GBJ,443
+5,GBJ1510,1000,15,220,1.1,5,-,150,GBJ,443
+5,GBJ20005,50,20,240,1.1,5,-,150,GBJ,444
+5,GBJ2001,100,20,240,1.1,5,-,150,GBJ,444
+5,GBJ2002,200,20,240,1.1,5,-,150,GBJ,444
+5,GBJ2004,400,20,240,1.1,5,-,150,GBJ,444
+5,GBJ2006,600,20,240,1.1,5,-,150,GBJ,444
+5,GBJ2008,800,20,240,1.1,5,-,150,GBJ,444
+5,GBJ2010,1000,20,240,1.1,5,-,150,GBJ,444
+5,GBJ25005,50,25,350,1.1,5,-,150,GBJ,445
+5,GBJ2501,100,25,350,1.1,5,-,150,GBJ,445
+5,GBJ2502,200,25,350,1.1,5,-,150,GBJ,445
+5,GBJ2504,400,25,350,1.1,5,-,150,GBJ,445
+5,GBJ2506,600,25,350,1.1,5,-,150,GBJ,445
+5,GBJ2508,800,25,350,1.1,5,-,150,GBJ,445
+5,GBJ2510,1000,25,350,1.1,5,-,150,GBJ,445
+5,GBJ30005,50,30,350,1.1,5,-,150,GBJ,446
+5,GBJ3010,100,30,350,1.1,5,-,150,GBJ,446
+5,GBJ3020,200,30,350,1.1,5,-,150,GBJ,446
+5,GBJ3040,400,30,350,1.1,5,-,150,GBJ,446
+5,GBJ3060,600,30,350,1.1,5,-,150,GBJ,446
+5,GBJ3080,800,30,350,1.1,5,-,150,GBJ,446
+5,GBJ3010,1000,30,350,1.1,5,-,150,GBJ,446
+5,GBJ35005,50,35,350,1.1,5,-,150,GBJ,447
+5,GBJ3501,100,35,350,1.1,5,-,150,GBJ,447
+5,GBJ3502,200,35,350,1.1,5,-,150,GBJ,447
+5,GBJ3504,400,35,350,1.1,5,-,150,GBJ,447
+5,GBJ3506,600,35,350,1.1,5,-,150,GBJ,447
+5,GBJ3508,800,35,350,1.1,5,-,150,GBJ,447
+5,GBJ3510,1000,35,350,1.1,5,-,150,GBJ,447
+5,GBJ50005,50,50,400,1.1,5,-,150,GBJ,448
+5,GBJ5001,100,50,400,1.1,5,-,150,GBJ,448
+5,GBJ5002,200,50,400,1.1,5,-,150,GBJ,448
+5,GBJ5004,400,50,400,1.1,5,-,150,GBJ,448
+5,GBJ5006,600,50,400,1.1,5,-,150,GBJ,448
+5,GBJ5008,800,50,400,1.1,5,-,150,GBJ,448
+5,GBJ5010,1000,50,400,1.1,5,-,150,GBJ,448
+5,KBL401,100,4,80,1.1,5,-,150,KBL,468
+5,KBL402,200,4,80,1.1,5,-,150,KBL,468
+5,KBL404,400,4,80,1.1,5,-,150,KBL,468
+5,KBL406,600,4,80,1.1,5,-,150,KBL,468
+5,KBL408,800,4,80,1.1,5,-,150,KBL,468
+5,KBL410,1000,4,80,1.1,5,-,150,KBL,468
+5,KBL401G,100,4,120,1.1,5,-,150,KBL,469
+5,KBL402G,200,4,120,1.1,5,-,150,KBL,469
+5,KBL404G,400,4,120,1.1,5,-,150,KBL,469
+5,KBL406G,600,4,120,1.1,5,-,150,KBL,469
+5,KBL408G,800,4,120,1.1,5,-,150,KBL,469
+5,KBL410G,1000,4,120,1.1,5,-,150,KBL,469
+22,RMB1M,100,0.8,30,1.3,5,150,150,MBM,
+22,RMB2M,200,0.8,30,1.3,5,150,150,MBM,
+22,RMB4M,400,0.8,30,1.3,5,150,150,MBM,
+22,RMB6M,600,0.8,30,1.3,5,150,150,MBM,
+22,RMB8M,800,0.8,30,1.3,5,250,150,MBM,
+22,RMB10M,1000,0.8,30,1.3,5,500,150,MBM,
+22,RMB1S,100,0.8,30,1.3,5,150,150,MBS,
+22,RMB2S,200,0.8,30,1.3,5,150,150,MBS,
+22,RMB4S,400,0.8,30,1.3,5,150,150,MBS,
+22,RMB6S,600,0.8,30,1.3,5,150,150,MBS,
+22,RMB8S,800,0.8,30,1.3,5,250,150,MBS,
+22,RMB10S,1000,0.8,30,1.3,5,500,150,MBS,
+22,RMB1F,100,1,30,1.3,5,150,150,MBF,
+22,RMB2F,200,1,30,1.3,5,150,150,MBF,
+22,RMB4F,400,1,30,1.3,5,150,150,MBF,
+22,RMB6F,600,1,30,1.3,5,150,150,MBF,
+22,RMB8F,800,1,30,1.3,5,250,150,MBF,
+22,RMB10F,1000,1,30,1.3,5,500,150,MBF,
+22,RABS2,200,0.8,30,1.3,5,150,150,ABS,
+22,RABS4,400,0.8,30,1.3,5,150,150,ABS,
+22,RABS6,600,0.8,30,1.3,5,250,150,ABS,
+22,RABS8,800,0.8,30,1.3,5,500,150,ABS,
+22,RABS10,1000,0.8,30,1.3,5,500,150,ABS,
+22,RABS152,200,1.5,50,1.3,5,150,150,ABS,
+22,RABS154,400,1.5,50,1.3,5,150,150,ABS,
+22,RABS156,600,1.5,50,1.3,5,250,150,ABS,
+22,RABS158,800,1.5,50,1.3,5,500,150,ABS,
+22,RABS1510,1000,1.5,50,1.3,5,500,150,ABS,
+22,RABS22,200,2,60,1.3,5,150,150,ABS,486
+22,RABS24,400,2,60,1.3,5,150,150,ABS,486
+22,RABS26,600,2,60,1.3,5,250,150,ABS,486
+22,RABS28,800,2,60,1.3,5,500,150,ABS,486
+22,RABS210,1000,2,60,1.3,5,500,150,ABS,486
+22,RABF2,200,0.8,30,1.3,5,150,150,ABF,
+22,RABF4,400,0.8,30,1.3,5,150,150,ABF,
+22,RABF6,600,0.8,30,1.3,5,250,150,ABF,
+22,RABF8,800,0.8,30,1.3,5,500,150,ABF,
+22,RABF10,1000,0.8,30,1.3,5,500,150,ABF,
+22,RABF152,200,1.5,50,1.3,5,150,150,ABF,
+22,RABF154,400,1.5,50,1.3,5,150,150,ABF,
+22,RABF156,600,1.5,50,1.3,5,250,150,ABF,
+22,RABF158,800,1.5,50,1.3,5,500,150,ABF,
+22,RABF1510,1000,1.5,50,1.3,5,500,150,ABF,
+22,RABF22,200,2,60,1.3,5,150,150,ABF,
+22,RABF24,400,2,60,1.3,5,150,150,ABF,
+22,RABF26,600,2,60,1.3,5,250,150,ABF,
+22,RABF28,800,2,60,1.3,5,500,150,ABF,
+22,RABF210,1000,2,60,1.3,5,500,150,ABF,
+22,RKBP4005,50,4,110,1.3,5,150,150,KBP,
+22,RKBP401,100,4,110,1.3,5,150,150,KBP,
+22,RKBP402,200,4,110,1.3,5,150,150,KBP,
+22,RKBP404,400,4,110,1.3,5,150,150,KBP,
+22,RKBP406,600,4,110,1.3,5,250,150,KBP,
+22,RKBP408,800,4,110,1.3,5,500,150,KBP,
+22,RKBP410,1000,4,110,1.3,5,500,150,KBP,
+22,RDB101S,50,1,45,1.3,5,150,150,DBS,
+22,RDB102S,100,1,45,1.3,5,150,150,DBS,
+22,RDB103S,200,1,45,1.3,5,150,150,DBS,
+22,RDB104S,400,1,45,1.3,5,150,150,DBS,
+22,RDB105S,600,1,45,1.3,5,250,150,DBS,
+22,RDB106S,800,1,45,1.3,5,500,150,DBS,
+22,RDB107S,1000,1,45,1.3,5,500,150,DBS,
+22,RDB151S,50,1.5,55,1.3,5,150,150,DBS,
+22,RDB152S,100,1.5,55,1.3,5,150,150,DBS,
+22,RDB153S,200,1.5,55,1.3,5,150,150,DBS,
+22,RDB154S,400,1.5,55,1.3,5,150,150,DBS,
+22,RDB155S,600,1.5,55,1.3,5,250,150,DBS,
+22,RDB156S,800,1.5,55,1.3,5,500,150,DBS,
+22,RDB157S,1000,1.5,55,1.3,5,500,150,DBS,
+22,RDB201S,50,2,60,1.3,5,150,150,DBS,
+22,RDB202S,100,2,60,1.3,5,150,150,DBS,
+22,RDB203S,200,2,60,1.3,5,150,150,DBS,
+22,RDB204S,400,2,60,1.3,5,150,150,DBS,
+22,RDB205S,600,2,60,1.3,5,250,150,DBS,
+22,RDB206S,800,2,60,1.3,5,500,150,DBS,
+22,RDB207S,1000,2,60,1.3,5,500,150,DBS,
+22,RDB301S,50,3,80,1.3,5,150,150,DBS,
+22,RDB302S,100,3,80,1.3,5,150,150,DBS,
+22,RDB303S,200,3,80,1.3,5,150,150,DBS,
+22,RDB304S,400,3,80,1.3,5,150,150,DBS,
+22,RDB305S,600,3,80,1.3,5,250,150,DBS,
+22,RDB306S,800,3,80,1.3,5,500,150,DBS,
+22,RDB307S,1000,3,80,1.3,5,500,150,DBS,
+22,RDB101,50,1,45,1.3,5,150,150,DBM,
+22,RDB102,100,1,45,1.3,5,150,150,DBM,
+22,RDB103,200,1,45,1.3,5,150,150,DBM,
+22,RDB104,400,1,45,1.3,5,150,150,DBM,
+22,RDB105,600,1,45,1.3,5,250,150,DBM,
+22,RDB106,800,1,45,1.3,5,500,150,DBM,
+22,RDB107,1000,1,45,1.3,5,500,150,DBM,
+22,RDB151,50,1.5,55,1.3,5,150,150,DBM,
+22,RDB152,100,1.5,55,1.3,5,150,150,DBM,
+22,RDB153,200,1.5,55,1.3,5,150,150,DBM,
+22,RDB154,400,1.5,55,1.3,5,150,150,DBM,
+22,RDB155,600,1.5,55,1.3,5,250,150,DBM,
+22,RDB156,800,1.5,55,1.3,5,500,150,DBM,
+22,RDB157,1000,1.5,55,1.3,5,500,150,DBM,
+22,RDB201,50,2,60,1.3,5,150,150,DBM,
+22,RDB202,100,2,60,1.3,5,150,150,DBM,
+22,RDB203,200,2,60,1.3,5,150,150,DBM,
+22,RDB204,400,2,60,1.3,5,150,150,DBM,
+22,RDB205,600,2,60,1.3,5,250,150,DBM,
+22,RDB206,800,2,60,1.3,5,500,150,DBM,
+22,RDB207,1000,2,60,1.3,5,500,150,DBM,
+22,RDB301,50,3,80,1.3,5,150,150,DBM,
+22,RDB302,100,3,80,1.3,5,150,150,DBM,
+22,RDB303,200,3,80,1.3,5,150,150,DBM,
+22,RDB304,400,3,80,1.3,5,150,150,DBM,
+22,RDB305,600,3,80,1.3,5,250,150,DBM,
+22,RDB306,800,3,80,1.3,5,500,150,DBM,
+22,RDB307,1000,3,80,1.3,5,500,150,DBM,
+22,RDBF21,100,2,70,1.3,5,150,150,DBF,
+22,RDBF22,200,2,70,1.3,5,150,150,DBF,
+22,RDBF24,400,2,70,1.3,5,150,150,DBF,
+22,RDBF26,600,2,70,1.3,5,250,150,DBF,
+22,RDBF28,800,2,70,1.3,5,500,150,DBF,
+22,RDBF210,1000,2,70,1.3,5,500,150,DBF,
+22,RDBF31,100,3,100,1.3,5,150,150,DBF,
+22,RDBF32,200,3,100,1.3,5,150,150,DBF,
+22,RDBF34,400,3,100,1.3,5,150,150,DBF,
+22,RDBF36,600,3,100,1.3,5,250,150,DBF,
+22,RDBF38,800,3,100,1.3,5,500,150,DBF,
+22,RDBF310,1000,3,100,1.3,5,500,150,DBF,
+22,RDBF151,100,1.5,60,1.3,5,150,150,DBF,
+22,RDBF152,200,1.5,60,1.3,5,150,150,DBF,
+22,RDBF154,400,1.5,60,1.3,5,150,150,DBF,
+22,RDBF156,600,1.5,60,1.3,5,250,150,DBF,
+22,RDBF158,800,1.5,60,1.3,5,500,150,DBF,
+22,RDBF1510,1000,1.5,60,1.3,5,500,150,DBF,
+22,RDBF251,100,2.5,80,1.3,5,150,150,DBF,
+22,RDBF252,200,2.5,80,1.3,5,150,150,DBF,
+22,RDBF254,400,2.5,80,1.3,5,150,150,DBF,
+22,RDBF256,600,2.5,80,1.3,5,250,150,DBF,
+22,RDBF258,800,2.5,80,1.3,5,500,150,DBF,
+22,RDBF2510,1000,2.5,80,1.3,5,500,150,DBF,
+23,SMB1M,100,0.8,30,0.95,5,35,150,MBM,
+23,SMB2M,200,0.8,30,0.95,5,35,150,MBM,
+23,SMB4M,400,0.8,30,1.25,5,35,150,MBM,
+23,SMB6M,600,0.8,30,1.75,5,35,150,MBM,
+23,SMB1S,100,0.8,30,0.95,5,35,150,MBS,
+23,SMB2S,200,0.8,30,0.95,5,35,150,MBS,
+23,SMB3S,300,0.8,30,1.25,5,35,150,MBS,
+23,SMB4S,400,0.8,30,1.25,5,35,150,MBS,
+23,SMB6S,600,0.8,30,1.75,5,35,150,MBS,
+23,SMB1F,100,0.8,30,0.95,5,35,150,MBF,
+23,SMB2F,200,0.8,30,0.95,5,35,150,MBF,
+23,SMB3F,300,0.8,30,1.25,5,35,150,MBF,
+23,SMB4F,400,0.8,30,1.25,5,35,150,MBF,
+23,SMB6F,600,0.8,30,1.7,5,35,150,MBF,
+23,SABS6,600,0.8,30,1.7,5,35,150,ABS,
+23,SABS4,400,0.8,30,1.25,5,35,150,ABS,
+23,SABS2,200,0.8,30,0.95,5,35,150,ABS,
+23,SABS1,100,0.8,30,0.95,5,35,150,ABS,
+23,SABS151,100,1.5,50,0.95,5,35,150,ABS,
+23,SABS152,200,1.5,50,0.95,5,35,150,ABS,
+23,SABS154,400,1.5,50,1.7,5,35,150,ABS,
+23,SABS156,600,1.5,50,1.3,5,35,150,ABS,
+23,SABS21,100,2,60,0.95,5,35,150,ABS,
+23,SABS22,200,2,60,0.95,5,35,150,ABS,
+23,SABS24,400,2,60,1.25,5,35,150,ABS,
+23,SABS26,600,2,60,1.7,5,35,150,ABS,
+23,SGBU401,100,4,120,0.95,5,35,150,GBU,
+23,SGBU402,200,4,120,0.95,5,35,150,GBU,
+23,SGBU404,400,4,120,1.25,5,35,150,GBU,
+23,SGBU406,600,4,120,1.7,5,35,150,GBU,
+23,SGBU601,100,6,150,0.95,5,35,150,GBU,
+23,SGBU602,200,6,150,0.95,5,35,150,GBU,
+23,SGBU604,400,6,150,1.25,5,35,150,GBU,
+23,SGBU606,600,6,150,1.7,5,35,150,GBU,
+23,SGBU1001,100,10,170,0.95,5,35,150,GBU,
+23,SGBU1002,200,11,170,0.95,5,35,150,GBU,
+23,SGBU1004,400,12,170,1.25,5,35,150,GBU,
+23,SGBU1006,600,13,170,1.7,5,35,150,GBU,
+23,SKBP2005,50,2,60,0.95,5,35,150,KBP,
+23,SKBP201,100,2,60,0.95,5,35,150,KBP,
+23,SKBP202,200,2,60,0.95,5,35,150,KBP,
+23,SKBP204,400,2,60,1.25,5,35,150,KBP,
+23,SKBP206,600,2,60,1.7,5,35,150,KBP,
+23,SDB101S,50,1,45,0.95,5,35,150,DBS,
+23,SDB102S,100,1,45,0.95,5,35,150,DBS,
+23,SDB103S,200,1,45,0.95,5,35,150,DBS,
+23,SDB104S,400,1,45,1.25,5,35,150,DBS,
+23,SDB105S,600,1,45,1.7,5,35,150,DBS,
+23,SDB151S,50,1.5,55,0.95,5,35,150,DBS,
+23,SDB152S,100,1.5,55,0.95,5,35,150,DBS,
+23,SDB153S,200,1.5,55,0.95,5,35,150,DBS,
+23,SDB154S,400,1.5,55,1.25,5,35,150,DBS,
+23,SDB155S,600,1.5,55,1.7,5,35,150,DBS,
+23,SDB201S,50,2,60,0.95,5,35,150,DBS,
+23,SDB202S,100,2,60,0.95,5,35,150,DBS,
+23,SDB203S,200,2,60,0.95,5,35,150,DBS,
+23,SDB204S,400,2,60,1.25,5,35,150,DBS,
+23,SDB205S,600,2,60,1.7,5,35,150,DBS,
+23,SDB301S,50,3,80,0.95,5,35,150,DBS,
+23,SDB302S,100,3,80,0.95,5,35,150,DBS,
+23,SDB303S,200,3,80,0.95,5,35,150,DBS,
+23,SDB304S,400,3,80,1.25,5,35,150,DBS,
+23,SDB305S,600,3,80,1.7,5,35,150,DBS,
+23,SDB101,50,1,45,0.95,5,35,150,DBM,
+23,SDB102,100,1,45,0.95,5,35,150,DBM,
+23,SDB103,200,1,45,0.95,5,35,150,DBM,
+23,SDB104,400,1,45,1.25,5,35,150,DBM,
+23,SDB105,600,1,45,1.7,5,35,150,DBM,
+23,SDB151,50,1.5,55,0.95,5,35,150,DBM,
+23,SDB152,100,1.5,55,0.95,5,35,150,DBM,
+23,SDB153,200,1.5,55,0.95,5,35,150,DBM,
+23,SDB154,400,1.5,55,1.25,5,35,150,DBM,
+23,SDB155,600,1.5,55,1.7,5,35,150,DBM,
+23,SDB201,50,2,60,0.95,5,35,150,DBM,
+23,SDB202,100,2,60,0.95,5,35,150,DBM,
+23,SDB203,200,2,60,0.95,5,35,150,DBM,
+23,SDB204,400,2,60,1.25,5,35,150,DBM,
+23,SDB205,600,2,60,1.7,5,35,150,DBM,
+23,SDB301,50,3,80,0.95,5,35,150,DBM,
+23,SDB302,100,3,80,0.95,5,35,150,DBM,
+23,SDB303,200,3,80,0.95,5,35,150,DBM,
+23,SDB304,400,3,80,1.25,5,35,150,DBM,
+23,SDB305,600,3,80,1.7,5,35,150,DBM,
+24,UMB1M,100,0.8,30,1,5,50,150,MBM,
+24,UMB2M,200,0.8,30,1,5,50,150,MBM,
+24,UMB4M,400,0.8,30,1.3,5,50,150,MBM,
+24,UMB6M,600,0.8,30,1.7,5,75,150,MBM,
+24,UMB8M,800,0.8,30,1.7,5,75,150,MBM,
+24,UMB10M,1000,0.8,30,1.7,5,75,150,MBM,
+24,UMB1S,100,0.8,30,1,5,50,150,MBS,
+24,UMB2S,200,0.8,30,1,5,50,150,MBS,
+24,UMB4S,400,0.8,30,1.3,5,50,150,MBS,
+24,UMB6S,600,0.8,30,1.7,5,75,150,MBS,
+24,UMB8S,800,0.8,30,1.7,5,75,150,MBS,
+24,UMB10S,1000,0.8,30,1.7,5,75,150,MBS,
+24,UMB2F,200,0.8,30,1,5,50,150,MBF,550
+24,UMB4F,400,0.8,30,1.3,5,50,150,MBF,550
+24,UMB6F,600,0.8,30,1.7,5,75,150,MBF,550
+24,UMB8F,800,0.8,30,1.7,5,75,150,MBF,550
+24,UMB10F,1000,0.8,30,1.7,5,75,150,MBF,550
+24,UABS2,200,0.8,30,1,5,50,150,ABS,
+24,UABS4,400,0.8,30,1.3,5,50,150,ABS,
+24,UABS6,600,0.8,30,1.7,5,75,150,ABS,
+24,UABS8,800,0.8,30,1.7,5,75,150,ABS,
+24,UABS10,1000,0.8,30,1.7,5,75,150,ABS,
+24,UABS152,200,1.5,50,1,5,50,150,ABS,
+24,UABS154,400,1.5,50,1.3,5,50,150,ABS,
+24,UABS156,600,1.5,50,1.7,5,75,150,ABS,
+24,UABS158,800,1.5,50,1.7,5,75,150,ABS,
+24,UABS1510,1000,1.5,50,1.7,5,75,150,ABS,
+24,UABS22,200,2,60,1,5,50,150,ABS,
+24,UABS24,400,2,60,1.3,5,50,150,ABS,
+24,UABS26,600,2,60,1.7,5,75,150,ABS,
+24,UABS28,800,2,60,1.7,5,75,150,ABS,
+24,UABS210,1000,2,60,1.7,5,75,150,ABS,
+24,UDB101S,50,1,45,1,5,50,150,DBS,
+24,UDB102S,100,1,45,1,5,50,150,DBS,
+24,UDB103S,200,1,45,1,5,50,150,DBS,
+24,UDB104S,400,1,45,1.3,5,50,150,DBS,
+24,UDB105S,600,1,45,1.7,5,75,150,DBS,
+24,UDB106S,800,1,45,1.7,5,75,150,DBS,
+24,UDB107S,1000,1,45,1.7,5,75,150,DBS,
+24,UDB151S,50,1.5,55,1,5,50,150,DBS,
+24,UDB152S,100,1.5,55,1,5,50,150,DBS,
+24,UDB153S,200,1.5,55,1,5,50,150,DBS,
+24,UDB154S,400,1.5,55,1.3,5,50,150,DBS,
+24,UDB155S,600,1.5,55,1.7,5,75,150,DBS,
+24,UDB156S,800,1.5,55,1.7,5,75,150,DBS,
+24,UDB157S,1000,1.5,55,1.7,5,75,150,DBS,
+24,UDB201S,50,2,60,1,5,50,150,DBS,
+24,UDB202S,100,2,60,1,5,50,150,DBS,
+24,UDB203S,200,2,60,1,5,50,150,DBS,
+24,UDB204S,400,2,60,1.3,5,50,150,DBS,
+24,UDB205S,600,2,60,1.7,5,75,150,DBS,
+24,UDB206S,800,2,60,1.7,5,75,150,DBS,
+24,UDB207S,1000,2,60,1.7,5,75,150,DBS,
+24,UDB301S,50,3,80,1,5,50,150,DBS,
+24,UDB302S,100,3,80,1,5,50,150,DBS,
+24,UDB303S,200,3,80,1,5,50,150,DBS,
+24,UDB304S,400,3,80,1.3,5,50,150,DBS,
+24,UDB305S,600,3,80,1.7,5,75,150,DBS,
+24,UDB306S,800,3,80,1.7,5,75,150,DBS,
+24,UDB307S,1000,3,80,1.7,5,75,150,DBS,
+24,UDB101,50,1,45,1,5,50,150,DBM,
+24,UDB102,100,1,45,1,5,50,150,DBM,
+24,UDB103,200,1,45,1,5,50,150,DBM,
+24,UDB104,400,1,45,1.3,5,50,150,DBM,
+24,UDB105,600,1,45,1.7,5,75,150,DBM,
+24,UDB106,800,1,45,1.7,5,75,150,DBM,
+24,UDB107,1000,1,45,1.7,5,75,150,DBM,
+24,UDB151,50,1.5,55,1,5,50,150,DBM,
+24,UDB152,100,1.5,55,1,5,50,150,DBM,
+24,UDB153,200,1.5,55,1,5,50,150,DBM,
+24,UDB154,400,1.5,55,1.3,5,50,150,DBM,
+24,UDB155,600,1.5,55,1.7,5,75,150,DBM,
+24,UDB156,800,1.5,55,1.7,5,75,150,DBM,
+24,UDB157,1000,1.5,55,1.7,5,75,150,DBM,
+24,UDB201,50,2,60,1,5,50,150,DBM,
+24,UDB202,100,2,60,1,5,50,150,DBM,
+24,UDB203,200,2,60,1,5,50,150,DBM,
+24,UDB204,400,2,60,1.3,5,50,150,DBM,
+24,UDB205,600,2,60,1.7,5,75,150,DBM,
+24,UDB206,800,2,60,1.7,5,75,150,DBM,
+24,UDB207,1000,2,60,1.7,5,75,150,DBM,
+24,UDB301,50,3,80,1,5,50,150,DBM,
+24,UDB302,100,3,80,1,5,50,150,DBM,
+24,UDB303,200,3,80,1,5,50,150,DBM,
+24,UDB304,400,3,80,1.3,5,50,150,DBM,
+24,UDB305,600,3,80,1.7,5,75,150,DBM,
+24,UDB306,800,3,80,1.7,5,75,150,DBM,
+24,UDB307,1000,3,80,1.7,5,75,150,DBM,
+25,KMB12M,20,1,30,0.55,100,-,150,MBM,
+25,KMB13M,30,1,30,0.55,100,-,150,MBM,
+25,KMB14M,40,1,30,0.55,100,-,150,MBM,
+25,KMB145M,45,1,30,0.55,100,-,150,MBM,
+25,KMB15M,50,1,30,0.7,100,-,150,MBM,
+25,KMB16M,60,1,30,0.7,100,-,150,MBM,
+25,KMB18M,80,1,30,0.85,50,-,150,MBM,
+25,KMB110M,100,1,30,0.85,50,-,150,MBM,
+25,KMB115M,150,1,30,0.9,50,-,150,MBM,
+25,KMB120M,200,1,30,0.9,50,-,150,MBM,
+25,KMB125M,250,1,30,0.92,50,-,150,MBM,
+25,KMB22M,20,2,50,0.55,100,-,150,MBM,
+25,KMB23M,30,2,50,0.55,100,-,150,MBM,
+25,KMB24M,40,2,50,0.55,100,-,150,MBM,
+25,KMB245M,45,2,50,0.55,100,-,150,MBM,
+25,KMB25M,50,2,50,0.7,100,-,150,MBM,
+25,KMB26M,60,2,50,0.7,100,-,150,MBM,
+25,KMB28M,80,2,50,0.85,50,-,150,MBM,
+25,KMB210M,100,2,50,0.85,50,-,150,MBM,
+25,KMB215M,150,2,50,0.9,50,-,150,MBM,
+25,KMB220M,200,2,50,0.9,50,-,150,MBM,
+25,KMB225M,250,2,50,0.92,50,-,150,MBM,
+25,KMB32M,20,3,80,0.55,100,-,150,MBM,
+25,KMB33M,30,3,80,0.55,100,-,150,MBM,
+25,KMB34M,40,3,80,0.55,100,-,150,MBM,
+25,KMB345M,45,3,80,0.55,100,-,150,MBM,
+25,KMB35M,50,3,80,0.7,100,-,150,MBM,
+25,KMB36M,60,3,80,0.7,100,-,150,MBM,
+25,KMB38M,80,3,80,0.85,50,-,150,MBM,
+25,KMB310M,100,3,80,0.85,50,-,150,MBM,
+25,KMB315M,150,3,80,0.9,50,-,150,MBM,
+25,KMB320M,200,3,80,0.9,50,-,150,MBM,
+25,KMB325M,250,3,80,0.92,50,-,150,MBM,
+25,KMB12S,20,1,30,0.55,100,-,150,MBS,
+25,KMB13S,30,1,30,0.55,100,-,150,MBS,
+25,KMB14S,40,1,30,0.55,100,-,150,MBS,
+25,KMB145S,45,1,30,0.55,100,-,150,MBS,
+25,KMB15S,50,1,30,0.7,100,-,150,MBS,
+25,KMB16S,60,1,30,0.7,100,-,150,MBS,
+25,KMB18S,80,1,30,0.85,50,-,150,MBS,
+25,KMB110S,100,1,30,0.85,50,-,150,MBS,
+25,KMB115S,150,1,30,0.9,50,-,150,MBS,
+25,KMB120S,200,1,30,0.9,50,-,150,MBS,
+25,KMB125S,250,1,30,0.92,50,-,150,MBS,
+25,KMB22S,20,2,50,0.55,100,-,150,MBS,
+25,KMB23S,30,2,50,0.55,100,-,150,MBS,
+25,KMB24S,40,2,50,0.55,100,-,150,MBS,
+25,KMB245S,45,2,50,0.55,100,-,150,MBS,
+25,KMB25S,50,2,50,0.7,100,-,150,MBS,
+25,KMB26S,60,2,50,0.7,100,-,150,MBS,
+25,KMB28S,80,2,50,0.85,50,-,150,MBS,
+25,KMB210S,100,2,50,0.85,50,-,150,MBS,
+25,KMB215S,150,2,50,0.9,50,-,150,MBS,
+25,KMB220S,200,2,50,0.9,50,-,150,MBS,
+25,KMB225S,250,2,50,0.92,50,-,150,MBS,
+25,KMB32S,20,3,80,0.55,100,-,150,MBS,
+25,KMB33S,30,3,80,0.55,100,-,150,MBS,
+25,KMB34S,40,3,80,0.55,100,-,150,MBS,
+25,KMB345S,45,3,80,0.55,100,-,150,MBS,
+25,KMB35S,50,3,80,0.7,100,-,150,MBS,
+25,KMB36S,60,3,80,0.7,100,-,150,MBS,
+25,KMB38S,80,3,80,0.85,50,-,150,MBS,
+25,KMB310S,100,3,80,0.85,50,-,150,MBS,
+25,KMB315S,150,3,80,0.9,50,-,150,MBS,
+25,KMB320S,200,3,80,0.9,50,-,150,MBS,
+25,KMB325S,250,3,80,0.92,50,-,150,MBS,
+25,TMB22S,20,2,50,0.45,100,-,150,MBS,
+25,TMB24S,40,2,50,0.45,100,-,150,MBS,
+25,TMB25S,50,2,50,0.55,100,-,150,MBS,
+25,TMB26S,60,2,50,0.55,100,-,150,MBS,
+25,TMB28S,80,2,50,0.75,50,-,150,MBS,
+25,TMB210S,100,2,50,0.75,50,-,150,MBS,
+25,TMB215S,150,2,50,0.85,50,-,150,MBS,
+25,TMB220S,200,2,50,0.85,50,-,150,MBS,
+25,KMB12F,20,1,30,0.55,100,-,150,MBF,
+25,KMB13F,30,1,30,0.55,100,-,150,MBF,
+25,KMB14F,40,1,30,0.55,100,-,150,MBF,
+25,KMB145F,45,1,30,0.55,100,-,150,MBF,
+25,KMB15F,50,1,30,0.7,100,-,150,MBF,
+25,KMB16F,60,1,30,0.7,100,-,150,MBF,
+25,KMB18F,80,1,30,0.85,50,-,150,MBF,
+25,KMB110F,100,1,30,0.85,50,-,150,MBF,
+25,KMB115F,150,1,30,0.9,50,-,150,MBF,
+25,KMB120F,200,1,30,0.9,50,-,150,MBF,
+25,KMB125F,250,1,30,0.92,50,-,150,MBF,
+25,KMB22F,20,2,50,0.55,100,-,150,MBF,
+25,KMB23F,30,2,50,0.55,100,-,150,MBF,
+25,KMB24F,40,2,50,0.55,100,-,150,MBF,
+25,KMB245F,45,2,50,0.55,100,-,150,MBF,
+25,KMB25F,50,2,50,0.7,100,-,150,MBF,
+25,KMB26F,60,2,50,0.7,100,-,150,MBF,
+25,KMB28F,80,2,50,0.85,50,-,150,MBF,
+25,KMB210F,100,2,50,0.85,50,-,150,MBF,
+25,KMB215F,150,2,50,0.9,50,-,150,MBF,
+25,KMB220F,200,2,50,0.9,50,-,150,MBF,
+25,KMB225F,250,2,50,0.92,50,-,150,MBF,
+25,KMB32F,20,3,80,0.55,100,-,150,MBF,
+25,KMB33F,30,3,80,0.55,100,-,150,MBF,
+25,KMB34F,40,3,80,0.55,100,-,150,MBF,
+25,KMB345F,45,3,80,0.55,100,-,150,MBF,
+25,KMB35F,50,3,80,0.7,100,-,150,MBF,
+25,KMB36F,60,3,80,0.7,100,-,150,MBF,
+25,KMB38F,80,3,80,0.85,50,-,150,MBF,
+25,KMB310F,100,3,80,0.85,50,-,150,MBF,
+25,KMB315F,150,3,80,0.9,50,-,150,MBF,
+25,KMB320F,200,3,80,0.9,50,-,150,MBF,
+25,KMB325F,250,3,80,0.92,50,-,150,MBF,
+25,KABS12,20,1,30,0.5,100,-,150,ABS,
+25,KABS13,30,1,30,0.5,100,-,150,ABS,
+25,KABS14,40,1,30,0.5,100,-,150,ABS,
+25,KABS145,45,1,30,0.5,100,-,150,ABS,
+25,KABS15,50,1,30,0.7,100,-,150,ABS,
+25,KABS16,60,1,30,0.7,100,-,150,ABS,
+25,KABS18,80,1,30,0.85,50,-,150,ABS,
+25,KABS110,100,1,30,0.85,50,-,150,ABS,
+25,KABS115,150,1,30,0.9,50,-,150,ABS,
+25,KABS120,200,1,30,0.9,50,-,150,ABS,
+25,KABS125,250,1,30,0.92,50,-,150,ABS,
+25,KABS22,20,2,50,0.5,100,-,150,ABS,
+25,KABS23,30,2,50,0.5,100,-,150,ABS,
+25,KABS24,40,2,50,0.5,100,-,150,ABS,
+25,KABS245,45,2,50,0.5,100,-,150,ABS,
+25,KABS25,50,2,50,0.7,100,-,150,ABS,
+25,KABS26,60,2,50,0.7,100,-,150,ABS,
+25,KABS28,80,2,50,0.85,100,-,150,ABS,
+25,KABS210,100,2,50,0.85,50,-,150,ABS,
+25,KABS215,150,2,50,0.9,50,-,150,ABS,
+25,KABS220,200,2,50,0.9,50,-,150,ABS,
+25,KABS225,250,2,50,0.92,50,-,150,ABS,
+25,KABS32,20,3,80,0.5,100,-,150,ABS,
+25,KABS33,30,3,80,0.5,100,-,150,ABS,
+25,KABS34,40,3,80,0.5,100,-,150,ABS,
+25,KABS345,45,3,80,0.5,100,-,150,ABS,
+25,KABS35,50,3,80,0.7,100,-,150,ABS,
+25,KABS36,60,3,80,0.7,100,-,150,ABS,
+25,KABS38,80,3,80,0.85,50,-,150,ABS,
+25,KABS310,100,3,80,0.85,50,-,150,ABS,
+25,KABS315,150,3,80,0.9,50,-,150,ABS,
+25,KABS320,200,3,80,0.9,50,-,150,ABS,
+25,KABS325,250,3,80,0.92,50,-,150,ABS,
+25,KABF12,20,2,30,0.5,100,-,150,ABF,
+25,KABF13,30,2,30,0.5,100,-,150,ABF,
+25,KABF14,40,2,30,0.5,100,-,150,ABF,
+25,KABF145,45,2,30,0.5,100,-,150,ABF,
+25,KABF15,50,2,30,0.7,100,-,150,ABF,
+25,KABF16,60,2,30,0.7,100,-,150,ABF,
+25,KABF18,80,2,30,0.85,50,-,150,ABF,
+25,KABF110,100,2,30,0.85,50,-,150,ABF,
+25,KABF115,150,2,30,0.9,50,-,150,ABF,
+25,KABF120,200,2,30,0.9,50,-,150,ABF,
+25,KABF125,250,2,30,0.92,50,-,150,ABF,
+25,KABF20,20,2,50,0.5,100,-,150,ABF,
+25,KABF30,30,2,50,0.5,100,-,150,ABF,
+25,KABF40,40,2,50,0.5,100,-,150,ABF,
+25,KABF45,45,2,50,0.5,100,-,150,ABF,
+25,KABF50,50,2,50,0.7,100,-,150,ABF,
+25,KABF60,60,2,50,0.7,100,-,150,ABF,
+25,KABF80,80,2,50,0.85,50,-,150,ABF,
+25,KABF100,100,2,50,0.85,50,-,150,ABF,
+25,KABF150,150,2,50,0.9,50,-,150,ABF,
+25,KABF200,200,2,50,0.9,50,-,150,ABF,
+25,KABF250,250,2,50,0.92,50,-,150,ABF,
+25,KABF30,20,3,80,0.5,100,-,150,ABF,
+25,KABF33,30,3,80,0.5,100,-,150,ABF,
+25,KABF34,40,3,80,0.5,100,-,150,ABF,
+25,KABF345,45,3,80,0.5,100,-,150,ABF,
+25,KABF35,50,3,80,0.7,100,-,150,ABF,
+25,KABF36,60,3,80,0.7,100,-,150,ABF,
+25,KABF38,80,3,80,0.85,50,-,150,ABF,
+25,KABF310,100,3,80,0.85,50,-,150,ABF,
+25,KABF315,150,3,80,0.9,50,-,150,ABF,
+25,KABF320,200,3,80,0.9,50,-,150,ABF,
+25,KABF325,250,3,80,0.92,50,-,150,ABF,
+25,KDB22S,20,2,60,0.55,100,-,150,DBS,
+25,KDB23S,30,2,60,0.55,100,-,150,DBS,
+25,KDB24S,40,2,60,0.55,100,-,150,DBS,
+25,KDB245S,45,2,60,0.55,100,-,150,DBS,
+25,KDB25S,50,2,60,0.7,100,-,150,DBS,
+25,KDB26S,60,2,60,0.7,100,-,150,DBS,
+25,KDB28S,80,2,60,0.85,50,-,150,DBS,
+25,KDB210S,100,2,60,0.85,50,-,150,DBS,
+25,KDB215S,150,2,60,0.9,50,-,150,DBS,
+25,KDB220S,200,2,60,0.9,50,-,150,DBS,
+25,KDB225S,250,2,60,0.92,50,-,150,DBS,
+25,KDB32S,20,3,80,0.55,100,-,150,DBS,
+25,KDB33S,30,3,80,0.55,100,-,150,DBS,
+25,KDB34S,40,3,80,0.55,100,-,150,DBS,
+25,KDB345S,45,3,80,0.55,100,-,150,DBS,
+25,KDB35S,50,3,80,0.7,100,-,150,DBS,
+25,KDB36S,60,3,80,0.7,100,-,150,DBS,
+25,KDB38S,80,3,80,0.85,50,-,150,DBS,
+25,KDB310S,100,3,80,0.85,50,-,150,DBS,
+25,KDB315S,150,3,80,0.9,50,-,150,DBS,
+25,KDB320S,200,3,80,0.9,50,-,150,DBS,
+25,KDB325S,250,3,80,0.92,50,-,150,DBS,
+25,KDB22,20,2,60,0.55,100,-,150,DBM,
+25,KDB23,30,2,60,0.55,100,-,150,DBM,
+25,KDB24,40,2,60,0.55,100,-,150,DBM,
+25,KDB245,45,2,60,0.55,100,-,150,DBM,
+25,KDB25,50,2,60,0.7,100,-,150,DBM,
+25,KDB26,60,2,60,0.7,100,-,150,DBM,
+25,KDB28,80,2,60,0.85,50,-,150,DBM,
+25,KDB210,100,2,60,0.85,50,-,150,DBM,
+25,KDB215,150,2,60,0.9,50,-,150,DBM,
+25,KDB220,200,2,60,0.9,50,-,150,DBM,
+25,KDB225,250,2,60,0.92,50,-,150,DBM,
+25,KDB32,20,3,80,0.55,100,-,150,DBM,
+25,KDB33,30,3,80,0.55,100,-,150,DBM,
+25,KDB34,40,3,80,0.55,100,-,150,DBM,
+25,KDB345,45,3,80,0.55,100,-,150,DBM,
+25,KDB35,50,3,80,0.7,100,-,150,DBM,
+25,KDB36,60,3,80,0.7,100,-,150,DBM,
+25,KDB38,80,3,80,0.85,50,-,150,DBM,
+25,KDB310,100,3,80,0.85,50,-,150,DBM,
+25,KDB315,150,3,80,0.9,50,-,150,DBM,
+25,KDB320,200,3,80,0.9,50,-,150,DBM,
+25,KDB325,250,3,80,0.92,50,-,150,DBM,
+6,1N4001,50,1,30,1,5,-,125,DO-41,404
+6,1N4002,100,1,30,1,5,-,125,DO-41,404
+6,1N4003,200,1,30,1,5,-,125,DO-41,404
+6,1N4004,400,1,30,1,5,-,125,DO-41,404
+6,1N4005,600,1,30,1,5,-,125,DO-41,404
+6,1N4006,800,1,30,1,5,-,125,DO-41,404
+6,1N4007,1000,1,30,1,5,-,125,DO-41,404
+6,1N4001G,50,1,30,1,5,-,150,DO-41,405
+6,1N4002G,100,1,30,1,5,-,150,DO-41,405
+6,1N4003G,200,1,30,1,5,-,150,DO-41,405
+6,1N4004G,400,1,30,1,5,-,150,DO-41,405
+6,1N4005G,600,1,30,1,5,-,150,DO-41,405
+6,1N4006G,800,1,30,1,5,-,150,DO-41,405
+6,1N4007G,1000,1,30,1,5,-,150,DO-41,405
+6,RL201,50,2,60,1,5,-,125,DO-15,488
+6,RL202,100,2,60,1,5,-,125,DO-15,488
+6,RL203,200,2,60,1,5,-,125,DO-15,488
+6,RL204,400,2,60,1,5,-,125,DO-15,488
+6,RL205,600,2,60,1,5,-,125,DO-15,488
+6,RL206,800,2,60,1,5,-,125,DO-15,488
+6,RL207,1000,2,60,1,5,-,125,DO-15,488
+6,RL201G,50,2,60,1,5,-,150,DO-15,487
+6,RL202G,100,2,60,1,5,-,150,DO-15,487
+6,RL203G,200,2,60,1,5,-,150,DO-15,487
+6,RL204G,400,2,60,1,5,-,150,DO-15,487
+6,RL205G,600,2,60,1,5,-,150,DO-15,487
+6,RL206G,800,2,60,1,5,-,150,DO-15,487
+6,RL207G,1000,2,60,1,5,-,150,DO-15,487
+6,1N5400,50,3,150,1,5,-,125,DO-201AD,406
+6,1N5401,100,3,150,1,5,-,125,DO-201AD,406
+6,1N5402,200,3,150,1,5,-,125,DO-201AD,406
+6,1N5404,400,3,150,1,5,-,125,DO-201AD,406
+6,1N5406,600,3,150,1,5,-,125,DO-201AD,406
+6,1N5407,800,3,150,1,5,-,125,DO-201AD,406
+6,1N5408,1000,3,150,1,5,-,125,DO-201AD,406
+6,1N5400G,50,3,150,1,5,-,150,DO-201AD,407
+6,1N5401G,100,3,150,1,5,-,150,DO-201AD,407
+6,1N5402G,200,3,150,1,5,-,150,DO-201AD,407
+6,1N5404G,400,3,150,1,5,-,150,DO-201AD,407
+6,1N5406G,600,3,150,1,5,-,150,DO-201AD,407
+6,1N5407G,800,3,150,1,5,-,150,DO-201AD,407
+6,1N5408G,1000,3,150,1,5,-,150,DO-201AD,407
+6,6A05,50,6,200,1,5,-,125,R-6,410
+6,6A1,100,6,200,1,5,-,125,R-6,410
+6,6A2,200,6,200,1,5,-,125,R-6,410
+6,6A4,400,6,200,1,5,-,125,R-6,410
+6,6A6,600,6,200,1,5,-,125,R-6,410
+6,6A8,800,6,200,1,5,-,125,R-6,410
+6,6A10,1000,6,200,1,5,-,125,R-6,411
+6,10A05,50,10,400,1,5,-,125,R-6,411
+6,10A1,100,10,400,1,5,-,125,R-6,411
+6,10A2,200,10,400,1,5,-,125,R-6,411
+6,10A4,400,10,400,1,5,-,125,R-6,411
+6,10A6,600,10,400,1,5,-,125,R-6,411
+6,10A8,800,10,400,1,5,-,125,R-6,411
+6,10A10,1000,10,400,1,5,-,125,R-6,411
+6,M1,50,1,30,1,5,-,150,SMA,479
+6,M2,100,1,30,1,5,-,150,SMA,479
+6,M3,200,1,30,1,5,-,150,SMA,479
+6,M4,400,1,30,1,5,-,150,SMA,479
+6,M5,600,1,30,1,5,-,150,SMA,479
+6,M6,800,1,30,1,5,-,150,SMA,479
+6,M7,1000,1,30,1,5,-,150,SMA,479
+6,GS1A,50,1,30,1,5,-,150,SMA,455
+6,GS1B,100,1,30,1,5,-,150,SMA,455
+6,GS1D,200,1,30,1,5,-,150,SMA,455
+6,GS1G,400,1,30,1,5,-,150,SMA,455
+6,GS1J,600,1,30,1,5,-,150,SMA,455
+6,GS1K,800,1,30,1,5,-,150,SMA,455
+6,GS1M,1000,1,30,1,5,-,150,SMA,455
+6,GS2A,50,2,50,1,5,-,150,SMA,456
+6,GS2B,100,2,50,1,5,-,150,SMA,456
+6,GS2D,200,2,50,1,5,-,150,SMA,456
+6,GS2G,400,2,50,1,5,-,150,SMA,456
+6,GS2J,600,2,50,1,5,-,150,SMA,456
+6,GS2K,800,2,50,1,5,-,150,SMA,456
+6,GS2M,1000,2,50,1,5,-,150,SMA,456
+6,S2A,50,2,50,1,5,-,150,SMA,499
+6,S2B,100,2,50,1,5,-,150,SMA,499
+6,S2D,200,2,50,1,5,-,150,SMA,499
+6,S2G,400,2,50,1,5,-,150,SMA,499
+6,S2J,600,2,50,1,5,-,150,SMA,499
+6,S2K,800,2,50,1,5,-,150,SMA,499
+6,S2M,1000,2,50,1,5,-,150,SMA,499
+6,S2A,50,2,50,1,5,-,150,SMB,500
+6,S2B,100,2,50,1,5,-,150,SMB,500
+6,S2D,200,2,50,1,5,-,150,SMB,500
+6,S2G,400,2,50,1,5,-,150,SMB,500
+6,S2J,600,2,50,1,5,-,150,SMB,500
+6,S2K,800,2,50,1,5,-,150,SMB,500
+6,S2M,1000,2,50,1,5,-,150,SMB,500
+6,S3A,50,3,100,1,5,-,150,SMB,501
+6,S3B,100,3,100,1,5,-,150,SMB,501
+6,S3D,200,3,100,1,5,-,150,SMB,501
+6,S3G,400,3,100,1,5,-,150,SMB,501
+6,S3J,600,3,100,1,5,-,150,SMB,501
+6,S3K,800,3,100,1,5,-,150,SMB,501
+6,S3M,1000,3,100,1,5,-,150,SMB,501
+6,A1,50,1,35,1,5,-,150,SOD-123FL,412
+6,A2,100,1,35,1,5,-,150,SOD-123FL,412
+6,A3,200,1,35,1,5,-,150,SOD-123FL,412
+6,A4,400,1,35,1,5,-,150,SOD-123FL,412
+6,A5,600,1,35,1,5,-,150,SOD-123FL,412
+6,A6,800,1,35,1,5,-,150,SOD-123FL,412
+6,A7,1000,1,35,1,5,-,150,SOD-123FL,412
+6,S1AF,50,1,30,1.1,5,-,150,SMAF,497
+6,S1BF,100,1,30,1.1,5,-,150,SMAF,497
+6,S1DF,200,1,30,1.1,5,-,150,SMAF,497
+6,S1GF,400,1,30,1.1,5,-,150,SMAF,497
+6,S1JF,600,1,30,1.1,5,-,150,SMAF,497
+6,S1KF,800,1,30,1.1,5,-,150,SMAF,497
+6,S1MF,1000,1,30,1.1,5,-,150,SMAF,497
+6,S2AF,50,2,50,1.1,5,-,150,SMAF,498
+6,S2BF,100,2,50,1.1,5,-,150,SMAF,498
+6,S2DF,200,2,50,1.1,5,-,150,SMAF,498
+6,S2GF,400,2,50,1.1,5,-,150,SMAF,498
+6,S2JF,600,2,50,1.1,5,-,150,SMAF,498
+6,S2KF,800,2,50,1.1,5,-,150,SMAF,498
+6,S2MF,1000,2,50,1.1,5,-,150,SMAF,498
+7,FR101,50,1,30,1.3,5,150,125,DO-41,431
+7,FR102,100,1,30,1.3,5,150,125,DO-41,431
+7,FR103,200,1,30,1.3,5,150,125,DO-41,431
+7,FR104,400,1,30,1.3,5,150,125,DO-41,431
+7,FR105,600,1,30,1.3,5,250,125,DO-41,431
+7,FR106,800,1,30,1.3,5,500,125,DO-41,431
+7,FR107,1000,1,30,1.3,5,500,125,DO-41,431
+7,FR101G,50,1,30,1.3,5,150,150,DO-41,432
+7,FR102G,100,1,30,1.3,5,150,150,DO-41,432
+7,FR103G,200,1,30,1.3,5,150,150,DO-41,432
+7,FR104G,400,1,30,1.3,5,150,150,DO-41,432
+7,FR105G,600,1,30,1.3,5,250,150,DO-41,432
+7,FR106G,800,1,30,1.3,5,500,150,DO-41,432
+7,FR107G,1000,1,30,1.3,5,500,150,DO-41,432
+7,FR151,50,1.5,50,1.3,5,150,125,DO-15,433
+7,FR152,100,1.5,50,1.3,5,150,125,DO-15,433
+7,FR153,200,1.5,50,1.3,5,150,125,DO-15,433
+7,FR154,400,1.5,50,1.3,5,150,125,DO-15,433
+7,FR155,600,1.5,50,1.3,5,250,125,DO-15,433
+7,FR156,800,1.5,50,1.3,5,500,125,DO-15,433
+7,FR157,1000,1.5,50,1.3,5,500,125,DO-15,433
+7,FR151G,50,1.5,50,1.3,5,150,150,DO-15,434
+7,FR152G,100,1.5,50,1.3,5,150,150,DO-15,434
+7,FR153G,200,1.5,50,1.3,5,150,150,DO-15,434
+7,FR154G,400,1.5,50,1.3,5,150,150,DO-15,434
+7,FR155G,600,1.5,50,1.3,5,250,150,DO-15,434
+7,FR156G,800,1.5,50,1.3,5,500,150,DO-15,434
+7,FR157G,1000,1.5,50,1.3,5,500,150,DO-15,434
+7,FR201,50,2,60,1.3,5,150,125,DO-15,435
+7,FR202,100,2,60,1.3,5,150,125,DO-15,435
+7,FR203,200,2,60,1.3,5,150,125,DO-15,435
+7,FR204,400,2,60,1.3,5,150,125,DO-15,435
+7,FR205,600,2,60,1.3,5,250,125,DO-15,435
+7,FR206,800,2,60,1.3,5,500,125,DO-15,435
+7,FR207,1000,2,60,1.3,5,500,125,DO-15,435
+7,FR201G,50,2,60,1.3,5,150,150,DO-15,436
+7,FR202G,100,2,60,1.3,5,150,150,DO-15,436
+7,FR203G,200,2,60,1.3,5,150,150,DO-15,436
+7,FR204G,400,2,60,1.3,5,150,150,DO-15,436
+7,FR205G,600,2,60,1.3,5,250,150,DO-15,436
+7,FR206G,800,2,60,1.3,5,500,150,DO-15,436
+7,FR207G,1000,2,60,1.3,5,500,150,DO-15,436
+7,FR251,50,2.5,100,1.3,5,150,125,DO-15,437
+7,FR252,100,2.5,100,1.3,5,150,125,DO-15,437
+7,FR253,200,2.5,100,1.3,5,150,125,DO-15,437
+7,FR254,400,2.5,100,1.3,5,150,125,DO-15,437
+7,FR255,600,2.5,100,1.3,5,250,125,DO-15,437
+7,FR256,800,2.5,100,1.3,5,500,125,DO-15,437
+7,FR257,1000,2.5,100,1.3,5,500,125,DO-15,437
+7,FR251G,50,2.5,100,1.3,5,150,150,DO-15,438
+7,FR252G,100,2.5,100,1.3,5,150,150,DO-15,438
+7,FR253G,200,2.5,100,1.3,5,150,150,DO-15,438
+7,FR254G,400,2.5,100,1.3,5,150,150,DO-15,438
+7,FR255G,600,2.5,100,1.3,5,250,150,DO-15,438
+7,FR256G,800,2.5,100,1.3,5,500,150,DO-15,438
+7,FR257G,1000,2.5,100,1.3,5,500,150,DO-15,438
+7,FR301,50,3,150,1.3,5,150,125,DO-201AD,439
+7,FR302,100,3,150,1.3,5,150,125,DO-201AD,439
+7,FR303,200,3,150,1.3,5,150,125,DO-201AD,439
+7,FR304,400,3,150,1.3,5,150,125,DO-201AD,439
+7,FR305,600,3,150,1.3,5,250,125,DO-201AD,439
+7,FR306,800,3,150,1.3,5,500,125,DO-201AD,439
+7,FR307,1000,3,150,1.3,5,500,125,DO-201AD,439
+7,FR301G,50,3,150,1.3,5,150,150,DO-201AD,
+7,FR302G,100,3,150,1.3,5,150,150,DO-201AD,
+7,FR303G,200,3,150,1.3,5,150,150,DO-201AD,
+7,FR304G,400,3,150,1.3,5,150,150,DO-201AD,
+7,FR305G,600,3,150,1.3,5,250,150,DO-201AD,
+7,FR306G,800,3,150,1.3,5,500,150,DO-201AD,
+7,FR307G,1000,3,150,1.3,5,500,150,DO-201AD,
+7,RS1A,50,1,30,1.3,5,150,150,SMA,492
+7,RS1B,100,1,30,1.3,5,150,150,SMA,492
+7,RS1D,200,1,30,1.3,5,150,150,SMA,492
+7,RS1G,400,1,30,1.3,5,150,150,SMA,492
+7,RS1J,600,1,30,1.3,5,250,150,SMA,492
+7,RS1K,800,1,30,1.3,5,500,150,SMA,492
+7,RS1M,1000,1,30,1.3,5,500,150,SMA,492
+7,RS2A,50,2,50,1.3,5,150,150,SMA,494
+7,RS2B,100,2,50,1.3,5,150,150,SMA,494
+7,RS2D,200,2,50,1.3,5,150,150,SMA,494
+7,RS2G,400,2,50,1.3,5,150,150,SMA,494
+7,RS2J,600,2,50,1.3,5,250,150,SMA,494
+7,RS2K,800,2,50,1.3,5,500,150,SMA,494
+7,RS2M,1000,2,50,1.3,5,500,150,SMA,494
+7,RS2A,50,2,50,1.3,5,150,150,SMB,495
+7,RS2B,100,2,50,1.3,5,150,150,SMB,495
+7,RS2D,200,2,50,1.3,5,150,150,SMB,495
+7,RS2G,400,2,50,1.3,5,150,150,SMB,495
+7,RS2J,600,2,50,1.3,5,250,150,SMB,495
+7,RS2K,800,2,50,1.3,5,500,150,SMB,495
+7,RS2M,1000,2,50,1.3,5,500,150,SMB,495
+7,RS3A,50,3,100,1.3,5,150,150,SMB,496
+7,RS3B,100,3,100,1.3,5,150,150,SMB,496
+7,RS3D,200,3,100,1.3,5,150,150,SMB,496
+7,RS3G,400,3,100,1.3,5,150,150,SMB,496
+7,RS3J,600,3,100,1.3,5,250,150,SMB,496
+7,RS3K,800,3,100,1.3,5,500,150,SMB,496
+7,RS3M,1000,3,100,1.3,5,500,150,SMB,496
+7,F1A,50,1,35,1.3,5,150,150,SOD-123FL,429
+7,F1B,100,1,35,1.3,5,150,150,SOD-123FL,429
+7,F1D,200,1,35,1.3,5,150,150,SOD-123FL,429
+7,F1G,400,1,35,1.3,5,150,150,SOD-123FL,429
+7,F1J,600,1,35,1.3,5,250,150,SOD-123FL,429
+7,F1K,800,1,35,1.3,5,500,150,SOD-123FL,429
+7,F1M,1000,1,35,1.3,5,500,150,SOD-123FL,429
+7,F1,50,1,35,1.3,5,150,150,SOD-123FL,430
+7,F2,100,1,35,1.3,5,150,150,SOD-123FL,430
+7,F3,200,1,35,1.3,5,150,150,SOD-123FL,430
+7,F4,400,1,35,1.3,5,150,150,SOD-123FL,430
+7,F5,600,1,35,1.3,5,250,150,SOD-123FL,430
+7,F6,800,1,35,1.3,5,50,150,SOD-123FL,430
+7,F7,1000,1,35,1.3,5,50,150,SOD-123FL,430
+7,RS1AF,50,1,30,1.3,5,150,150,SMAF,491
+7,RS1BF,100,1,30,1.3,5,150,150,SMAF,491
+7,RS1DF,200,1,30,1.3,5,150,150,SMAF,491
+7,RS1GF,400,1,30,1.3,5,150,150,SMAF,491
+7,RS1JF,600,1,30,1.3,5,250,150,SMAF,491
+7,RS1KF,800,1,30,1.3,5,500,150,SMAF,491
+7,RS1MF,1000,1,30,1.3,5,500,150,SMAF,491
+7,RS2AF,50,2,50,1.3,5,150,150,SMAF,493
+7,RS2BF,100,2,50,1.3,5,150,150,SMAF,493
+7,RS2DF,200,2,50,1.3,5,150,150,SMAF,493
+7,RS2GF,400,2,50,1.3,5,150,150,SMAF,493
+7,RS2JF,600,2,50,1.3,5,250,150,SMAF,493
+7,RS2KF,800,2,50,1.3,5,500,150,SMAF,493
+7,RS2MF,1000,2,50,1.3,5,500,150,SMAF,493
+8,SF11,50,1,30,0.95,5,35,125,DO-41,503
+8,SF12,100,1,30,0.95,5,35,125,DO-41,503
+8,SF13,150,1,30,0.95,5,35,125,DO-41,503
+8,SF14,200,1,30,0.95,5,35,125,DO-41,503
+8,SF15,300,1,30,1.25,5,35,125,DO-41,503
+8,SF16,400,1,30,1.25,5,35,125,DO-41,503
+8,SF18,600,1,30,1.7,5,35,125,DO-41,503
+8,SF11G,50,1,35,0.95,5,35,150,DO-41,502
+8,SF12G,100,1,35,0.95,5,35,150,DO-41,502
+8,SF13G,150,1,35,0.95,5,35,150,DO-41,502
+8,SF14G,200,1,35,0.95,5,35,150,DO-41,502
+8,SF15G,300,1,35,1.25,5,35,150,DO-41,502
+8,SF16G,400,1,35,1.25,5,35,150,DO-41,502
+8,SF18G,600,1,35,1.7,5,35,150,DO-41,502
+8,SF21,50,2,60,0.95,5,35,125,DO-15,505
+8,SF22,100,2,60,0.95,5,35,125,DO-15,505
+8,SF23,150,2,60,0.95,5,35,125,DO-15,505
+8,SF24,200,2,60,0.95,5,35,125,DO-15,505
+8,SF25,300,2,60,1.25,5,35,125,DO-15,505
+8,SF26,400,2,60,1.25,5,35,125,DO-15,505
+8,SF28,600,2,60,1.7,5,35,125,DO-15,505
+8,SF21G,50,2,60,0.95,5,35,150,DO-15,504
+8,SF22G,100,2,60,0.95,5,35,150,DO-15,504
+8,SF23G,150,2,60,0.95,5,35,150,DO-15,504
+8,SF24G,200,2,60,0.95,5,35,150,DO-15,504
+8,SF25G,300,2,60,1.25,5,35,150,DO-15,504
+8,SF26G,400,2,60,1.25,5,35,150,DO-15,504
+8,SF28G,600,2,60,1.7,5,35,150,DO-15,504
+8,SF31,50,3,150,0.95,5,35,125,DO-201AD,506
+8,SF32,100,3,150,0.95,5,35,125,DO-201AD,506
+8,SF33,150,3,150,0.95,5,35,125,DO-201AD,506
+8,SF34,200,3,150,0.95,5,35,125,DO-201AD,506
+8,SF35,300,3,150,1.25,5,35,125,DO-201AD,506
+8,SF36,400,3,150,1.25,5,35,125,DO-201AD,506
+8,SF38,600,3,150,1.7,5,35,125,DO-201AD,506
+8,SF31G,50,3,150,0.95,5,35,150,DO-201AD,
+8,SF32G,100,3,150,0.95,5,35,150,DO-201AD,
+8,SF33G,150,3,150,0.95,5,35,150,DO-201AD,
+8,SF34G,200,3,150,0.95,5,35,150,DO-201AD,
+8,SF35G,300,3,150,1.25,5,35,150,DO-201AD,
+8,SF36G,400,3,150,1.25,5,35,150,DO-201AD,
+8,SF38G,600,3,150,1.7,5,35,150,DO-201AD,
+8,SF51,50,5,200,0.95,5,35,125,DO-201AD,508
+8,SF52,100,5,200,0.95,5,35,125,DO-201AD,508
+8,SF53,150,5,200,0.95,5,35,125,DO-201AD,508
+8,SF54,200,5,200,0.95,5,35,125,DO-201AD,508
+8,SF55,300,5,200,1.25,5,35,125,DO-201AD,508
+8,SF56,400,5,200,1.25,5,35,125,DO-201AD,508
+8,SF58,600,5,200,1.7,5,35,125,DO-201AD,508
+8,SF51G,50,5,150,0.95,5,35,150,DO-201AD,507
+8,SF52G,100,5,150,0.95,5,35,150,DO-201AD,507
+8,SF53G,150,5,150,0.95,5,35,150,DO-201AD,507
+8,SF54G,200,5,150,0.95,5,35,150,DO-201AD,507
+8,SF55G,300,5,150,1.25,5,35,150,DO-201AD,507
+8,SF56G,400,5,150,1.25,5,35,150,DO-201AD,507
+8,SF58G,600,5,150,1.7,5,35,150,DO-201AD,507
+8,ES1A,50,1,30,0.95,5,35,150,SMA,423
+8,ES1B,100,1,30,0.95,5,35,150,SMA,423
+8,ES1D,200,1,30,0.95,5,35,150,SMA,423
+8,ES1G,400,1,30,1.25,5,35,150,SMA,423
+8,ES1J,600,1,30,1.7,5,35,150,SMA,423
+8,ES2A,50,2,50,0.95,5,35,150,SMA,425
+8,ES2B,100,2,50,0.95,5,35,150,SMA,425
+8,ES2D,200,2,50,0.95,5,35,150,SMA,425
+8,ES2G,400,2,50,1.25,5,35,150,SMA,425
+8,ES2J,600,2,50,1.7,5,35,150,SMA,425
+8,ES2A,50,2,50,0.95,5,35,150,SMB,426
+8,ES2B,100,2,50,0.95,5,35,150,SMB,426
+8,ES2D,200,2,50,0.95,5,35,150,SMB,426
+8,ES2G,400,2,50,1.25,5,35,150,SMB,426
+8,ES2J,600,2,50,1.7,5,35,150,SMB,426
+8,ES3A,50,3,100,0.95,5,35,150,SMB,428
+8,ES3B,100,3,100,0.95,5,35,150,SMB,428
+8,ES3D,200,3,100,0.95,5,35,150,SMB,428
+8,ES3G,400,3,100,1.25,5,35,150,SMB,428
+8,ES3J,600,3,100,1.7,5,35,150,SMB,428
+8,E1,50,1,30,0.95,5,35,150,SOD-123FL,422
+8,E2,100,1,30,0.95,5,35,150,SOD-123FL,422
+8,E4,200,1,30,0.95,5,35,150,SOD-123FL,422
+8,E6,400,1,30,1.25,5,35,150,SOD-123FL,422
+8,E7,600,1,30,1.7,5,35,150,SOD-123FL,422
+8,ES1AF,50,1,30,0.95,5,35,150,SMAF,424
+8,ES1BF,100,1,30,0.95,5,35,150,SMAF,424
+8,ES1DF,200,1,30,0.95,5,35,150,SMAF,424
+8,ES1GF,400,1,30,1.25,5,35,150,SMAF,424
+8,ES1JF,600,1,30,1.7,5,35,150,SMAF,424
+8,ES2AF,50,2,50,0.95,5,35,150,SMAF,427
+8,ES2BF,100,2,50,0.95,5,35,150,SMAF,427
+8,ES2DF,200,2,50,0.95,5,35,150,SMAF,427
+8,ES2GF,400,2,50,1.25,5,35,150,SMAF,427
+8,ES2JF,600,2,50,1.7,5,35,150,SMAF,427
+9,HER101,50,1,35,1,5,50,125,DO-41,458
+9,HER102,100,1,35,1,5,50,125,DO-41,458
+9,HER103,200,1,35,1,5,50,125,DO-41,458
+9,HER104,300,1,35,1.3,5,50,125,DO-41,458
+9,HER105,400,1,35,1.3,5,50,125,DO-41,458
+9,HER106,600,1,35,1.7,5,75,125,DO-41,458
+9,HER107,800,1,35,1.7,5,75,125,DO-41,458
+9,HER108,1000,1,35,1.7,5,75,125,DO-41,458
+9,HER101G,50,1,35,1,5,50,150,DO-41,457
+9,HER102G,100,1,35,1,5,50,150,DO-41,457
+9,HER103G,200,1,35,1,5,50,150,DO-41,457
+9,HER104G,300,1,35,1.3,5,50,150,DO-41,457
+9,HER105G,400,1,35,1.3,5,50,150,DO-41,457
+9,HER106G,600,1,35,1.7,5,75,150,DO-41,457
+9,HER107G,800,1,35,1.7,5,75,150,DO-41,457
+9,HER108G,1000,1,35,1.7,5,75,150,DO-41,457
+9,MUR105,50,1,30,0.9,5,25,125,DO-41,
+9,MUR110,100,1,30,0.9,5,25,125,DO-41,
+9,MUR120,200,1,30,0.9,5,25,125,DO-41,
+9,MUR140,400,1,30,1.25,5,50,125,DO-41,
+9,MUR150,500,1,30,1.25,5,50,125,DO-41,
+9,MUR160,600,1,30,1.25,5,50,125,DO-41,
+9,MUR105G,50,1,30,0.9,5,25,125,DO-41,
+9,MUR110G,100,1,30,0.9,5,25,125,DO-41,
+9,MUR120G,200,1,30,0.9,5,25,150,DO-41,
+9,MUR140G,400,1,30,1.25,5,50,150,DO-41,
+9,MUR150G,500,1,30,1.25,5,50,150,DO-41,
+9,MUR160G,600,1,30,1.25,5,50,150,DO-41,
+9,UF4001,50,1,30,1,5,50,125,DO-41,538
+9,UF4002,100,1,30,1,5,50,125,DO-41,538
+9,UF4003,200,1,30,1,5,50,125,DO-41,538
+9,UF4004,400,1,30,1,5,50,125,DO-41,538
+9,UF4005,600,1,30,1.7,5,75,125,DO-41,538
+9,UF4006,800,1,30,1.7,5,75,125,DO-41,538
+9,UF4007,1000,1,30,1.7,5,75,125,DO-41,538
+9,UF4001G,50,1,30,1,5,50,150,DO-41,537
+9,UF4002G,100,1,30,1,5,50,150,DO-41,537
+9,UF4003G,200,1,30,1,5,50,150,DO-41,537
+9,UF4004G,400,1,30,1,5,50,150,DO-41,537
+9,UF4005G,600,1,30,1.7,5,75,150,DO-41,537
+9,UF4006G,800,1,30,1.7,5,75,150,DO-41,537
+9,UF4007G,1000,1,30,1.7,5,75,150,DO-41,537
+9,HER201,50,2,60,1,5,50,125,DO-15,460
+9,HER202,100,2,60,1,5,50,125,DO-15,460
+9,HER203,200,2,60,1,5,50,125,DO-15,460
+9,HER204,300,2,60,1.3,5,50,125,DO-15,460
+9,HER205,400,2,60,1.3,5,50,125,DO-15,460
+9,HER206,600,2,60,1.7,5,75,125,DO-15,460
+9,HER207,800,2,60,1.7,5,75,125,DO-15,460
+9,HER208,1000,2,60,1.7,5,75,125,DO-15,460
+9,HER201G,50,2,60,1,5,50,150,DO-15,459
+9,HER202G,100,2,60,1,5,50,150,DO-15,459
+9,HER203G,200,2,60,1,5,50,150,DO-15,459
+9,HER204G,300,2,60,1.3,5,50,150,DO-15,459
+9,HER205G,400,2,60,1.3,5,50,150,DO-15,459
+9,HER206G,600,2,60,1.7,5,75,150,DO-15,459
+9,HER207G,800,2,60,1.7,5,75,150,DO-15,459
+9,HER208G,1000,2,60,1.7,5,75,150,DO-15,459
+9,MUR205,50,2,50,0.9,5,25,125,DO-15,484
+9,MUR210,100,2,50,0.9,5,25,125,DO-15,484
+9,MUR220,200,2,50,0.9,5,25,125,DO-15,484
+9,MUR240,400,2,30,1.3,5,50,125,DO-15,484
+9,MUR250,400,2,30,1.3,5,50,150,DO-15,484
+9,MUR260,600,2,30,1.3,5,50,125,DO-15,484
+9,MUR205G,50,2,50,0.9,5,25,150,DO-15,483
+9,MUR210G,100,2,50,0.9,5,25,150,DO-15,483
+9,MUR220G,200,2,50,0.9,5,25,150,DO-15,483
+9,MUR240G,400,2,50,1.3,5,50,150,DO-15,483
+9,MUR250G,400,2,50,1.3,5,50,150,DO-15,483
+9,MUR260G,600,2,50,1.3,5,50,150,DO-15,483
+9,HER301,50,3,150,1,5,50,125,DO-201AD,464
+9,HER302,100,3,150,1,5,50,125,DO-201AD,464
+9,HER303,200,3,150,1,5,50,125,DO-201AD,464
+9,HER304,300,3,150,1.3,5,50,125,DO-201AD,464
+9,HER305,400,3,150,1.3,5,50,125,DO-201AD,464
+9,HER306,600,3,150,1.7,5,75,125,DO-201AD,464
+9,HER307,800,3,150,1.7,5,75,125,DO-201AD,464
+9,HER308,1000,3,150,1.7,5,75,125,DO-201AD,464
+9,HER301G,50,3,150,1,5,50,150,DO-201AD,463
+9,HER302G,100,3,150,1,5,50,150,DO-201AD,463
+9,HER303G,200,3,150,1,5,50,150,DO-201AD,463
+9,HER304G,300,3,150,1.3,5,50,150,DO-201AD,463
+9,HER305G,400,3,150,1.3,5,50,150,DO-201AD,463
+9,HER306G,600,3,150,1.7,5,75,150,DO-201AD,463
+9,HER307G,800,3,150,1.7,5,75,150,DO-201AD,463
+9,HER308G,1000,3,150,1.7,5,75,150,DO-201AD,463
+9,MUR410,100,4,125,1.35,5,50,125,DO-201AD,
+9,MUR420,200,4,125,1.35,5,50,125,DO-201AD,
+9,MUR430,300,4,125,1.35,5,50,125,DO-201AD,
+9,MUR440,400,4,125,1.35,5,50,125,DO-201AD,
+9,MUR460,600,4,125,1.35,5,50,125,DO-201AD,
+9,MUR480,800,4,125,1.7,5,75,125,DO-201AD,
+9,MUR4100,1000,4,125,1.7,5,75,125,DO-201AD,
+9,MUR410G,100,4,125,1.35,5,50,150,DO-201AD,485
+9,MUR420G,200,4,125,1.35,5,50,150,DO-201AD,485
+9,MUR430G,300,4,125,1.35,5,50,150,DO-201AD,485
+9,MUR440G,400,4,125,1.35,5,50,150,DO-201AD,485
+9,MUR460G,600,4,125,1.35,5,50,150,DO-201AD,485
+9,MUR480G,800,4,125,1.7,5,75,150,DO-201AD,485
+9,MUR4100G,1000,4,125,1.7,5,75,150,DO-201AD,485
+9,UF5400,50,3,150,1,5,50,125,DO-201AD,539
+9,UF5401,100,3,150,1,5,50,125,DO-201AD,539
+9,UF5402,200,3,150,1,5,50,125,DO-201AD,539
+9,UF5404,400,3,150,1.3,5,50,125,DO-201AD,539
+9,UF5406,600,3,150,1.7,5,75,125,DO-201AD,539
+9,UF5407,800,3,150,1.7,5,75,125,DO-201AD,539
+9,UF5408,1000,3,150,1.7,5,75,125,DO-201AD,539
+9,UF5400G,50,3,150,1,5,50,150,DO-201AD,
+9,UF5401G,100,3,150,1,5,50,150,DO-201AD,
+9,UF5402G,200,3,150,1,5,50,150,DO-201AD,
+9,UF5404G,400,3,150,1.3,5,50,150,DO-201AD,
+9,UF5406G,600,3,150,1.7,5,75,150,DO-201AD,
+9,UF5407G,800,3,150,1.7,5,75,150,DO-201AD,
+9,UF5408G,1000,3,150,1.7,5,75,150,DO-201AD,
+9,US1A,50,1,30,1,5,50,150,SMA,552
+9,US1B,100,1,30,1,5,50,150,SMA,552
+9,US1D,200,1,30,1,5,50,150,SMA,552
+9,US1G,400,1,30,1.3,5,50,150,SMA,552
+9,US1J,600,1,30,1.7,5,75,150,SMA,552
+9,US1K,800,1,30,1.7,5,75,150,SMA,552
+9,US1M,1000,1,30,1.7,5,75,150,SMA,552
+9,US2A,50,2,50,1,5,50,150,SMA,554
+9,US2B,100,2,50,1,5,50,150,SMA,554
+9,US2D,200,2,50,1,5,50,150,SMA,554
+9,US2G,400,2,50,1.3,5,50,150,SMA,554
+9,US2J,600,2,50,1.7,5,75,150,SMA,554
+9,US2K,800,2,50,1.7,5,75,150,SMA,554
+9,US2M,1000,2,50,1.7,5,75,150,SMA,554
+9,US2A,50,2,50,1,5,50,150,SMB,555
+9,US2B,100,2,50,1,5,50,150,SMB,555
+9,US2D,200,2,50,1,5,50,150,SMB,555
+9,US2G,400,2,50,1.3,5,50,150,SMB,555
+9,US2J,600,2,50,1.7,5,75,150,SMB,555
+9,US2K,800,2,50,1.7,5,75,150,SMB,555
+9,US2M,1000,2,50,1.7,5,75,150,SMB,555
+9,US3A,50,3,100,1,5,50,150,SMB,556
+9,US3B,100,3,100,1,5,50,150,SMB,556
+9,US3D,200,3,100,1,5,50,150,SMB,556
+9,US3G,400,3,100,1.3,5,50,150,SMB,556
+9,US3J,600,3,100,1.7,5,75,150,SMB,556
+9,US3K,800,3,100,1.7,5,75,150,SMB,556
+9,US3M,1000,3,100,1.7,5,75,150,SMB,556
+9,U1A,50,1,30,1,5,50,150,SOD-123FL,535
+9,U1B,100,1,30,1,5,50,150,SOD-123FL,535
+9,U1D,200,1,30,1,5,50,150,SOD-123FL,535
+9,U1G,400,1,30,1.3,5,50,150,SOD-123FL,535
+9,U1J,600,1,30,1.7,5,75,150,SOD-123FL,535
+9,U1K,800,1,30,1.7,5,75,150,SOD-123FL,535
+9,U1M,1000,1,30,1.7,5,75,150,SOD-123FL,535
+9,US1AF,50,1,30,1,5,50,150,SMAF,551
+9,US1BF,100,1,30,1,5,50,150,SMAF,551
+9,US1DF,200,1,30,1,5,50,150,SMAF,551
+9,US1GF,400,1,30,1.3,5,50,150,SMAF,551
+9,US1JF,600,1,30,1.7,5,75,150,SMAF,551
+9,US1KF,800,1,30,1.7,5,75,150,SMAF,551
+9,US1MF,1000,1,30,1.7,5,75,150,SMAF,551
+9,US2AF,50,2,60,1,5,50,150,SMAF,553
+9,US2BF,100,2,60,1,5,50,150,SMAF,553
+9,US2DF,200,2,60,1,5,50,150,SMAF,553
+9,US2GF,400,2,60,1.3,5,50,150,SMAF,553
+9,US2JF,600,2,60,1.7,5,75,150,SMAF,553
+9,US2KF,800,2,60,1.7,5,75,150,SMAF,553
+9,US2MF,1000,2,60,1.7,5,75,150,SMAF,553
+10,SR120,20,1,30,0.55,100,-,150,DO-41,514
+10,SR140,40,1,30,0.55,100,-,150,DO-41,514
+10,SR160,60,1,30,0.7,100,-,150,DO-41,514
+10,SR180,80,1,30,0.85,50,-,150,DO-41,514
+10,SR1100,100,1,30,0.85,50,-,150,DO-41,514
+10,SR1150,150,1,30,0.95,50,-,150,DO-41,514
+10,SR1200,200,1,30,0.95,50,-,150,DO-41,514
+10,1N5817,20,1,25,0.45,100,-,150,DO-41,408
+10,1N5818,30,1,25,0.55,100,-,150,DO-41,408
+10,1N5819,40,1,25,0.6,100,-,150,DO-41,408
+10,SR220,20,2,60,0.55,100,-,150,DO-15,
+10,SR240,40,2,60,0.55,100,-,150,DO-15,
+10,SR260,60,2,60,0.7,100,-,150,DO-15,
+10,SR280,80,2,60,0.85,50,-,150,DO-15,
+10,SR2100,100,2,60,0.85,50,-,150,DO-15,
+10,SR2150,150,2,60,0.92,50,-,150,DO-15,
+10,SR2200,200,2,60,0.92,50,-,150,DO-15,
+10,1N5820,20,3,80,0.55,100,-,150,DO-201AD,409
+10,1N5821,30,3,80,0.55,100,-,150,DO-201AD,409
+10,1N5822,40,3,80,0.55,100,-,150,DO-201AD,409
+10,SR320,20,3,80,0.55,100,-,150,DO-201AD,515
+10,SR340,40,3,80,0.55,100,-,150,DO-201AD,515
+10,SR360,60,3,80,0.7,100,-,150,DO-201AD,515
+10,SR380,80,3,80,0.85,50,-,150,DO-201AD,515
+10,SR3100,100,3,80,0.85,50,-,150,DO-201AD,515
+10,SR3150,150,3,80,0.95,50,-,150,DO-201AD,515
+10,SR3200,200,3,80,0.95,50,-,150,DO-201AD,515
+10,SR520,20,5,120,0.55,200,-,150,DO-201AD,516
+10,SR540,40,5,120,0.55,200,-,150,DO-201AD,516
+10,SR560,60,5,120,0.7,200,-,150,DO-201AD,516
+10,SR580,80,5,120,0.85,50,-,150,DO-201AD,516
+10,SR5100,100,5,120,0.85,50,-,150,DO-201AD,516
+10,SR5150,150,5,120,0.92,50,-,150,DO-201AD,516
+10,SR5200,200,5,120,0.92,50,-,150,DO-201AD,516
+10,SR820,20,8,150,0.55,300,-,150,DO-201AD,517
+10,SR840,40,8,150,0.55,300,-,150,DO-201AD,517
+10,SR860,60,8,150,0.7,300,-,150,DO-201AD,517
+10,SR880,80,8,150,0.85,50,-,150,DO-201AD,517
+10,SR8100,100,8,150,0.85,50,-,150,DO-201AD,517
+10,SR8150,150,8,150,0.92,50,-,150,DO-201AD,517
+10,SR8200,200,8,150,0.92,50,-,150,DO-201AD,517
+10,SR1020,20,10,200,0.55,300,-,150,DO-201AD,518
+10,SR1040,40,10,200,0.55,300,-,150,DO-201AD,518
+10,SR1060,60,10,200,0.7,300,-,150,DO-201AD,518
+10,SR1080,80,10,200,0.85,50,-,150,DO-201AD,518
+10,SR10100,100,10,200,0.85,50,-,150,DO-201AD,518
+10,SR10150,150,10,200,0.92,50,-,150,DO-201AD,518
+10,SR10200,200,10,200,0.92,50,-,150,DO-201AD,518
+10,SS12,20,1,30,0.55,100,-,150,SMA,520
+10,SS14,40,1,30,0.55,100,-,150,SMA,520
+10,SS16,60,1,30,0.7,100,-,150,SMA,520
+10,SS18,80,1,30,0.85,50,-,150,SMA,520
+10,SS110,100,1,30,0.85,50,-,150,SMA,520
+10,SS115,150,1,30,0.92,50,-,150,SMA,520
+10,SS120,200,1,30,0.92,50,-,150,SMA,520
+10,SS22,20,2,50,0.55,100,-,150,SMA,522
+10,SS24,40,2,50,0.55,100,-,150,SMA,522
+10,SS26,60,2,50,0.7,100,-,150,SMA,522
+10,SS28,80,2,50,0.85,50,-,150,SMA,522
+10,SS210,100,2,50,0.85,50,-,150,SMA,522
+10,SS215,150,2,50,0.92,50,-,150,SMA,522
+10,SS220,200,2,50,0.92,50,-,150,SMA,522
+10,SS32,20,3,80,0.55,100,-,150,SMA,525
+10,SS34,40,3,80,0.55,100,-,150,SMA,525
+10,SS36,60,3,80,0.7,100,-,150,SMA,525
+10,SS38,80,3,80,0.85,50,-,150,SMA,525
+10,SS310,100,3,80,0.85,50,-,150,SMA,525
+10,SS315,150,3,80,0.92,50,-,150,SMA,525
+10,SS320,200,3,80,0.92,50,-,150,SMA,525
+10,SS52,20,5,120,0.55,100,-,150,SMA,528
+10,SS54,40,5,120,0.55,100,-,150,SMA,528
+10,SS56,60,5,120,0.7,100,-,150,SMA,528
+10,SS58,80,5,120,0.85,50,-,150,SMA,528
+10,SS510,100,5,120,0.85,50,-,150,SMA,528
+10,SS515,150,5,120,0.92,50,-,150,SMA,528
+10,SS520,200,5,120,0.92,50,-,150,SMA,528
+10,SS22,20,2,50,0.55,100,-,150,SMB,523
+10,SS24,40,2,50,0.55,100,-,150,SMB,523
+10,SS26,60,2,50,0.7,100,-,150,SMB,523
+10,SS28,80,2,50,0.85,50,-,150,SMB,523
+10,SS210,100,2,50,0.85,50,-,150,SMB,523
+10,SS215,150,2,50,0.92,50,-,150,SMB,523
+10,SS220,200,2,50,0.92,50,-,150,SMB,523
+10,SS32,20,3,80,0.55,100,-,150,SMB,526
+10,SS34,40,3,80,0.55,100,-,150,SMB,526
+10,SS36,60,3,80,0.7,100,-,150,SMB,526
+10,SS38,80,3,80,0.85,50,-,150,SMB,526
+10,SS310,100,3,80,0.85,50,-,150,SMB,526
+10,SS315,150,3,80,0.92,50,-,150,SMB,526
+10,SS320,200,3,80,0.92,50,-,150,SMB,526
+10,SS52,20,5,120,0.55,100,-,150,SMB,529
+10,SS54,40,5,120,0.55,100,-,150,SMB,529
+10,SS56,60,5,120,0.7,100,-,150,SMB,529
+10,SS58,80,5,120,0.85,50,-,150,SMB,529
+10,SS510,100,5,120,0.85,50,-,150,SMB,529
+10,SS515,150,5,120,0.92,50,-,150,SMB,529
+10,SS520,200,5,120,0.92,50,-,150,SMB,529
+10,K12,20,1,30,0.55,100,-,150,SOD-123FL,465
+10,K14,40,1,30,0.55,100,-,150,SOD-123FL,465
+10,K16,60,1,30,0.7,100,-,150,SOD-123FL,465
+10,K18,80,1,30,0.85,50,-,150,SOD-123FL,465
+10,K110,100,1,30,0.85,50,-,150,SOD-123FL,465
+10,K115,150,1,30,0.92,50,-,150,SOD-123FL,465
+10,K120,200,1,30,0.92,50,-,150,SOD-123FL,465
+10,K22,20,2,50,0.55,100,-,150,SOD-123FL,466
+10,K24,40,2,50,0.55,100,-,150,SOD-123FL,466
+10,K26,60,2,50,0.7,100,-,150,SOD-123FL,466
+10,K28,80,2,50,0.85,50,-,150,SOD-123FL,466
+10,K210,100,2,50,0.85,50,-,150,SOD-123FL,466
+10,K215,150,2,50,0.92,50,-,150,SOD-123FL,466
+10,K220,200,2,50,0.92,50,-,150,SOD-123FL,466
+10,K32,20,3,70,0.55,100,-,150,SOD-123FL,467
+10,K34,40,3,70,0.55,100,-,150,SOD-123FL,467
+10,K36,60,3,70,0.7,100,-,150,SOD-123FL,467
+10,K38,80,3,70,0.85,50,-,150,SOD-123FL,467
+10,K310,100,3,70,0.85,50,-,150,SOD-123FL,467
+10,K315,150,3,70,0.92,50,-,150,SOD-123FL,467
+10,K320,200,3,70,0.92,50,-,150,SOD-123FL,467
+10,SS12F,20,1,30,0.55,100,-,150,SMAF,519
+10,SS14F,40,1,30,0.55,100,-,150,SMAF,519
+10,SS16F,60,1,30,0.7,100,-,150,SMAF,519
+10,SS18F,80,1,30,0.85,100,-,150,SMAF,519
+10,SS110F,100,1,30,0.85,50,-,150,SMAF,519
+10,SS115F,150,1,30,0.92,50,-,150,SMAF,519
+10,SS120F,200,1,30,0.92,50,-,150,SMAF,519
+10,SS22F,20,2,50,0.55,100,-,150,SMAF,521
+10,SS24F,40,2,50,0.55,100,-,150,SMAF,521
+10,SS26F,60,2,50,0.7,100,-,150,SMAF,521
+10,SS28F,80,2,50,0.85,50,-,150,SMAF,521
+10,SS210F,100,2,50,0.85,50,-,150,SMAF,521
+10,SS215F,150,2,50,0.92,50,-,150,SMAF,521
+10,SS220F,200,2,50,0.92,50,-,150,SMAF,521
+10,SS32F,20,3,80,0.55,100,-,150,SMAF,524
+10,SS34F,40,3,80,0.55,100,-,150,SMAF,524
+10,SS36F,60,3,80,0.7,100,-,150,SMAF,524
+10,SS38F,80,3,80,0.85,50,-,150,SMAF,524
+10,SS310F,100,3,80,0.85,50,-,150,SMAF,524
+10,SS315F,150,3,80,0.92,50,-,150,SMAF,524
+10,SS320F,200,3,80,0.92,50,-,150,SMAF,524
+10,SS52F,20,5,120,0.55,100,-,150,SMAF,527
+10,SS54F,40,5,120,0.55,100,-,150,SMAF,527
+10,SS55F,50,5,120,0.7,100,-,150,SMAF,527
+10,SS56F,60,5,120,0.7,100,-,150,SMAF,527
+10,SS58F,80,5,120,0.85,50,-,150,SMAF,527
+10,SS510F,100,5,120,0.85,50,-,150,SMAF,527
+10,SS515F,150,5,120,0.92,50,-,150,SMAF,527
+10,SS520F,200,5,120,0.92,50,-,150,SMAF,527
+10,SL540,40,5,120,0.48,500,-,150,TO-277B,509
+10,SL545,45,5,120,0.48,500,-,150,TO-277B,509
+10,SL550,50,5,120,0.48,500,-,150,TO-277B,509
+10,SL560,60,5,120,0.55,500,-,150,TO-277B,509
+10,SL580,80,5,120,0.70 ,200,-,150,TO-277B,509
+10,SL5100,100,5,120,0.70 ,200,-,150,TO-277B,509
+10,SL840,40,8,150,0.48,500,-,150,TO-277B,510
+10,SL845,45,8,150,0.48,500,-,150,TO-277B,510
+10,SL850,50,8,150,0.48,500,-,150,TO-277B,510
+10,SL860,60,8,150,0.55,500,-,150,TO-277B,510
+10,SL880,80,8,150,0.70 ,200,-,150,TO-277B,510
+10,SL8100,100,8,150,0.70 ,200,-,150,TO-277B,510
+10,SL1040,40,10,175,0.48,500,-,150,TO-277B,511
+10,SL1045,45,10,175,0.48,500,-,150,TO-277B,511
+10,SL1050,50,10,175,0.48,500,-,150,TO-277B,511
+10,SL1060,60,10,175,0.55,500,-,150,TO-277B,511
+10,SL1080,80,10,175,0.70 ,200,-,150,TO-277B,511
+10,SL10100,100,10,175,0.70 ,200,-,150,TO-277B,511
+10,SL1240,40,12,200,0.48,500,-,150,TO-277B,512
+10,SL1245,45,12,200,0.48,500,-,150,TO-277B,512
+10,SL1250,50,12,200,0.48,500,-,150,TO-277B,512
+10,SL1260,60,12,200,0.55,500,-,150,TO-277B,512
+10,SL1280,80,12,200,0.70 ,200,-,150,TO-277B,512
+10,SL12100,100,12,200,0.70 ,200,-,150,TO-277B,512
+10,SL1540,40,15,250,0.48,500,-,150,TO-277B,513
+10,SL1545,45,15,250,0.48,500,-,150,TO-277B,513
+10,SL1550,50,15,250,0.48,500,-,150,TO-277B,513
+10,SL1560,60,15,250,0.55,500,-,150,TO-277B,513
+10,SL1580,80,15,250,0.70 ,200,-,150,TO-277B,513
+10,SL15100,100,15,250,0.70 ,200,-,150,TO-277B,513
