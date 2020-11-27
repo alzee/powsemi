@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ *
+ * @ingroup themeable
+ */
+#}
+
+					<div class="link-box">
+						<div class="in-link in-public clearfix">
+							<span>{{ 'Links:'|t }}</span>
+							<a href="http://hxkjhb.com/" target="_blank">{{ 'Web Developement'|t }}</a>
+						</div>
+					</div>
+
+					<div class="in-pc">
+						<div class="footer-1">
+							<div class="in-public clearfix">
+{% if content %}
+    {{ content }}
+{% endif %}
+							</div>
+						</div>
+						<div class="footer-2">
+							<div class="in-public">
+								<p>Copyright © 2017 All Rights reserved © {{ 'Hubei Power Semiconductor Co.,Ltd
+                '|t }} {{ 'Powered By: '|t }}<a href="http://www.hxkjhb.com/" target="_blank">{{ 'HUAXIANG TECHNOLOGY'|t }}</a> <a href="/sitemap.html" target="_blank">{{ 'Sitemap'|t }}</a> </p>
+							</div>
+						</div>
+          </div>
