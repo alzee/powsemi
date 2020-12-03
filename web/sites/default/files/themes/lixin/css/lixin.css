@@ -109,6 +109,7 @@
 	width: 80%;
 	height: 100px;
 	margin: auto;
+	    overflow: hidden;
 }
 .menu .menuL {
 	float: left;
@@ -616,8 +617,7 @@
 	margin-top: 20px;
 	font-size: 18px;
 }
-.product-con a p {
-	width: 1200px;
+.product-con a p { 
 	margin: 0px auto;
 	color: #787878;
 	font-size: 14px;
@@ -2114,7 +2114,7 @@ div.flickr a {
 	display: block;
 }
 .index-banner.aos-init.aos-animate {
-	position: absolute;
+	 
 	margin-top: 15px;
 }
 
