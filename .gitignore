@@ -10,6 +10,3 @@ web/sites/default/*
 web/sites/default/files/*
 !web/sites/default/files/themes/
 !web/sites/default/files/logo.png
-!web/sites/default/files/default_images/
-!web/sites/default/files/inline-images/
-!web/sites/default/files/images/
