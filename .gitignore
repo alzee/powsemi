@@ -2,6 +2,7 @@ vendor/
 web/*
 !web/themes
 
+!web/help/
 !web/sites/
 web/sites/*
 !web/sites/default/
