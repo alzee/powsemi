@@ -99,11 +99,11 @@
   <h2>部署</h2>
   <ul>
     <li>所用 Drupal 版本 8.9.10</li>
-    <li>最低要求: MySQL 5.5.3/MariaDB 5.5.20, Apache 2.4.7/Nginx 1.8.x, PHP 7.2</li>
+    <li>最低要求: Apache 2.4.7/Nginx 1.8.x, MySQL 5.5.3/MariaDB 5.5.20, PHP 7.2</li>
     <li>解析域名</li>
     <li>上传压缩包并解压</li>
-    <li>创建数据库并导入。数据库连接信息请查看 sites/default/setttings.php 第 780 行</li>
-    <li>如更换或新增域名，请将其写入 sites/default/setttings.php 第 689 行 $settings['trusted_host_patterns'] 中</li>
+    <li>创建数据库并导入。数据库连接信息请查看 sites/default/setttings.php 中的 $databases['default']['default']</li>
+    <li>如更换或新增域名，请将其写入 sites/default/setttings.php 中的 $settings['trusted_host_patterns']</li>
   </ul>
 
 	<nav>
