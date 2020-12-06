@@ -3,6 +3,7 @@ web/*
 !web/themes
 
 !web/help/
+!web/changelog/
 !web/sites/
 web/sites/*
 !web/sites/default/
